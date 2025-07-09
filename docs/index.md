@@ -4,10 +4,11 @@ title: Fala PB
 
 <style>
   .wrapper,
-  .markdown-body {
+  .markdown-body, .inner {
     max-width: 90% !important;
     padding: 1rem 2rem !important;
   }
+
 </style>
 
 # Retomando experimentos com Síntese de Fala
