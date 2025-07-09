@@ -2,6 +2,14 @@
 title: Fala PB
 ---
 
+<style>
+  .wrapper,
+  .markdown-body {
+    max-width: 90% !important;
+    padding: 1rem 2rem !important;
+  }
+</style>
+
 # Retomando experimentos com Síntese de Fala
 
 O foco nesta seção é retomar experimentos iniciais de síntese de fala utilizando o docker.  
