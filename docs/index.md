@@ -25,10 +25,11 @@ Treinado com o TTS-Portuguese Corpus (TPC) para português brasileiro, baseado e
 
 **tts_models/pt/cv/vits**  
 Modelo VITS exclusivo para português europeu (pt-PT), treinado no Common Voice, que entrega voz articulada e ritmo consistente, perfeito para público de Portugal.  
+
 <details>
 <summary>Lista de modelos disponíveis pelo coqui ai</summary>
  Name format: type/language/dataset/model
- 1: tts_models/multilingual/multi-dataset/xtts_v2 [already downloaded]
+ 1: tts_models/multilingual/multi-dataset/xtts_v2
  2: tts_models/multilingual/multi-dataset/xtts_v1.1
  3: tts_models/multilingual/multi-dataset/your_tts
  4: tts_models/multilingual/multi-dataset/bark
