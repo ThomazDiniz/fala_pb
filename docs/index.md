@@ -18,6 +18,8 @@ title: Fala PB
 | Gradio inferência | <audio controls src="audio/f5tts/example1.wav"></audio> |
 | Pipeline autônomo | <audio controls src="audio/f5tts/example2.wav"></audio> |
 
+
+<!--
 # Registro de Experimentos TTS
 
 Este documento reúne todos os experimentos e reuniões em ordem **decrescente** de data. Use o sumário abaixo para navegar diretamente até cada seção.
@@ -94,3 +96,5 @@ Definimos a estrutura do repositório, criamos scripts Docker para Coqui TTS e F
 ---
 
 > Sempre que adicionar uma nova reunião, inclua-a **no topo** do sumário e crie a seção correspondente abaixo.
+
+-->
