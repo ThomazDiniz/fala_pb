@@ -198,7 +198,7 @@ O modelo é feito através da definição de personagens multiplos e uma convers
 
 | Descrição         | Exemplo                                   |
 |-------------------|-------------------------------------------|
-| Exemplo com few shot | <audio controls src="audio/f5/eu_te_amo1.wav"></audio> |
+| Exemplo com few shot | <audio controls src="audios/f5/eu_te_amo1.wav"></audio> |
 
 
 
