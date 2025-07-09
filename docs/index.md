@@ -194,11 +194,11 @@ Nesta tabela temos todos os speakers possiveis falando a frase "Eu te amo". Tamb
 
 
 ## F5-TTS
+O modelo é feito através da definição de personagens multiplos e uma conversa com tags. Infelizmente esse modelo só foi treinado em inglês, mas buscando encontrei [um exemplo que está sendo treinado em português, fiquei interessado em saber mais, mas ainda não testei ele na minha máquina](https://huggingface.co/firstpixel/F5-TTS-pt-br).
 
 | Descrição         | Exemplo                                   |
 |-------------------|-------------------------------------------|
-| Gradio inferência | <audio controls src="audio/f5tts/example1.wav"></audio> |
-| Pipeline autônomo | <audio controls src="audio/f5tts/example2.wav"></audio> |
+| Exemplo com few shot | <audio controls src="audio/f5/eu_te_amo1.wav"></audio> |
 
 
 

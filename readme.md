@@ -47,6 +47,16 @@ https://thomazdiniz.github.io/fala_pb/
 	    --list_speaker_idxs
 
 
+# Listar os modelos
+docker run --rm -it `
+  --gpus all `
+  -e TTS_HOME=/root/.cache/tts `
+  -v "E:\coqui tts cache:/root/.cache/tts" `
+  ghcr.io/coqui-ai/tts:latest `
+    --list_models
+
+
+
 
 # gerar falas de fato
 
@@ -79,4 +89,6 @@ docker run --rm -it `
   ghcr.io/swivid/f5-tts:main `
     f5-tts_infer-gradio --host 0.0.0.0
 
+
+#acesse: http://localhost:7860/
 ```
