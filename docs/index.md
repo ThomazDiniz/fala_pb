@@ -130,13 +130,68 @@ Modelo VITS exclusivo para português europeu (pt-PT), treinado no Common Voice,
 </details>
 
 
+## Tabela de Áudios XTTS 
+Nesta tabela temos todos os speakers possiveis falando a frase "Eu te amo". Também é [possível fazer few shot que fiz com 5 audios usando minha própria voz](https://thomazdiniz.github.io/tts/):
 
-## Coqui TTS
+| Speaker             | Exemplo                                                                                   |
+|---------------------|-------------------------------------------------------------------------------------------|
+| Abrahan Mack        | <audio controls src="audios/xtts2/Eu_te_amo_pt_Abrahan_Mack.wav"></audio>                 |
+| Aaron Dreschner     | <audio controls src="audios/xtts2/Eu_te_amo_pt_Aaron_Dreschner.wav"></audio>              |
+| Adde Michal         | <audio controls src="audios/xtts2/Eu_te_amo_pt_Adde_Michal.wav"></audio>                  |
+| Alison Dietlinde    | <audio controls src="audios/xtts2/Eu_te_amo_pt_Alison_Dietlinde.wav"></audio>             |
+| Alexandra Hisakawa  | <audio controls src="audios/xtts2/Eu_te_amo_pt_Alexandra_Hisakawa.wav"></audio>           |
+| Alma María          | <audio controls src="audios/xtts2/Eu_te_amo_pt_Alma_María.wav"></audio>                   |
+| Andrew Chipper      | <audio controls src="audios/xtts2/Eu_te_amo_pt_Andrew_Chipper.wav"></audio>               |
+| Ana Florence        | <audio controls src="audios/xtts2/Eu_te_amo_pt_Ana_Florence.wav"></audio>                 |
+| Annmarie Nele       | <audio controls src="audios/xtts2/Eu_te_amo_pt_Annmarie_Nele.wav"></audio>                |
+| Asya Anara          | <audio controls src="audios/xtts2/Eu_te_amo_pt_Asya_Anara.wav"></audio>                   |
+| Badr Odhiambo       | <audio controls src="audios/xtts2/Eu_te_amo_pt_Badr_Odhiambo.wav"></audio>                |
+| Barbora MacLean     | <audio controls src="audios/xtts2/Eu_te_amo_pt_Barbora_MacLean.wav"></audio>             |
+| Baldur Sanjin       | <audio controls src="audios/xtts2/Eu_te_amo_pt_Baldur_Sanjin.wav"></audio>                |
+| Brenda Stern        | <audio controls src="audios/xtts2/Eu_te_amo_pt_Brenda_Stern.wav"></audio>                 |
+| Camilla Holmström   | <audio controls src="audios/xtts2/Eu_te_amo_pt_Camilla_Holmström.wav"></audio>           |
+| Chandra MacFarland  | <audio controls src="audios/xtts2/Eu_te_amo_pt_Chandra_MacFarland.wav"></audio>          |
+| Claribel Dervla     | <audio controls src="audios/xtts2/Eu_te_amo_pt_Claribel_Dervla.wav"></audio>              |
+| Craig Gutsy         | <audio controls src="audios/xtts2/Eu_te_amo_pt_Craig_Gutsy.wav"></audio>                  |
+| Damien Black        | <audio controls src="audios/xtts2/Eu_te_amo_pt_Damien_Black.wav"></audio>                 |
+| Damjan Chapman      | <audio controls src="audios/xtts2/Eu_te_amo_pt_Damjan_Chapman.wav"></audio>              |
+| Daisy Studious      | <audio controls src="audios/xtts2/Eu_te_amo_pt_Daisy_Studious.wav"></audio>               |
+| Dionisio Schuyler   | <audio controls src="audios/xtts2/Eu_te_amo_pt_Dionisio_Schuyler.wav"></audio>            |
+| Eugenio Mataracı    | <audio controls src="audios/xtts2/Eu_te_amo_pt_Eugenio_Mataracı.wav"></audio>           |
+| Ferran Simen        | <audio controls src="audios/xtts2/Eu_te_amo_pt_Ferran_Simen.wav"></audio>                |
+| Filip Traverse      | <audio controls src="audios/xtts2/Eu_te_amo_pt_Filip_Traverse.wav"></audio>              |
+| Gilberto Mathias    | <audio controls src="audios/xtts2/Eu_te_amo_pt_Gilberto_Mathias.wav"></audio>             |
+| Gitta Nikolina      | <audio controls src="audios/xtts2/Eu_te_amo_pt_Gitta_Nikolina.wav"></audio>               |
+| Henriette Usha      | <audio controls src="audios/xtts2/Eu_te_amo_pt_Henriette_Usha.wav"></audio>               |
+| Ilkin Urbano        | <audio controls src="audios/xtts2/Eu_te_amo_pt_Ilkin_Urbano.wav"></audio>                 |
+| Ige Behringer       | <audio controls src="audios/xtts2/Eu_te_amo_pt_Ige_Behringer.wav"></audio>               |
+| Kumar Dahl          | <audio controls src="audios/xtts2/Eu_te_amo_pt_Kumar_Dahl.wav"></audio>                  |
+| Kazuhiko Atallah    | <audio controls src="audios/xtts2/Eu_te_amo_pt_Kazuhiko_Atallah.wav"></audio>             |
+| Lidiya Szekeres     | <audio controls src="audios/xtts2/Eu_te_amo_pt_Lidiya_Szekeres.wav"></audio>             |
+| Lilya Stainthorpe   | <audio controls src="audios/xtts2/Eu_te_amo_pt_Lilya_Stainthorpe.wav"></audio>           |
+| Ludvig Milivoj      | <audio controls src="audios/xtts2/Eu_te_amo_pt_Ludvig_Milivoj.wav"></audio>               |
+| Maja Ruoho          | <audio controls src="audios/xtts2/Eu_te_amo_pt_Maja_Ruoho.wav"></audio>                  |
+| Marcos Rudaski      | <audio controls src="audios/xtts2/Eu_te_amo_pt_Marcos_Rudaski.wav"></audio>              |
+| Nova Hogarth        | <audio controls src="audios/xtts2/Eu_te_amo_pt_Nova_Hogarth.wav"></audio>                |
+| Narelle Moon        | <audio controls src="audios/xtts2/Eu_te_amo_pt_Narelle_Moon.wav"></audio>                |
+| Rosemary Okafor     | <audio controls src="audios/xtts2/Eu_te_amo_pt_Rosemary_Okafor.wav"></audio>             |
+| Royston Min         | <audio controls src="audios/xtts2/Eu_te_amo_pt_Royston_Min.wav"></audio>                  |
+| Sofia Hellen        | <audio controls src="audios/xtts2/Eu_te_amo_pt_Sofia_Hellen.wav"></audio>                 |
+| Suad Qasim          | <audio controls src="audios/xtts2/Eu_te_amo_pt_Suad_Qasim.wav"></audio>                   |
+| Szofi Granger       | <audio controls src="audios/xtts2/Eu_te_amo_pt_Szofi_Granger.wav"></audio>               |
+| Tammie Ema          | <audio controls src="audios/xtts2/Eu_te_amo_pt_Tammie_Ema.wav"></audio>                   |
+| Tammy Grit          | <audio controls src="audios/xtts2/Eu_te_amo_pt_Tammy_Grit.wav"></audio>                   |
+| Tanja Adelina       | <audio controls src="audios/xtts2/Eu_te_amo_pt_Tanja_Adelina.wav"></audio>                |
+| Torcull Diarmuid    | <audio controls src="audios/xtts2/Eu_te_amo_pt_Torcull_Diarmuid.wav"></audio>             |
+| Uta Obando          | <audio controls src="audios/xtts2/Eu_te_amo_pt_Uta_Obando.wav"></audio>                  |
+| Viktor Eka          | <audio controls src="audios/xtts2/Eu_te_amo_pt_Viktor_Eka.wav"></audio>                   |
+| Viktor Menelaos     | <audio controls src="audios/xtts2/Eu_te_amo_pt_Viktor_Menelaos.wav"></audio>              |
+| Vjollca Johnnie     | <audio controls src="audios/xtts2/Eu_te_amo_pt_Vjollca_Johnnie.wav"></audio>              |
+| Wulf Carlevaro      | <audio controls src="audios/xtts2/Eu_te_amo_pt_Wulf_Carlevaro.wav"></audio>              |
+| Xavier Hayasaka     | <audio controls src="audios/xtts2/Eu_te_amo_pt_Xavier_Hayasaka.wav"></audio>             |
+| Zacharie Aimilios   | <audio controls src="audios/xtts2/Eu_te_amo_pt_Zacharie_Aimilios.wav"></audio>            |
+| Zofija Kendrick     | <audio controls src="audios/xtts2/Eu_te_amo_pt_Zofija_Kendrick.wav"></audio>             |
 
-| Speaker      | Exemplo                           |
-|--------------|-----------------------------------|
-| Luis Moray   | <audio controls src="audio/coqui/example1.wav"></audio> |
-| Ana Florence | <audio controls src="audio/coqui/example2.wav"></audio> |
 
 ## F5-TTS
 
