@@ -4,7 +4,7 @@ title: Fala PB
 
 <style>
   .wrapper,
-  .markdown-body, .inner {
+  .markdown-body, .inner, #main_content {
     max-width: 90% !important;
     padding: 1rem 2rem !important;
   }
