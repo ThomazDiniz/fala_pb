@@ -8,6 +8,20 @@ title: Fala PB
     max-width: 90% !important;
     padding: 1rem 2rem !important;
   }
+  .markdown-body table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+  }
+  .markdown-body th,
+  .markdown-body td {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+  }
+  .markdown-body th {
+    background: #f5f5f5;
+    text-align: left;
+  }
 
 </style>
 
