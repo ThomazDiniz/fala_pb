@@ -3,6 +3,7 @@
 Este repositório acompanha o progresso do meu projeto de mestrado em Ciência da Computação, cujo objetivo é realizar **fine-tuning** de modelos de Text-to-Speech (TTS) para síntese de fala em Português. Aqui você encontrará instruções de uso, scripts auxiliares e exemplos de áudios gerados com **Coqui TTS** e **F5-TTS**.
 
 https://thomazdiniz.github.io/fala_pb/
+https://thomazdiniz.github.io/fala_pb/2
 
 ---
 
