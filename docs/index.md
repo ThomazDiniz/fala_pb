@@ -29,27 +29,27 @@ layout: default
 
 Nesta página, você encontra a lista de todos os experimentos realizados, com links rápidos para cada um.
 
-| Experimento                                                               | Descrição                                      | Link          |
-|---------------------------------------------------------------------------|------------------------------------------------|---------------|
-| 1° Experimento: Testes com XTTS e F5 TTS                                  | Comparativo de síntese com dois modelos TTS.   | [Abrir](/1/)  |
-| 2° Experimento: Transferência de sotaque com transferência de timbre      | Avaliação de sotaque em áudios longos.         | [Abrir](/2/)  |
-| 3° Experimento                                                            | Lorem ipsum dolor sit amet, consectetur.       | [Abrir](/3/)  |
-| 4° Experimento                                                            | Lorem ipsum dolor sit amet, consectetur.       | [Abrir](/4/)  |
-| 5° Experimento                                                            | Lorem ipsum dolor sit amet, consectetur.       | [Abrir](/5/)  |
-| 6° Experimento                                                            | Lorem ipsum dolor sit amet, consectetur.       | [Abrir](/6/)  |
-| 7° Experimento                                                            | Lorem ipsum dolor sit amet, consectetur.       | [Abrir](/7/)  |
-| 8° Experimento                                                            | Lorem ipsum dolor sit amet, consectetur.       | [Abrir](/8/)  |
-| 9° Experimento                                                            | Lorem ipsum dolor sit amet, consectetur.       | [Abrir](/9/)  |
-| 10° Experimento                                                           | Lorem ipsum dolor sit amet, consectetur.       | [Abrir](/10/) |
-| 11° Experimento                                                           | Lorem ipsum dolor sit amet, consectetur.       | [Abrir](/11/) |
-| 12° Experimento                                                           | Lorem ipsum dolor sit amet, consectetur.       | [Abrir](/12/) |
-| 13° Experimento                                                           | Lorem ipsum dolor sit amet, consectetur.       | [Abrir](/13/) |
-| 14° Experimento                                                           | Lorem ipsum dolor sit amet, consectetur.       | [Abrir](/14/) |
-| 15° Experimento                                                           | Lorem ipsum dolor sit amet, consectetur.       | [Abrir](/15/) |
-| 16° Experimento                                                           | Lorem ipsum dolor sit amet, consectetur.       | [Abrir](/16/) |
-| 17° Experimento                                                           | Lorem ipsum dolor sit amet, consectetur.       | [Abrir](/17/) |
-| 18° Experimento                                                           | Lorem ipsum dolor sit amet, consectetur.       | [Abrir](/18/) |
-| 19° Experimento                                                           | Lorem ipsum dolor sit amet, consectetur.       | [Abrir](/19/) |
-| 20° Experimento                                                           | Lorem ipsum dolor sit amet, consectetur.       | [Abrir](/20/) |
-| 21° Experimento                                                           | Lorem ipsum dolor sit amet, consectetur.       | [Abrir](/21/) |
-| 22° Experimento                                                           | Lorem ipsum dolor sit amet, consectetur.       | [Abrir](/22/) |
+| Experimento                                                               | Descrição                                      |
+|---------------------------------------------------------------------------|------------------------------------------------|
+| [01° Testes com XTTS e F5 TTS                            ](/fala_pb/1/)   | Comparativo de síntese com dois modelos TTS.   |
+| [02° Transferência de sotaque com transferência de timbre](/fala_pb/2/)   | Avaliação de sotaque em áudios longos.         |
+| [03° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/3/)   | Lorem ipsum dolor sit amet, consectetur.       |
+| [04° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/4/)   | Lorem ipsum dolor sit amet, consectetur.       |
+| [05° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/5/)   | Lorem ipsum dolor sit amet, consectetur.       |
+| [06° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/6/)   | Lorem ipsum dolor sit amet, consectetur.       |
+| [07° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/7/)   | Lorem ipsum dolor sit amet, consectetur.       |
+| [08° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/8/)   | Lorem ipsum dolor sit amet, consectetur.       |
+| [09° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/9/)   | Lorem ipsum dolor sit amet, consectetur.       |
+| [10° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/10/)  | Lorem ipsum dolor sit amet, consectetur.       |
+| [11° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/11/)  | Lorem ipsum dolor sit amet, consectetur.       |
+| [12° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/12/)  | Lorem ipsum dolor sit amet, consectetur.       |
+| [13° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/13/)  | Lorem ipsum dolor sit amet, consectetur.       |
+| [14° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/14/)  | Lorem ipsum dolor sit amet, consectetur.       |
+| [15° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/15/)  | Lorem ipsum dolor sit amet, consectetur.       |
+| [16° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/16/)  | Lorem ipsum dolor sit amet, consectetur.       |
+| [17° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/17/)  | Lorem ipsum dolor sit amet, consectetur.       |
+| [18° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/18/)  | Lorem ipsum dolor sit amet, consectetur.       |
+| [19° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/19/)  | Lorem ipsum dolor sit amet, consectetur.       |
+| [20° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/20/)  | Lorem ipsum dolor sit amet, consectetur.       |
+| [21° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/21/)  | Lorem ipsum dolor sit amet, consectetur.       |
+| [22° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/22/)  | Lorem ipsum dolor sit amet, consectetur.       |
