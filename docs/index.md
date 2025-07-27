@@ -1,11 +1,5 @@
 ---
 title: "Fala PB"
-permalink: /2/
-layout: default
----
----
-title: "Experimentos de Síntese de Fala"
-permalink: /
 layout: default
 ---
 
