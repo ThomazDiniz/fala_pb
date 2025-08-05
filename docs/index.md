@@ -33,7 +33,7 @@ Nesta página, você encontra a lista de todos os experimentos realizados, com l
 |---------------------------------------------------------------------------|------------------------------------------------|
 | [01° Testes com XTTS e F5 TTS                            ](/fala_pb/1/)   | Comparativo de síntese com dois modelos TTS.   |
 | [02° Transferência de sotaque com transferência de timbre](/fala_pb/2/)   | Avaliação de sotaque em áudios longos.         |
-| [03° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/3/)   | Lorem ipsum dolor sit amet, consectetur.       |
+| [03° F5 TTS ptbr do first pixel com comfy-ui.            ](/fala_pb/3/)   | Utilização inicial do comfy ui + F5tts .       |
 | [04° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/4/)   | Lorem ipsum dolor sit amet, consectetur.       |
 | [05° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/5/)   | Lorem ipsum dolor sit amet, consectetur.       |
 | [06° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/6/)   | Lorem ipsum dolor sit amet, consectetur.       |
