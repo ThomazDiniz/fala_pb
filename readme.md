@@ -104,12 +104,15 @@ docker run --rm -it `
   -p 7860:7860 `
   ghcr.io/swivid/f5-tts:main `
   f5-tts_infer-gradio --host 0.0.0.0
-```
+
 docker run --rm -it --gpus all `
   --mount "type=bind,source=C:/Users/Tumais/Documents/GitHub/F5-TTS-pt-br,target=/root/.cache/huggingface/hub/models--firstpixel--F5-TTS-pt-br,readonly" `
   -p 7860:7860 `
   ghcr.io/swivid/f5-tts:main `
   f5-tts_infer-gradio --host 0.0.0.0
+  
+```
+
 
 
 ```
