@@ -36,7 +36,7 @@ Nesta página, você encontra a lista de todos os experimentos realizados, com l
 | [03° F5 TTS ptbr do first pixel com comfy-ui.            ](/fala_pb/3/)   |
 | [04° Fine Tune do F5 TTS                                 ](/fala_pb/4/)   |
 | [05° Unsloth e ParlerTTS                                 ](/fala_pb/5/)   |
-| [06° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/6/)   |
+| [06° Unsloth Fish Speech                                 ](/fala_pb/6/)   |
 | [07° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/7/)   |
 | [08° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/8/)   |
 | [09° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/9/)   |
