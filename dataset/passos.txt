@@ -1,0 +1,3 @@
+1. Pegar todos os arquivos de audio que estiverem dentro da pasta raw
+2. convertê-los para um formato que possa treinar e renomeá-los para algo mais legivel como 1.wav, 2.wav, 3.wav e colocá-los na pasta "data"
+3. Criar um metadata.csv com todas as informações relevantes (tempo, caminho pro arquivo convertido, texto e outras coisas relevantes) e colocar na root

@@ -37,7 +37,7 @@ Nesta página, você encontra a lista de todos os experimentos realizados, com l
 | [04° Fine Tune do F5 TTS                                 ](/fala_pb/4/)   |
 | [05° Unsloth e ParlerTTS                                 ](/fala_pb/5/)   |
 | [06° Unsloth + Fish Speech                               ](/fala_pb/6/)   |
-| [07° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/7/)   |
+| [07° Bases de dados Iniciais                             ](/fala_pb/7/)   |
 | [08° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/8/)   |
 | [09° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/9/)   |
 | [10° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/10/)  |
