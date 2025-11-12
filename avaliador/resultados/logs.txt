@@ -1,0 +1,42 @@
+Pasta não encontrada: inferências
+Usando dispositivo: cuda
+Carregando Whisper: small
+Processando modelo: f5tts
+Processando modelo: fishspeech
+Processando modelo: xtts
+CSV salvo em: C:\Users\Tumais\Documents\GitHub\fala_pb\avaliador\resultados\avaliacao.csv
+Plots em: C:\Users\Tumais\Documents\GitHub\fala_pb\avaliador\resultados\plots
+Usando dispositivo: cuda
+Carregando Whisper: small
+Processando modelo: f5tts
+Processando modelo: fishspeech
+Processando modelo: xtts
+CSV salvo em: C:\Users\Tumais\Documents\GitHub\fala_pb\avaliador\resultados\avaliacao.csv
+Usando dispositivo: cuda
+Carregando Whisper: small
+Processando modelo: f5tts
+Processando modelo: fishspeech
+Processando modelo: xtts
+CSV salvo em: C:\Users\Tumais\Documents\GitHub\fala_pb\avaliador\resultados\avaliacao.csv
+Usando dispositivo: cuda
+Carregando Whisper: small
+Processando modelo: baseline
+Processando modelo: f5tts
+[AVISO] Texto não encontrado para inferências\f5tts\1.mp3
+[AVISO] Texto não encontrado para inferências\f5tts\2.mp3
+[AVISO] Texto não encontrado para inferências\f5tts\3.mp3
+Nenhum par áudio+texto em inferências\f5tts
+Processando modelo: fishspeech
+Nenhum par áudio+texto em inferências\fishspeech
+Processando modelo: xtts
+Nenhum par áudio+texto em inferências\xtts
+CSV salvo em: C:\Users\Tumais\Documents\GitHub\fala_pb\avaliador\resultados\avaliacao.csv
+Usando dispositivo: cuda
+Carregando Whisper: small
+Processando modelo: baseline
+Processando modelo: f5tts
+Processando modelo: fishspeech
+Nenhum par áudio+texto em inferências\fishspeech
+Processando modelo: xtts
+Nenhum par áudio+texto em inferências\xtts
+CSV salvo em: C:\Users\Tumais\Documents\GitHub\fala_pb\avaliador\resultados\avaliacao.csv
