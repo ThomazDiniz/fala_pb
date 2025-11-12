@@ -1,1 +1,22 @@
-fish.txt
+conda create -n fish python=3.12 -y
+conda activate fish
+
+
+
+# Dependências de áudio/suporte
+sudo apt update
+sudo apt install -y portaudio19-dev libsox-dev ffmpeg
+
+# (Dentro do repo fish-speech)
+pip install -e .[cu128]        # GPU (CUDA 12.6/12.8/12.9 → escolha a mais próxima da sua)
+# ou: pip install -e .[cpu]    # CPU-only
+
+# Pesos (OpenAudio S1-mini — sucessor aberto, funciona na WebUI/API)
+pip install "huggingface_hub[cli]"
+hf download fishaudio/openaudio-s1-mini --local-dir checkpoints/openaudio-s1-mini
+
+# WebUI
+python -m tools.run_webui \
+  --llama-checkpoint-path "checkpoints/openaudio-s1-mini" \
+  --decoder-checkpoint-path "checkpoints/openaudio-s1-mini/codec.pth" \
+  --decoder-config-name modded_dac_vq
