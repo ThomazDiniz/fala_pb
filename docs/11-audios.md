@@ -38,27 +38,30 @@ layout: default
 
 Relatório do experimento: **[voltar](/fala_pb/11/)**.
 
-Nesta página, cada tabela mostra **Texto** e **Áudio** lado a lado para facilitar playback e apresentação.
+Nesta página, cada treino tem:
 
-## Treino `all`
+- Uma tabela **Texto | Áudio** (inferência)
+- Uma tabela **Ref | Gen** (checkpoints)
+
+## Treino `brpb22_g1bf01`
 
 ### Inferência
 
 | Texto | Áudio |
 |---|---|
-| Eu estava pensando em passar ali na feira antes de ir pra casa. | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/all/inferencia/1.wav"></audio> |
-| Visse, esse menino não para quieto nem um segundo. | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/all/inferencia/2.wav"></audio> |
-| Bota mais agua nesse café que ficou forte demais. | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/all/inferencia/3.wav"></audio> |
+| Eu estava pensando em passar ali na feira antes de ir pra casa. | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brpb22_g1bf01/inferencia/1.wav"></audio> |
+| Visse, esse menino não para quieto nem um segundo. | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brpb22_g1bf01/inferencia/2.wav"></audio> |
+| Bota mais agua nesse café que ficou forte demais. | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brpb22_g1bf01/inferencia/3.wav"></audio> |
 
-<details>
-  <summary><strong>Checkpoints (gen/ref)</strong></summary>
+### Checkpoints (Ref | Gen)
 
 | Step | Ref | Gen |
 |---:|---|---|
-| 221705 | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/all/step_221705_ref.wav"></audio> | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/all/step_221705_gen.wav"></audio> |
-| 443410 | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/all/step_443410_ref.wav"></audio> | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/all/step_443410_gen.wav"></audio> |
-
-</details>
+| 250 | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brpb22_g1bf01/step_250_ref.wav"></audio> | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brpb22_g1bf01/step_250_gen.wav"></audio> |
+| 500 | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brpb22_g1bf01/step_500_ref.wav"></audio> | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brpb22_g1bf01/step_500_gen.wav"></audio> |
+| 750 | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brpb22_g1bf01/step_750_ref.wav"></audio> | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brpb22_g1bf01/step_750_gen.wav"></audio> |
+| 1000 | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brpb22_g1bf01/step_1000_ref.wav"></audio> | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brpb22_g1bf01/step_1000_gen.wav"></audio> |
+| 1250 | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brpb22_g1bf01/step_1250_ref.wav"></audio> | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brpb22_g1bf01/step_1250_gen.wav"></audio> |
 
 ## Treino `brPB01_g2aF01`
 
@@ -70,8 +73,7 @@ Nesta página, cada tabela mostra **Texto** e **Áudio** lado a lado para facili
 | Visse, esse menino não para quieto nem um segundo. | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brPB01_g2aF01/inferencia/2.wav"></audio> |
 | Bota mais agua nesse café que ficou forte demais. | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brPB01_g2aF01/inferencia/3.wav"></audio> |
 
-<details>
-  <summary><strong>Checkpoints (gen/ref)</strong></summary>
+### Checkpoints (Ref | Gen)
 
 | Step | Ref | Gen |
 |---:|---|---|
@@ -93,30 +95,22 @@ Nesta página, cada tabela mostra **Texto** e **Áudio** lado a lado para facili
 | 4800 | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brPB01_g2aF01/step_4800_ref.wav"></audio> | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brPB01_g2aF01/step_4800_gen.wav"></audio> |
 | 5100 | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brPB01_g2aF01/step_5100_ref.wav"></audio> | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brPB01_g2aF01/step_5100_gen.wav"></audio> |
 
-</details>
-
-## Treino `brpb22_g1bf01`
+## Treino `all`
 
 ### Inferência
 
 | Texto | Áudio |
 |---|---|
-| Eu estava pensando em passar ali na feira antes de ir pra casa. | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brpb22_g1bf01/inferencia/1.wav"></audio> |
-| Visse, esse menino não para quieto nem um segundo. | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brpb22_g1bf01/inferencia/2.wav"></audio> |
-| Bota mais agua nesse café que ficou forte demais. | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brpb22_g1bf01/inferencia/3.wav"></audio> |
+| Eu estava pensando em passar ali na feira antes de ir pra casa. | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/all/inferencia/1.wav"></audio> |
+| Visse, esse menino não para quieto nem um segundo. | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/all/inferencia/2.wav"></audio> |
+| Bota mais agua nesse café que ficou forte demais. | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/all/inferencia/3.wav"></audio> |
 
-<details>
-  <summary><strong>Checkpoints (gen/ref)</strong></summary>
+### Checkpoints (Ref | Gen)
 
 | Step | Ref | Gen |
 |---:|---|---|
-| 250 | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brpb22_g1bf01/step_250_ref.wav"></audio> | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brpb22_g1bf01/step_250_gen.wav"></audio> |
-| 500 | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brpb22_g1bf01/step_500_ref.wav"></audio> | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brpb22_g1bf01/step_500_gen.wav"></audio> |
-| 750 | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brpb22_g1bf01/step_750_ref.wav"></audio> | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brpb22_g1bf01/step_750_gen.wav"></audio> |
-| 1000 | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brpb22_g1bf01/step_1000_ref.wav"></audio> | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brpb22_g1bf01/step_1000_gen.wav"></audio> |
-| 1250 | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brpb22_g1bf01/step_1250_ref.wav"></audio> | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/brpb22_g1bf01/step_1250_gen.wav"></audio> |
-
-</details>
+| 221705 | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/all/step_221705_ref.wav"></audio> | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/all/step_221705_gen.wav"></audio> |
+| 443410 | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/all/step_443410_ref.wav"></audio> | <audio controls src="../audios/Experimento%20FINETUNE%20F5TTS%203/all/step_443410_gen.wav"></audio> |
 
 <p class="muted">Obs.: os textos estão em <code>inferencia/txt.txt</code> em cada pasta.</p>
 
