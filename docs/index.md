@@ -41,7 +41,7 @@ Nesta página, você encontra a lista de todos os experimentos realizados, com l
 | [08° Continuação de bases e avaliações iniciais          ](/fala_pb/8/)   |
 | [09° Quase execução da esteira                           ](/fala_pb/9/)   |
 | [10° Continuação do Finetuning                           ](/fala_pb/10/)  |
-| [11° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/11/)  |
+| [11° Experimento FINETUNE F5TTS 3 (3 treinos)            ](/fala_pb/11/)  |
 | [12° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/12/)  |
 | [13° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/13/)  |
 | [14° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/14/)  |
