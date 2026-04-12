@@ -43,7 +43,7 @@ Nesta página, você encontra a lista de todos os experimentos realizados, com l
 | [10° Continuação do Finetuning                           ](/fala_pb/10/)  |
 | [11° Experimento FINETUNE F5TTS 3 (3 treinos)            ](/fala_pb/11/)  |
 | [12° testes iniciais com xtts para treino                ](/fala_pb/12/)  |
-| [13° Próximos passos                                       ](/fala_pb/13/)  |
+| [13° avanços até 15/04                                   ](/fala_pb/13/)  |
 | [14° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/14/)  |
 | [15° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/15/)  |
 | [16° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/16/)  |
