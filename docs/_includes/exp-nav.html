@@ -36,7 +36,6 @@
 {% endif %}
 
 <nav class="exp-nav exp-nav--{{ include.zone }}" aria-label="Navegação entre experimentos">
-  {% if include.zone == 'header' %}
   <div class="exp-nav__prev">
     {% if prev_url %}
       <a href="{{ prev_url }}">← Anterior</a>
@@ -44,7 +43,6 @@
       <span class="exp-nav__disabled">← Anterior</span>
     {% endif %}
   </div>
-  {% endif %}
 
   <div class="exp-nav__pagination" aria-label="Paginação resumida">
     <a href="{{ index_url }}">{% if exp_num == 0 %}<span class="exp-nav__current">Índice</span>{% else %}Índice{% endif %}</a>
@@ -100,7 +98,6 @@
     {% endif %}
   </div>
 
-  {% if include.zone == 'footer' %}
   <div class="exp-nav__next">
     {% if next_url %}
       <a href="{{ next_url }}">Próximo →</a>
@@ -108,5 +105,4 @@
       <span class="exp-nav__disabled">Próximo →</span>
     {% endif %}
   </div>
-  {% endif %}
 </nav>
