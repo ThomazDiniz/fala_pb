@@ -1,0 +1,112 @@
+{% assign nav_first = site.exp_nav.first | default: 1 | plus: 0 %}
+{% assign nav_last = site.exp_nav.last | default: 22 | plus: 0 %}
+
+{% assign exp_num = -1 %}
+{% if page.path == 'index.md' or page.name == 'index.md' %}
+  {% assign exp_num = 0 %}
+{% elsif page.permalink %}
+  {% assign slug = page.permalink | replace: '/', '' %}
+  {% if slug != '' %}
+    {% assign exp_num = slug | plus: 0 %}
+  {% endif %}
+{% endif %}
+{% if exp_num < 0 %}
+  {% assign exp_num = 0 %}
+{% endif %}
+
+{% assign index_url = '/' | relative_url %}
+{% assign prev_url = nil %}
+{% assign next_url = nil %}
+
+{% if exp_num == 1 %}
+  {% assign prev_url = index_url %}
+{% elsif exp_num > 1 %}
+  {% assign pn = exp_num | minus: 1 %}
+  {% capture pu %}/{{ pn }}/{% endcapture %}
+  {% assign prev_url = pu | relative_url %}
+{% endif %}
+
+{% if exp_num == 0 %}
+  {% capture nu %}/1/{% endcapture %}
+  {% assign next_url = nu | relative_url %}
+{% elsif exp_num >= 1 and exp_num < nav_last %}
+  {% assign nn = exp_num | plus: 1 %}
+  {% capture nu %}/{{ nn }}/{% endcapture %}
+  {% assign next_url = nu | relative_url %}
+{% endif %}
+
+<nav class="exp-nav exp-nav--{{ include.zone }}" aria-label="Navegação entre experimentos">
+  {% if include.zone == 'header' %}
+  <div class="exp-nav__prev">
+    {% if prev_url %}
+      <a href="{{ prev_url }}">← Anterior</a>
+    {% else %}
+      <span class="exp-nav__disabled">← Anterior</span>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  <div class="exp-nav__pagination" aria-label="Paginação resumida">
+    <a href="{{ index_url }}">{% if exp_num == 0 %}<span class="exp-nav__current">Índice</span>{% else %}Índice{% endif %}</a>
+    <span class="exp-nav__sep">·</span>
+
+    {% if exp_num == 0 %}
+      {% for i in (1..3) %}
+        {% capture iu %}/{{ i }}/{% endcapture %}
+        <a href="{{ iu | relative_url }}">{{ i }}</a>
+        {% unless forloop.last %}<span class="exp-nav__sep">·</span>{% endunless %}
+      {% endfor %}
+      {% if nav_last > 3 %}
+        <span class="exp-nav__sep">·</span>
+        <span class="exp-nav__ellipsis">…</span>
+        <span class="exp-nav__sep">·</span>
+        {% capture lu %}/{{ nav_last }}/{% endcapture %}
+        <a href="{{ lu | relative_url }}">{{ nav_last }}</a>
+      {% endif %}
+
+    {% else %}
+      {% assign cur = exp_num %}
+      {% assign lo = cur | minus: 2 %}
+      {% if lo < nav_first %}{% assign lo = nav_first %}{% endif %}
+      {% assign hi = cur | plus: 2 %}
+      {% if hi > nav_last %}{% assign hi = nav_last %}{% endif %}
+
+      {% if cur > 3 %}
+        {% capture fu %}/{{ nav_first }}/{% endcapture %}
+        <a href="{{ fu | relative_url }}">{{ nav_first }}</a>
+        <span class="exp-nav__sep">·</span>
+        <span class="exp-nav__ellipsis">…</span>
+        <span class="exp-nav__sep">·</span>
+      {% endif %}
+
+      {% for i in (lo..hi) %}
+        {% capture iu %}/{{ i }}/{% endcapture %}
+        {% if i == cur %}
+          <span class="exp-nav__current">{{ i }}</span>
+        {% else %}
+          <a href="{{ iu | relative_url }}">{{ i }}</a>
+        {% endif %}
+        {% unless forloop.last %}<span class="exp-nav__sep">·</span>{% endunless %}
+      {% endfor %}
+
+      {% assign near_end = nav_last | minus: 2 %}
+      {% if cur < near_end %}
+        <span class="exp-nav__sep">·</span>
+        <span class="exp-nav__ellipsis">…</span>
+        <span class="exp-nav__sep">·</span>
+        {% capture lu %}/{{ nav_last }}/{% endcapture %}
+        <a href="{{ lu | relative_url }}">{{ nav_last }}</a>
+      {% endif %}
+    {% endif %}
+  </div>
+
+  {% if include.zone == 'footer' %}
+  <div class="exp-nav__next">
+    {% if next_url %}
+      <a href="{{ next_url }}">Próximo →</a>
+    {% else %}
+      <span class="exp-nav__disabled">Próximo →</span>
+    {% endif %}
+  </div>
+  {% endif %}
+</nav>
