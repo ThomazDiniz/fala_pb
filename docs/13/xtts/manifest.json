@@ -1,0 +1,65 @@
+{
+  "run_dir": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260412-172814\\xtts_work\\run\\training\\GPT_XTTS_FT-April-12-2026_05+30PM-2851c8e4",
+  "best_model": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260412-172814\\xtts_work\\run\\training\\GPT_XTTS_FT-April-12-2026_05+30PM-2851c8e4\\best_model.pth",
+  "latest_checkpoint": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260412-172814\\xtts_work\\run\\training\\GPT_XTTS_FT-April-12-2026_05+30PM-2851c8e4\\checkpoint_383814.pth",
+  "config": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260412-172814\\xtts_work\\run\\training\\XTTS_v2.0_original_model_files\\config.json",
+  "vocab": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260412-172814\\xtts_work\\run\\training\\XTTS_v2.0_original_model_files\\vocab.json",
+  "eval_csv": "E:\\git\\coqui-ai-TTS\\data\\all_char\\metadata_eval.csv",
+  "language": "pt",
+  "seed": 42,
+  "n_samples": 5,
+  "prefix": "pb0003_custom",
+  "generated_at_epoch_seconds": 1776169986.9497583,
+  "samples": [
+    {
+      "index": "01",
+      "text": "O vento do fim da tarde carregava o cheiro de chuva pelas ruas silenciosas.",
+      "speaker_name": "",
+      "source_audio_file": "E:\\git\\coqui-ai-TTS\\PB_0003.wav",
+      "resolved_source_audio_file": "E:\\git\\coqui-ai-TTS\\PB_0003.wav",
+      "reference_copy": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260412-172814\\xtts_work\\run\\training\\GPT_XTTS_FT-April-12-2026_05+30PM-2851c8e4\\best_vs_latest_compare\\pb0003_custom_ref_01.wav",
+      "best_model_output": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260412-172814\\xtts_work\\run\\training\\GPT_XTTS_FT-April-12-2026_05+30PM-2851c8e4\\best_vs_latest_compare\\pb0003_custom_best_01.wav",
+      "latest_checkpoint_output": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260412-172814\\xtts_work\\run\\training\\GPT_XTTS_FT-April-12-2026_05+30PM-2851c8e4\\best_vs_latest_compare\\pb0003_custom_latest_01.wav"
+    },
+    {
+      "index": "02",
+      "text": "Eu deixei o café esfriar enquanto tentava lembrar onde tinha guardado as chaves.",
+      "speaker_name": "",
+      "source_audio_file": "E:\\git\\coqui-ai-TTS\\PB_0003.wav",
+      "resolved_source_audio_file": "E:\\git\\coqui-ai-TTS\\PB_0003.wav",
+      "reference_copy": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260412-172814\\xtts_work\\run\\training\\GPT_XTTS_FT-April-12-2026_05+30PM-2851c8e4\\best_vs_latest_compare\\pb0003_custom_ref_02.wav",
+      "best_model_output": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260412-172814\\xtts_work\\run\\training\\GPT_XTTS_FT-April-12-2026_05+30PM-2851c8e4\\best_vs_latest_compare\\pb0003_custom_best_02.wav",
+      "latest_checkpoint_output": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260412-172814\\xtts_work\\run\\training\\GPT_XTTS_FT-April-12-2026_05+30PM-2851c8e4\\best_vs_latest_compare\\pb0003_custom_latest_02.wav"
+    },
+    {
+      "index": "03",
+      "text": "A pequena cidade parecia diferente depois daquela conversa inesperada.",
+      "speaker_name": "",
+      "source_audio_file": "E:\\git\\coqui-ai-TTS\\PB_0003.wav",
+      "resolved_source_audio_file": "E:\\git\\coqui-ai-TTS\\PB_0003.wav",
+      "reference_copy": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260412-172814\\xtts_work\\run\\training\\GPT_XTTS_FT-April-12-2026_05+30PM-2851c8e4\\best_vs_latest_compare\\pb0003_custom_ref_03.wav",
+      "best_model_output": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260412-172814\\xtts_work\\run\\training\\GPT_XTTS_FT-April-12-2026_05+30PM-2851c8e4\\best_vs_latest_compare\\pb0003_custom_best_03.wav",
+      "latest_checkpoint_output": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260412-172814\\xtts_work\\run\\training\\GPT_XTTS_FT-April-12-2026_05+30PM-2851c8e4\\best_vs_latest_compare\\pb0003_custom_latest_03.wav"
+    },
+    {
+      "index": "04",
+      "text": "Nem tudo que parece simples realmente é quando você olha com atenção.",
+      "speaker_name": "",
+      "source_audio_file": "E:\\git\\coqui-ai-TTS\\PB_0003.wav",
+      "resolved_source_audio_file": "E:\\git\\coqui-ai-TTS\\PB_0003.wav",
+      "reference_copy": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260412-172814\\xtts_work\\run\\training\\GPT_XTTS_FT-April-12-2026_05+30PM-2851c8e4\\best_vs_latest_compare\\pb0003_custom_ref_04.wav",
+      "best_model_output": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260412-172814\\xtts_work\\run\\training\\GPT_XTTS_FT-April-12-2026_05+30PM-2851c8e4\\best_vs_latest_compare\\pb0003_custom_best_04.wav",
+      "latest_checkpoint_output": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260412-172814\\xtts_work\\run\\training\\GPT_XTTS_FT-April-12-2026_05+30PM-2851c8e4\\best_vs_latest_compare\\pb0003_custom_latest_04.wav"
+    },
+    {
+      "index": "05",
+      "text": "Ele riu baixo, como se já soubesse o final da história antes de todo mundo.",
+      "speaker_name": "",
+      "source_audio_file": "E:\\git\\coqui-ai-TTS\\PB_0003.wav",
+      "resolved_source_audio_file": "E:\\git\\coqui-ai-TTS\\PB_0003.wav",
+      "reference_copy": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260412-172814\\xtts_work\\run\\training\\GPT_XTTS_FT-April-12-2026_05+30PM-2851c8e4\\best_vs_latest_compare\\pb0003_custom_ref_05.wav",
+      "best_model_output": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260412-172814\\xtts_work\\run\\training\\GPT_XTTS_FT-April-12-2026_05+30PM-2851c8e4\\best_vs_latest_compare\\pb0003_custom_best_05.wav",
+      "latest_checkpoint_output": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260412-172814\\xtts_work\\run\\training\\GPT_XTTS_FT-April-12-2026_05+30PM-2851c8e4\\best_vs_latest_compare\\pb0003_custom_latest_05.wav"
+    }
+  ]
+}
