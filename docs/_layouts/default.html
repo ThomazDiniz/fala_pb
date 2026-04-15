@@ -9,6 +9,60 @@
 
 {% seo %}
     {% include head-custom.html %}
+    <style>
+      #main_content img {
+        cursor: zoom-in;
+      }
+      .image-lightbox {
+        position: fixed;
+        inset: 0;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.9);
+        z-index: 9999;
+        padding: 2rem;
+      }
+      .image-lightbox.is-open {
+        display: flex;
+      }
+      .image-lightbox-content {
+        max-width: 95vw;
+        max-height: 90vh;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .image-lightbox img {
+        max-width: 100%;
+        max-height: 90vh;
+        transform-origin: center center;
+        transition: transform 0.12s ease-out;
+        cursor: zoom-out;
+        user-select: none;
+      }
+      .image-lightbox-controls {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        display: flex;
+        gap: 0.5rem;
+      }
+      .image-lightbox-controls button {
+        border: 1px solid #666;
+        background: rgba(20, 20, 20, 0.75);
+        color: #fff;
+        border-radius: 6px;
+        padding: 0.4rem 0.7rem;
+        font-size: 1rem;
+        line-height: 1;
+        cursor: pointer;
+      }
+      .image-lightbox-controls button:hover {
+        background: rgba(40, 40, 40, 0.9);
+      }
+    </style>
   </head>
 
   <body>
@@ -50,5 +104,110 @@
         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
+    <div class="image-lightbox" id="imageLightbox" aria-hidden="true">
+      <div class="image-lightbox-controls">
+        <button type="button" id="lightboxZoomIn" aria-label="Aproximar imagem">+</button>
+        <button type="button" id="lightboxZoomOut" aria-label="Afastar imagem">-</button>
+        <button type="button" id="lightboxReset" aria-label="Resetar zoom">100%</button>
+        <button type="button" id="lightboxClose" aria-label="Fechar visualização">Fechar</button>
+      </div>
+      <div class="image-lightbox-content">
+        <img id="lightboxImage" src="" alt="">
+      </div>
+    </div>
+    <script>
+      (function () {
+        var lightbox = document.getElementById("imageLightbox");
+        var lightboxImage = document.getElementById("lightboxImage");
+        var zoomInButton = document.getElementById("lightboxZoomIn");
+        var zoomOutButton = document.getElementById("lightboxZoomOut");
+        var resetButton = document.getElementById("lightboxReset");
+        var closeButton = document.getElementById("lightboxClose");
+        if (!lightbox || !lightboxImage) return;
+
+        var scale = 1;
+        var minScale = 1;
+        var maxScale = 4;
+
+        function applyScale() {
+          lightboxImage.style.transform = "scale(" + scale + ")";
+        }
+
+        function resetScale() {
+          scale = 1;
+          applyScale();
+        }
+
+        function openLightbox(src, alt) {
+          lightboxImage.src = src;
+          lightboxImage.alt = alt || "";
+          resetScale();
+          lightbox.classList.add("is-open");
+          lightbox.setAttribute("aria-hidden", "false");
+          document.body.style.overflow = "hidden";
+        }
+
+        function closeLightbox() {
+          lightbox.classList.remove("is-open");
+          lightbox.setAttribute("aria-hidden", "true");
+          lightboxImage.src = "";
+          document.body.style.overflow = "";
+        }
+
+        document.querySelectorAll("#main_content img").forEach(function (img) {
+          img.addEventListener("click", function (event) {
+            event.preventDefault();
+            openLightbox(img.currentSrc || img.src, img.alt);
+          });
+        });
+
+        zoomInButton.addEventListener("click", function () {
+          scale = Math.min(maxScale, scale + 0.25);
+          applyScale();
+        });
+
+        zoomOutButton.addEventListener("click", function () {
+          scale = Math.max(minScale, scale - 0.25);
+          applyScale();
+        });
+
+        resetButton.addEventListener("click", resetScale);
+        closeButton.addEventListener("click", closeLightbox);
+
+        lightbox.addEventListener("click", function (event) {
+          if (event.target === lightbox) {
+            closeLightbox();
+          }
+        });
+
+        lightboxImage.addEventListener("click", closeLightbox);
+
+        lightbox.addEventListener(
+          "wheel",
+          function (event) {
+            if (!lightbox.classList.contains("is-open")) return;
+            event.preventDefault();
+            var delta = event.deltaY < 0 ? 0.2 : -0.2;
+            scale = Math.min(maxScale, Math.max(minScale, scale + delta));
+            applyScale();
+          },
+          { passive: false }
+        );
+
+        document.addEventListener("keydown", function (event) {
+          if (!lightbox.classList.contains("is-open")) return;
+          if (event.key === "Escape") closeLightbox();
+          if (event.key === "+" || event.key === "=") {
+            scale = Math.min(maxScale, scale + 0.25);
+            applyScale();
+          }
+          if (event.key === "-") {
+            scale = Math.max(minScale, scale - 0.25);
+            applyScale();
+          }
+          if (event.key === "0") resetScale();
+        });
+      })();
+    </script>
   </body>
 </html>
