@@ -1,0 +1,44 @@
+script: train_unsloth_tts_from_checkpoint.py
+
+[hyperparameters]
+  adapter_repo = 'ArtooDtoo/Orpheus_PTBR_FT_Unsloth_Chk-1800'
+  audio_sampling_rate = 24000
+  dataloader_num_workers = 0
+  epochs = 1.0
+  gradient_accumulation_steps = 4
+  inference_max_audio_tokens = 500
+  inference_max_prompts = 3
+  inference_max_time = 900.0
+  learning_rate = 1e-05
+  logging_steps = 1
+  max_seq_length = 1024
+  max_steps = 0
+  max_train_samples = 0
+  max_valid_samples = 0
+  no_mask_text_loss = False
+  output_root = 'E:\\git\\unsloth\\outputs\\finetune'
+  per_device_batch_size = 1
+  prompts_file = 'E:\\git\\unsloth\\data\\unsloth_tts_ready\\smoke_prompts.txt'
+  run_name = 'artoodtoo_ft_e3'
+  save_total_limit = 4
+  seed = 3407
+  snac_device = None
+  snac_repo = 'hubertsiuzdak/snac_24khz'
+  train_jsonl = 'E:\\git\\unsloth\\data\\unsloth_tts_ready\\train.jsonl'
+  valid_jsonl = 'E:\\git\\unsloth\\data\\unsloth_tts_ready\\valid.jsonl'
+  warmup_steps = 5
+
+[timing]
+  avg_seconds_per_epoch_mean_of_epoch_durations = 76213.103153
+  avg_seconds_per_step_mean_of_step_durations = 22.29801006
+  avg_seconds_per_step_total_wall_over_steps = 22.96156956
+  epoch_durations_seconds = [76213.103153]
+  global_optimizer_steps = 3351
+  num_epochs_recorded = 1
+  sum_epoch_seconds = 76213.103153
+  total_experiment_wall_seconds = 76944.219595
+  train_runtime_seconds = 76945.2747
+
+[loss_summary]
+  last_logged_train_loss = 5.0806
+  last_eval_loss = 5.179534435272217

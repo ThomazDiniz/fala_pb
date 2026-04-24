@@ -1,0 +1,10 @@
+run_name: artoodtoo_ft_e3
+adapter_repo: ArtooDtoo/Orpheus_PTBR_FT_Unsloth_Chk-1800
+base_model: canopylabs/3b-es_it-ft-research_release
+train_samples: 13404
+valid_samples: 273
+global_steps: 3351
+train_runtime_seconds: 76945.275
+total_wall_time_seconds: 76944.220
+avg_step_seconds_walltime: 22.962
+epoch_1_seconds: 76213.103
