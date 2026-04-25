@@ -1,0 +1,12 @@
+{
+  "collected_at_unix": 1777118779.43175,
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "system": "Linux",
+  "python_version": "3.11.9 (main, Apr 19 2024, 16:48:06) [GCC 11.2.0]",
+  "torch_version": "2.4.0+cu124",
+  "cuda_available": true,
+  "cuda_device_count": 1,
+  "cuda_device_0_name": "NVIDIA GeForce RTX 4060 Ti",
+  "cuda_version": "12.4",
+  "git_commit": "535190051b1a58d90c36b4fecc8bbfed98554bd5"
+}

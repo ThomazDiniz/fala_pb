@@ -1,0 +1,14 @@
+{
+  "loss_history_subsample_every_n_steps": 1,
+  "total_training_wall_time_sec": 18793.705,
+  "total_training_wall_time_hours": 5.2205,
+  "num_loss_points": 52926,
+  "loss_min": 0.48922276496887207,
+  "loss_max": 12.40262222290039,
+  "loss_final": 0.7465319037437439,
+  "epoch_mean_loss_final": 0.8669724240079784,
+  "epoch_mean_loss_best": 0.8636150654380439,
+  "num_epochs_logged": 3,
+  "mean_time_per_step_sec": 0.34244006602410937,
+  "mean_time_per_epoch_sec": 6041.339344619002
+}

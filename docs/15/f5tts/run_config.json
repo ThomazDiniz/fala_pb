@@ -1,0 +1,19 @@
+{
+  "n_audio_samples": 41014,
+  "batches_per_epoch": 17642,
+  "epochs": 3,
+  "batch_size_type": "frame",
+  "batch_size_per_gpu": 1000,
+  "max_samples": 64,
+  "grad_accumulation_steps": 1,
+  "learning_rate": 1e-05,
+  "num_warmup_updates": 2,
+  "save_per_updates": 0,
+  "save_every_epochs": 1,
+  "checkpoint_max_keep": 10,
+  "last_per_steps": 0,
+  "logger": null,
+  "log_samples": true,
+  "log_samples_every_n_epochs": 0,
+  "train_dataset": "<f5_tts.model.dataset.CustomDataset object at 0x7a5626b80410>"
+}
