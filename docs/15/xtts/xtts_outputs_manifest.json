@@ -1,0 +1,38 @@
+{
+  "run_dir": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260425-224952\\xtts_work\\run\\training\\GPT_XTTS_FT-April-25-2026_10+51PM-2cac93ec",
+  "reference_wav": "E:\\git\\coqui-ai-TTS\\PB_0991.wav",
+  "language": "pt",
+  "device": "cuda",
+  "models": [
+    {
+      "id": "best",
+      "checkpoint": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260425-224952\\xtts_work\\run\\training\\GPT_XTTS_FT-April-25-2026_10+51PM-2cac93ec\\best_model.pth"
+    },
+    {
+      "id": "17736",
+      "checkpoint": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260425-224952\\xtts_work\\run\\training\\GPT_XTTS_FT-April-25-2026_10+51PM-2cac93ec\\checkpoint_17736.pth"
+    },
+    {
+      "id": "26604",
+      "checkpoint": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260425-224952\\xtts_work\\run\\training\\GPT_XTTS_FT-April-25-2026_10+51PM-2cac93ec\\checkpoint_26604.pth"
+    },
+    {
+      "id": "35472",
+      "checkpoint": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260425-224952\\xtts_work\\run\\training\\GPT_XTTS_FT-April-25-2026_10+51PM-2cac93ec\\checkpoint_35472.pth"
+    },
+    {
+      "id": "44340",
+      "checkpoint": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260425-224952\\xtts_work\\run\\training\\GPT_XTTS_FT-April-25-2026_10+51PM-2cac93ec\\checkpoint_44340.pth"
+    },
+    {
+      "id": "8868",
+      "checkpoint": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260425-224952\\xtts_work\\run\\training\\GPT_XTTS_FT-April-25-2026_10+51PM-2cac93ec\\checkpoint_8868.pth"
+    },
+    {
+      "id": "53205_best",
+      "checkpoint": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260425-224952\\xtts_work\\run\\training\\GPT_XTTS_FT-April-25-2026_10+51PM-2cac93ec\\best_model_53205.pth"
+    }
+  ],
+  "outputs_dir": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260425-224952\\artifacts\\outputs",
+  "csv_map": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260425-224952\\artifacts\\outputs\\xtts_outputs_map.csv"
+}

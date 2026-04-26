@@ -1,0 +1,1 @@
+E:\git\coqui-ai-TTS\data\xtts-experiments\ptbr-20260425-224952\xtts_work\run\training\GPT_XTTS_FT-April-25-2026_10+51PM-2cac93ec\events.out.tfevents.1777168297.DESKTOP-58BEU2K.32496.0

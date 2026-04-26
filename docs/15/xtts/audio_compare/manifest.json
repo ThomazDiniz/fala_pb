@@ -1,0 +1,42 @@
+[
+  {
+    "index": "01",
+    "reference_wav": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260425-224952\\artifacts\\audio_compare\\ref_01.wav",
+    "inferred_wav": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260425-224952\\artifacts\\audio_compare\\infer_finetuned_01.wav",
+    "source_audio": "E:\\git\\coqui-ai-TTS\\data\\filtered\\wavs\\segment_10007.wav",
+    "text": "dependia da época.",
+    "language": "pt"
+  },
+  {
+    "index": "02",
+    "reference_wav": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260425-224952\\artifacts\\audio_compare\\ref_02.wav",
+    "inferred_wav": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260425-224952\\artifacts\\audio_compare\\infer_finetuned_02.wav",
+    "source_audio": "E:\\git\\coqui-ai-TTS\\data\\filtered\\wavs\\segment_10008.wav",
+    "text": "que a gente tinha uma época que...",
+    "language": "pt"
+  },
+  {
+    "index": "03",
+    "reference_wav": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260425-224952\\artifacts\\audio_compare\\ref_03.wav",
+    "inferred_wav": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260425-224952\\artifacts\\audio_compare\\infer_finetuned_03.wav",
+    "source_audio": "E:\\git\\coqui-ai-TTS\\data\\filtered\\wavs\\segment_10011.wav",
+    "text": "o h murchava, então os motores parava.",
+    "language": "pt"
+  },
+  {
+    "index": "04",
+    "reference_wav": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260425-224952\\artifacts\\audio_compare\\ref_04.wav",
+    "inferred_wav": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260425-224952\\artifacts\\audio_compare\\infer_finetuned_04.wav",
+    "source_audio": "E:\\git\\coqui-ai-TTS\\data\\filtered\\wavs\\segment_10012.wav",
+    "text": "aí era quando a gente ia ficar em casa. só trouxendo aquela corda.",
+    "language": "pt"
+  },
+  {
+    "index": "05",
+    "reference_wav": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260425-224952\\artifacts\\audio_compare\\ref_05.wav",
+    "inferred_wav": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260425-224952\\artifacts\\audio_compare\\infer_finetuned_05.wav",
+    "source_audio": "E:\\git\\coqui-ai-TTS\\data\\filtered\\wavs\\segment_10024.wav",
+    "text": "para ele, para enfadar a burra.",
+    "language": "pt"
+  }
+]

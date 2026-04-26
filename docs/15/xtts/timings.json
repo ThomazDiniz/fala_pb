@@ -1,0 +1,12 @@
+{
+  "dataset_prep_seconds": 0.0,
+  "training_gpt_wall_seconds": 15991.022,
+  "training_wall_seconds": 15991.022,
+  "trainer_output_path": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260425-224952\\xtts_work\\run\\training\\GPT_XTTS_FT-April-25-2026_10+51PM-2cac93ec",
+  "postprocess_wall_seconds": 0.451,
+  "train_stage_total_wall_seconds": 16002.849,
+  "epochs_requested": 3,
+  "checkpoint_every_epochs": 1,
+  "save_n_checkpoints": 20,
+  "experiment_dir": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260425-224952"
+}
