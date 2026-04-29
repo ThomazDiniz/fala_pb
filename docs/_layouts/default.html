@@ -91,6 +91,7 @@
       <section id="main_content" class="inner">
         {% include exp-nav.html zone="header" %}
         {{ content }}
+        {% include thesis-footer.html %}
         {% include exp-nav.html zone="footer" %}
       </section>
     </div>
@@ -98,7 +99,6 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        {% include thesis-footer.html %}
         {% if site.github.is_project_page %}
         <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
