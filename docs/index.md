@@ -46,7 +46,7 @@ Nesta página, você encontra a lista de todos os experimentos realizados, com l
 | [13° F5-TTS, XTTS e Unsloth                              ](/fala_pb/13/)  |
 | [14° Curadoria de dados, ruído e próximos treinos        ](/fala_pb/14/)  |
 | [15° Continuidade dos finetunes pendentes                ](/fala_pb/15/)  |
-| [16° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/16/)  |
+| [16° Analise de eval (XTTS, F5-TTS e Orpheus)            ](/fala_pb/16/)  |
 | [17° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/17/)  |
 | [18° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/18/)  |
 | [19° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/19/)  |
