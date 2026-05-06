@@ -1,7 +1,19 @@
-{% assign _notes_slug = page.permalink | default: page.url | remove: '/' %}
+{% assign _notes_path = page.permalink | default: page.url %}
+{% assign _notes_slug = '' %}
+{% assign _notes_parts = _notes_path | split: '/' %}
+{% for _p in _notes_parts %}
+  {% if _p != '' %}
+    {% assign _notes_slug = _p %}
+  {% endif %}
+{% endfor %}
 {% assign _notes_slug_num = _notes_slug | plus: 0 %}
+{% comment %}
+  Jekyll/Liquid compara string com numero como diferentes ("16" != 16), entao normalizamos.
+  Tambem: com baseurl, o path pode ser /fala_pb/16/ — pegamos o ultimo segmento nao vazio.
+{% endcomment %}
+{% assign _notes_slug_num_str = _notes_slug_num | append: '' %}
 
-{% if _notes_slug != "" and _notes_slug == _notes_slug_num %}
+{% if _notes_slug != '' and _notes_slug == _notes_slug_num_str %}
   <div
     id="pageNotesWidget"
     style="position: fixed; right: 1rem; bottom: 1rem; width: min(420px, calc(100vw - 2rem)); z-index: 9998;"
@@ -46,7 +58,8 @@
         if (saved != null) el.value = saved;
 
         var openKey = key + ":open";
-        var isOpen = localStorage.getItem(openKey) === "1";
+        var openVal = localStorage.getItem(openKey);
+        var isOpen = openVal === null ? true : openVal === "1";
         panel.style.display = isOpen ? "block" : "none";
 
         toggle.addEventListener("click", function () {
