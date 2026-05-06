@@ -32,16 +32,12 @@
       id="pageNotesPanel"
       style="display: none; padding: 0.9rem 1.1rem; border: 1px solid #bbb; border-radius: 12px; background: #fff; box-shadow: 0 12px 28px rgba(0,0,0,0.18);"
     >
-    <p style="margin-top: 0; margin-bottom: 0.5rem;"><strong>Anotações</strong></p>
     <textarea
       id="pageNotesInput"
       rows="6"
       style="width: 100%; box-sizing: border-box; resize: vertical; padding: 0.6rem 0.75rem; border-radius: 6px; border: 1px solid #ccc; font-family: inherit; font-size: 0.95rem;"
-      placeholder="Escreva aqui suas anotações para esta página (salvas localmente neste navegador)."
+      placeholder="Anotações desta página."
     ></textarea>
-    <p style="margin-bottom: 0; margin-top: 0.5rem; color: #666; font-size: 0.85rem;">
-      Salva automaticamente no navegador (localStorage).
-    </p>
     </div>
   </div>
 
@@ -59,7 +55,7 @@
 
         var openKey = key + ":open";
         var openVal = localStorage.getItem(openKey);
-        var isOpen = openVal === null ? true : openVal === "1";
+        var isOpen = openVal === "1";
         panel.style.display = isOpen ? "block" : "none";
 
         toggle.addEventListener("click", function () {
