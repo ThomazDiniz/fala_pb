@@ -1,0 +1,40 @@
+{% assign _notes_slug = page.permalink | default: page.url | remove: '/' %}
+{% assign _notes_slug_num = _notes_slug | plus: 0 %}
+
+{% if _notes_slug != "" and _notes_slug == _notes_slug_num %}
+  <div style="margin-top: 1.25rem; padding: 0.9rem 1.1rem; border: 1px dashed #bbb; border-radius: 8px; background: #fafafa;">
+    <p style="margin-top: 0; margin-bottom: 0.5rem;"><strong>Anotações</strong></p>
+    <textarea
+      id="pageNotesInput"
+      rows="6"
+      style="width: 100%; box-sizing: border-box; resize: vertical; padding: 0.6rem 0.75rem; border-radius: 6px; border: 1px solid #ccc; font-family: inherit; font-size: 0.95rem;"
+      placeholder="Escreva aqui suas anotações para esta página (salvas localmente neste navegador)."
+    ></textarea>
+    <p style="margin-bottom: 0; margin-top: 0.5rem; color: #666; font-size: 0.85rem;">
+      Salva automaticamente no navegador (localStorage).
+    </p>
+  </div>
+
+  <script>
+    (function () {
+      try {
+        var key = "fala_pb:notes:" + "{{ page.permalink | default: page.url }}";
+        var el = document.getElementById("pageNotesInput");
+        if (!el) return;
+
+        var saved = localStorage.getItem(key);
+        if (saved != null) el.value = saved;
+
+        var t;
+        el.addEventListener("input", function () {
+          if (t) clearTimeout(t);
+          t = setTimeout(function () {
+            localStorage.setItem(key, el.value);
+          }, 250);
+        });
+      } catch (e) {
+        // ignore
+      }
+    })();
+  </script>
+{% endif %}
