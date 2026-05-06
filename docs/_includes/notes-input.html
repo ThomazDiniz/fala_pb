@@ -2,7 +2,24 @@
 {% assign _notes_slug_num = _notes_slug | plus: 0 %}
 
 {% if _notes_slug != "" and _notes_slug == _notes_slug_num %}
-  <div style="margin-top: 1.25rem; padding: 0.9rem 1.1rem; border: 1px dashed #bbb; border-radius: 8px; background: #fafafa;">
+  <div
+    id="pageNotesWidget"
+    style="position: fixed; right: 1rem; bottom: 1rem; width: min(420px, calc(100vw - 2rem)); z-index: 9998;"
+  >
+    <div style="display: flex; justify-content: flex-end; margin-bottom: 0.35rem;">
+      <button
+        type="button"
+        id="pageNotesToggle"
+        style="border: 1px solid #bbb; background: #fff; border-radius: 999px; padding: 0.35rem 0.7rem; cursor: pointer; font-weight: 700;"
+      >
+        Anotações
+      </button>
+    </div>
+
+    <div
+      id="pageNotesPanel"
+      style="display: none; padding: 0.9rem 1.1rem; border: 1px solid #bbb; border-radius: 12px; background: #fff; box-shadow: 0 12px 28px rgba(0,0,0,0.18);"
+    >
     <p style="margin-top: 0; margin-bottom: 0.5rem;"><strong>Anotações</strong></p>
     <textarea
       id="pageNotesInput"
@@ -13,17 +30,30 @@
     <p style="margin-bottom: 0; margin-top: 0.5rem; color: #666; font-size: 0.85rem;">
       Salva automaticamente no navegador (localStorage).
     </p>
+    </div>
   </div>
 
   <script>
     (function () {
       try {
         var key = "fala_pb:notes:" + "{{ page.permalink | default: page.url }}";
+        var toggle = document.getElementById("pageNotesToggle");
+        var panel = document.getElementById("pageNotesPanel");
         var el = document.getElementById("pageNotesInput");
-        if (!el) return;
+        if (!toggle || !panel || !el) return;
 
         var saved = localStorage.getItem(key);
         if (saved != null) el.value = saved;
+
+        var openKey = key + ":open";
+        var isOpen = localStorage.getItem(openKey) === "1";
+        panel.style.display = isOpen ? "block" : "none";
+
+        toggle.addEventListener("click", function () {
+          isOpen = !isOpen;
+          panel.style.display = isOpen ? "block" : "none";
+          localStorage.setItem(openKey, isOpen ? "1" : "0");
+        });
 
         var t;
         el.addEventListener("input", function () {
