@@ -1,0 +1,17 @@
+<script>
+(function () {
+  try {
+    var prefix = "fala_pb:chk:";
+    document.querySelectorAll('input.js-persist-checkbox[type="checkbox"]').forEach(function (cb) {
+      var key = prefix + (cb.getAttribute("data-key") || cb.id || "");
+      if (!key || key === prefix) return;
+      if (localStorage.getItem(key) === "1") cb.checked = true;
+      cb.addEventListener("change", function () {
+        localStorage.setItem(key, cb.checked ? "1" : "0");
+      });
+    });
+  } catch (e) {
+    /* ignore */
+  }
+})();
+</script>
