@@ -20,3 +20,10 @@ python -m tools.run_webui \
   --llama-checkpoint-path "checkpoints/openaudio-s1-mini" \
   --decoder-checkpoint-path "checkpoints/openaudio-s1-mini/codec.pth" \
   --decoder-config-name modded_dac_vq
+
+# --- Treino (Hydra / Lightning) ---
+# Se aparecer: "Could not override 'trainer.log_every_n_steps'" / "Key 'log_every_n_steps' is not in struct":
+#   O config do Fish Speech usa struct mode: nao da para criar chaves novas sem prefixo "+".
+#   Troque  trainer.log_every_n_steps=25  por  +trainer.log_every_n_steps=25
+#   Ou remova esse override do seu script/comando se nao precisar dele.
+# Para stack completo: export HYDRA_FULL_ERROR=1  (Linux) ou $env:HYDRA_FULL_ERROR="1" (PowerShell)

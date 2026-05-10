@@ -47,7 +47,7 @@ Nesta página, você encontra a lista de todos os experimentos realizados, com l
 | [14° Curadoria de dados, ruído e próximos treinos        ](/fala_pb/14/)  |
 | [15° Continuidade dos finetunes pendentes                ](/fala_pb/15/)  |
 | [16° Analise de eval (XTTS, F5-TTS e Orpheus)            ](/fala_pb/16/)  |
-| [17° Candidatos a fine-tune (Fish Speech, Qwen3, Melo, OpenVoice, Cosy)](/fala_pb/17/)  |
+| [17° Fine-tune em teste (Qwen3-TTS, Parler-TTS, Fish Speech)](/fala_pb/17/)  |
 | [18° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/18/)  |
 | [19° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/19/)  |
 | [20° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/20/)  |
