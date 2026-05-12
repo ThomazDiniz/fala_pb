@@ -48,7 +48,7 @@ Nesta página, você encontra a lista de todos os experimentos realizados, com l
 | [15° Continuidade dos finetunes pendentes                ](/fala_pb/15/)  |
 | [16° Analise de eval (XTTS, F5-TTS e Orpheus)            ](/fala_pb/16/)  |
 | [17° Fine-tune em teste (Qwen3-TTS, Parler-TTS, Fish Speech)](/fala_pb/17/)  |
-| [18° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/18/)  |
+| [18° Qwen3-TTS e Parler-TTS (reuniao 18)                 ](/fala_pb/18/)  |
 | [19° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/19/)  |
 | [20° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/20/)  |
 | [21° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/21/)  |
