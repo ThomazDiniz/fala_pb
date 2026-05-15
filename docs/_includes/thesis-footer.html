@@ -1,19 +1,161 @@
+<style>
+  .persist-task-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0.5rem 0 0;
+  }
+  .persist-task-list li {
+    margin: 0.55rem 0;
+  }
+  .persist-task-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem 0.75rem;
+    line-height: 1.4;
+  }
+  .persist-task-row span {
+    flex: 1 1 12rem;
+    min-width: 0;
+    font-weight: 400;
+  }
+  .persist-task-row select {
+    flex: 0 0 auto;
+    min-width: 9.5rem;
+    padding: 0.25rem 0.4rem;
+    border-radius: 4px;
+    border: 1px solid #888;
+    background: #222;
+    color: #fff;
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+  #site_model_checklist .persist-task-row select {
+    background: #333;
+    border-color: #999;
+  }
+</style>
+
 <div style="margin-top: 1.25rem; padding: 1rem 1.25rem; background: #111; color: #fff; font-weight: 700; border-radius: 8px; border: 1px solid #333;">
   <p style="margin-top: 0;"><strong>Cronograma de entrega (atualizacao semanal)</strong></p>
-  <ul>
-    <li>Gerar PDF para revisao</li>
-    <li>Planejar sequencia de capitulos avulsos para entrega antecipada</li>
-    <li>Tempo efetivo para concluir os experimentos: Maio</li>
-    <li>Rodar o experimento de validacao humana na primeira semana de junho.</li>
-    <li>Finalizacao da escrita dos experimentos: 15/06</li>
-    <li>Versao completa para ciclos de revisao: 20/06</li>
-    <li>Versao completa para a banca: 20/07</li>
-    <li>Buffer de tolerancia de atraso para versao da banca: 30/07</li>
-    <li>Defesa: 02/09 ou 03/09</li>
+  <ul class="persist-task-list">
+    <li>
+      <div class="persist-task-row">
+        <span><strong>Enviar e-mail</strong> com sumario da pesquisa descrevendo o experimento (ex.: exibicao numa tela do computador com arquivos de audio sintetizados por modelos de IA generativa)</span>
+        <select class="js-persist-select" data-key="cron:email-sumario" aria-label="Status: Enviar e-mail com sumario">
+          <option value="pending">Pendente</option>
+          <option value="progress">Em andamento</option>
+          <option value="done">Concluido</option>
+        </select>
+      </div>
+    </li>
+    <li>
+      <div class="persist-task-row">
+        <span>Gerar PDF para revisao</span>
+        <select class="js-persist-select" data-key="cron:pdf-revisao" aria-label="Status: Gerar PDF para revisao">
+          <option value="pending">Pendente</option>
+          <option value="progress">Em andamento</option>
+          <option value="done">Concluido</option>
+        </select>
+      </div>
+    </li>
+    <li>
+      <div class="persist-task-row">
+        <span>Planejar sequencia de capitulos avulsos para entrega antecipada</span>
+        <select class="js-persist-select" data-key="cron:capitulos-avulsos" aria-label="Status: Planejar capitulos avulsos">
+          <option value="pending">Pendente</option>
+          <option value="progress">Em andamento</option>
+          <option value="done">Concluido</option>
+        </select>
+      </div>
+    </li>
+    <li>
+      <div class="persist-task-row">
+        <span>Tempo efetivo para concluir os experimentos: Maio</span>
+        <select class="js-persist-select" data-key="cron:experimentos-maio" aria-label="Status: Experimentos em Maio">
+          <option value="pending">Pendente</option>
+          <option value="progress">Em andamento</option>
+          <option value="done">Concluido</option>
+        </select>
+      </div>
+    </li>
+    <li>
+      <div class="persist-task-row">
+        <span>Rodar o experimento de validacao humana na primeira semana de junho</span>
+        <select class="js-persist-select" data-key="cron:validacao-junho" aria-label="Status: Validacao humana junho">
+          <option value="pending">Pendente</option>
+          <option value="progress">Em andamento</option>
+          <option value="done">Concluido</option>
+        </select>
+      </div>
+    </li>
+    <li>
+      <div class="persist-task-row">
+        <span>Finalizacao da escrita dos experimentos: 15/06</span>
+        <select class="js-persist-select" data-key="cron:escrita-1506" aria-label="Status: Escrita experimentos 15/06">
+          <option value="pending">Pendente</option>
+          <option value="progress">Em andamento</option>
+          <option value="done">Concluido</option>
+        </select>
+      </div>
+    </li>
+    <li>
+      <div class="persist-task-row">
+        <span>Versao completa para ciclos de revisao: 20/06</span>
+        <select class="js-persist-select" data-key="cron:revisao-2006" aria-label="Status: Versao revisao 20/06">
+          <option value="pending">Pendente</option>
+          <option value="progress">Em andamento</option>
+          <option value="done">Concluido</option>
+        </select>
+      </div>
+    </li>
+    <li>
+      <div class="persist-task-row">
+        <span>Versao completa para a banca: 20/07</span>
+        <select class="js-persist-select" data-key="cron:banca-2007" aria-label="Status: Versao banca 20/07">
+          <option value="pending">Pendente</option>
+          <option value="progress">Em andamento</option>
+          <option value="done">Concluido</option>
+        </select>
+      </div>
+    </li>
+    <li>
+      <div class="persist-task-row">
+        <span>Buffer de tolerancia de atraso para versao da banca: 30/07</span>
+        <select class="js-persist-select" data-key="cron:buffer-3007" aria-label="Status: Buffer banca 30/07">
+          <option value="pending">Pendente</option>
+          <option value="progress">Em andamento</option>
+          <option value="done">Concluido</option>
+        </select>
+      </div>
+    </li>
+    <li>
+      <div class="persist-task-row">
+        <span>Defesa: 02/09 ou 03/09</span>
+        <select class="js-persist-select" data-key="cron:defesa-0909" aria-label="Status: Defesa">
+          <option value="pending">Pendente</option>
+          <option value="progress">Em andamento</option>
+          <option value="done">Concluido</option>
+        </select>
+      </div>
+    </li>
+    <li>
+      <div class="persist-task-row">
+        <span><strong>Agents for Good</strong>: levantar problemas e o que o paciente reclama; avaliar robustez dos reconhecedores de audio (ou fala); sintetizar audios de pacientes tipicos e avaliar ferramentas comerciais</span>
+        <select class="js-persist-select" data-key="cron:agents-for-good" aria-label="Status: Agents for Good">
+          <option value="pending">Pendente</option>
+          <option value="progress">Em andamento</option>
+          <option value="done">Concluido</option>
+        </select>
+      </div>
+    </li>
   </ul>
-  <p style="margin-bottom: 0;">Sera atualizado semanalmente.</p>
+  <p style="margin: 0.75rem 0 0; font-weight: 400; font-size: 0.9rem; opacity: 0.85;">Status salvo neste navegador (localStorage). Sera atualizado semanalmente.</p>
 </div>
 
 {% include site-model-checklist.html %}
 
 {% include notes-input.html %}
+
+{% include persist-checkboxes.html %}

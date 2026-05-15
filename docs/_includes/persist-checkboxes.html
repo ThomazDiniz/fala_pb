@@ -1,13 +1,24 @@
 <script>
 (function () {
   try {
-    var prefix = "fala_pb:chk:";
+    var prefix = "fala_pb:";
     document.querySelectorAll('input.js-persist-checkbox[type="checkbox"]').forEach(function (cb) {
-      var key = prefix + (cb.getAttribute("data-key") || cb.id || "");
-      if (!key || key === prefix) return;
+      var key = prefix + "chk:" + (cb.getAttribute("data-key") || cb.id || "");
+      if (!key || key === prefix + "chk:") return;
       if (localStorage.getItem(key) === "1") cb.checked = true;
       cb.addEventListener("change", function () {
         localStorage.setItem(key, cb.checked ? "1" : "0");
+      });
+    });
+    document.querySelectorAll("select.js-persist-select").forEach(function (sel) {
+      var key = prefix + "sel:" + (sel.getAttribute("data-key") || "");
+      if (!key || key === prefix + "sel:") return;
+      var saved = localStorage.getItem(key);
+      if (saved && sel.querySelector('option[value="' + saved + '"]')) {
+        sel.value = saved;
+      }
+      sel.addEventListener("change", function () {
+        localStorage.setItem(key, sel.value);
       });
     });
   } catch (e) {

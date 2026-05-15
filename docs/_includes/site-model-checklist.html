@@ -1,15 +1,79 @@
 <div id="site_model_checklist" style="margin-top: 1rem; padding: 1rem 1.25rem; background: #4a4a4a; color: #fff; border-radius: 8px; border: 1px solid #666;">
   <p style="margin: 0 0 0.75rem; font-weight: 700; color: #fff;">Modelos com checkpoints treinados por nós:</p>
-  <ul style="margin: 0 0 1.25rem 1.1rem; padding: 0; color: #fff;">
-    <li style="color: #fff;">F5-TTS</li>
-    <li style="color: #fff;">XTTS</li>
-    <li style="color: #fff;">Orpheus (Unsloth)</li>
-    <li style="color: #fff;">Fish Speech</li>
+  <ul class="persist-task-list" style="margin: 0 0 1.25rem;">
+    <li>
+      <div class="persist-task-row">
+        <span style="color: #fff;">F5-TTS</span>
+        <select class="js-persist-select" data-key="chk:f5tts" aria-label="Status: F5-TTS">
+          <option value="pending">Pendente</option>
+          <option value="progress">Em andamento</option>
+          <option value="done">Concluido</option>
+        </select>
+      </div>
+    </li>
+    <li>
+      <div class="persist-task-row">
+        <span style="color: #fff;">XTTS</span>
+        <select class="js-persist-select" data-key="chk:xtts" aria-label="Status: XTTS">
+          <option value="pending">Pendente</option>
+          <option value="progress">Em andamento</option>
+          <option value="done">Concluido</option>
+        </select>
+      </div>
+    </li>
+    <li>
+      <div class="persist-task-row">
+        <span style="color: #fff;">Orpheus (Unsloth)</span>
+        <select class="js-persist-select" data-key="chk:orpheus" aria-label="Status: Orpheus">
+          <option value="pending">Pendente</option>
+          <option value="progress">Em andamento</option>
+          <option value="done">Concluido</option>
+        </select>
+      </div>
+    </li>
+    <li>
+      <div class="persist-task-row">
+        <span style="color: #fff;">Fish Speech</span>
+        <select class="js-persist-select" data-key="chk:fishspeech" aria-label="Status: Fish Speech">
+          <option value="pending">Pendente</option>
+          <option value="progress">Em andamento</option>
+          <option value="done">Concluido</option>
+        </select>
+      </div>
+    </li>
   </ul>
   <p style="margin: 0 0 0.75rem; font-weight: 700; color: #fff;">A finalizar:</p>
-  <ul style="margin: 0 0 0 1.1rem; padding: 0; color: #fff;">
-    <li style="color: #fff;">Qwen TTS</li>
-    <li style="color: #fff;">Parler-TTS</li>
-    <li style="color: #fff;">Fazer treino do zero do F5-TTS</li>
+  <ul class="persist-task-list" style="margin: 0;">
+    <li>
+      <div class="persist-task-row">
+        <span style="color: #fff;">Qwen TTS</span>
+        <select class="js-persist-select" data-key="chk:qwen-tts" aria-label="Status: Qwen TTS">
+          <option value="pending">Pendente</option>
+          <option value="progress">Em andamento</option>
+          <option value="done">Concluido</option>
+        </select>
+      </div>
+    </li>
+    <li>
+      <div class="persist-task-row">
+        <span style="color: #fff;">Parler-TTS</span>
+        <select class="js-persist-select" data-key="chk:parler-tts" aria-label="Status: Parler-TTS">
+          <option value="pending">Pendente</option>
+          <option value="progress">Em andamento</option>
+          <option value="done">Concluido</option>
+        </select>
+      </div>
+    </li>
+    <li>
+      <div class="persist-task-row">
+        <span style="color: #fff;">Fazer treino do zero do F5-TTS</span>
+        <select class="js-persist-select" data-key="chk:f5tts-from-scratch" aria-label="Status: F5-TTS do zero">
+          <option value="pending">Pendente</option>
+          <option value="progress">Em andamento</option>
+          <option value="done">Concluido</option>
+        </select>
+      </div>
+    </li>
   </ul>
+  <p style="margin: 0.75rem 0 0; font-weight: 400; font-size: 0.9rem; opacity: 0.85; color: #fff;">Status salvo neste navegador (localStorage).</p>
 </div>
