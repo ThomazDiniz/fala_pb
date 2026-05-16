@@ -7,17 +7,65 @@
   {% endif %}
 {% endfor %}
 {% assign _notes_slug_num = _notes_slug | plus: 0 %}
-{% comment %}
-  Jekyll/Liquid compara string com numero como diferentes ("16" != 16), entao normalizamos.
-  Tambem: com baseurl, o path pode ser /fala_pb/16/ — pegamos o ultimo segmento nao vazio.
-{% endcomment %}
 {% assign _notes_slug_num_str = _notes_slug_num | append: '' %}
 
 {% if _notes_slug != '' and _notes_slug == _notes_slug_num_str %}
-  <div
-    id="pageNotesWidget"
-    style="position: fixed; right: 1rem; bottom: 1rem; width: min(420px, calc(100vw - 2rem)); z-index: 9998;"
-  >
+  <style>
+    #pageNotesWidget {
+      position: fixed;
+      right: 1rem;
+      bottom: 1rem;
+      z-index: 9998;
+      width: min(420px, calc(100vw - 2rem));
+    }
+  #pageNotesPanel {
+      display: none;
+      position: relative;
+      box-sizing: border-box;
+      height: 168px;
+      padding: 1.35rem 1.1rem 0.9rem 1.35rem;
+      border: 1px solid #bbb;
+      border-radius: 12px;
+      background: #fff;
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+    }
+    #pageNotesResize {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      width: 22px;
+      height: 22px;
+      margin: 0;
+      padding: 0;
+      border: none;
+      border-top: 3px solid #888;
+      border-left: 3px solid #888;
+      border-radius: 12px 0 0 0;
+      background: transparent;
+      cursor: nw-resize;
+      touch-action: none;
+    }
+    #pageNotesResize:hover,
+    #pageNotesResize:focus-visible {
+      border-color: #444;
+      outline: none;
+    }
+    #pageNotesInput {
+      display: block;
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      resize: none;
+      padding: 0.6rem 0.75rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-family: inherit;
+      font-size: 0.95rem;
+    }
+  </style>
+
+  <div id="pageNotesWidget">
     <div style="display: flex; justify-content: flex-end; margin-bottom: 0.35rem;">
       <button
         type="button"
@@ -28,16 +76,17 @@
       </button>
     </div>
 
-    <div
-      id="pageNotesPanel"
-      style="display: none; padding: 0.9rem 1.1rem; border: 1px solid #bbb; border-radius: 12px; background: #fff; box-shadow: 0 12px 28px rgba(0,0,0,0.18);"
-    >
-    <textarea
-      id="pageNotesInput"
-      rows="6"
-      style="width: 100%; box-sizing: border-box; resize: vertical; padding: 0.6rem 0.75rem; border-radius: 6px; border: 1px solid #ccc; font-family: inherit; font-size: 0.95rem;"
-      placeholder="Anotações desta página."
-    ></textarea>
+    <div id="pageNotesPanel">
+      <button
+        type="button"
+        id="pageNotesResize"
+        aria-label="Redimensionar painel de anotacoes (canto superior esquerdo)"
+        title="Arrastar para redimensionar"
+      ></button>
+      <textarea
+        id="pageNotesInput"
+        placeholder="Anotações desta página."
+      ></textarea>
     </div>
   </div>
 
@@ -45,17 +94,54 @@
     (function () {
       try {
         var key = "fala_pb:notes:" + "{{ page.permalink | default: page.url }}";
+        var sizeKey = key + ":size";
         var toggle = document.getElementById("pageNotesToggle");
+        var widget = document.getElementById("pageNotesWidget");
         var panel = document.getElementById("pageNotesPanel");
+        var resizeHandle = document.getElementById("pageNotesResize");
         var el = document.getElementById("pageNotesInput");
-        if (!toggle || !panel || !el) return;
+        if (!toggle || !widget || !panel || !resizeHandle || !el) return;
+
+        var MIN_W = 260;
+        var MIN_H = 120;
+        var MAX_W = Math.min(900, window.innerWidth - 32);
+        var MAX_H = Math.min(560, window.innerHeight - 120);
+
+        function clamp(n, lo, hi) {
+          return Math.max(lo, Math.min(hi, n));
+        }
+
+        function applySize(w, h) {
+          widget.style.width = w + "px";
+          panel.style.height = h + "px";
+        }
+
+        function loadSize() {
+          try {
+            var raw = localStorage.getItem(sizeKey);
+            if (!raw) return;
+            var s = JSON.parse(raw);
+            if (s && s.w && s.h) {
+              applySize(clamp(s.w, MIN_W, MAX_W), clamp(s.h, MIN_H, MAX_H));
+            }
+          } catch (err) {
+            /* ignore */
+          }
+        }
+
+        function saveSize() {
+          var w = widget.offsetWidth;
+          var h = panel.offsetHeight;
+          localStorage.setItem(sizeKey, JSON.stringify({ w: w, h: h }));
+        }
+
+        loadSize();
 
         var saved = localStorage.getItem(key);
         if (saved != null) el.value = saved;
 
         var openKey = key + ":open";
-        var openVal = localStorage.getItem(openKey);
-        var isOpen = openVal === "1";
+        var isOpen = localStorage.getItem(openKey) === "1";
         panel.style.display = isOpen ? "block" : "none";
 
         toggle.addEventListener("click", function () {
@@ -71,8 +157,61 @@
             localStorage.setItem(key, el.value);
           }, 250);
         });
+
+        var dragging = false;
+        var startX = 0;
+        var startY = 0;
+        var startW = 0;
+        var startH = 0;
+
+        function onPointerMove(e) {
+          if (!dragging) return;
+          var clientX = e.clientX != null ? e.clientX : (e.touches && e.touches[0].clientX);
+          var clientY = e.clientY != null ? e.clientY : (e.touches && e.touches[0].clientY);
+          var dx = startX - clientX;
+          var dy = startY - clientY;
+          applySize(clamp(startW + dx, MIN_W, MAX_W), clamp(startH + dy, MIN_H, MAX_H));
+        }
+
+        function onPointerUp() {
+          if (!dragging) return;
+          dragging = false;
+          document.body.style.userSelect = "";
+          document.body.style.cursor = "";
+          saveSize();
+          window.removeEventListener("mousemove", onPointerMove);
+          window.removeEventListener("mouseup", onPointerUp);
+          window.removeEventListener("touchmove", onPointerMove);
+          window.removeEventListener("touchend", onPointerUp);
+        }
+
+        function onPointerDown(e) {
+          e.preventDefault();
+          dragging = true;
+          var pt = e.touches ? e.touches[0] : e;
+          startX = pt.clientX;
+          startY = pt.clientY;
+          startW = widget.offsetWidth;
+          startH = panel.offsetHeight;
+          document.body.style.userSelect = "none";
+          document.body.style.cursor = "nw-resize";
+          window.addEventListener("mousemove", onPointerMove);
+          window.addEventListener("mouseup", onPointerUp);
+          window.addEventListener("touchmove", onPointerMove, { passive: false });
+          window.addEventListener("touchend", onPointerUp);
+        }
+
+        resizeHandle.addEventListener("mousedown", onPointerDown);
+        resizeHandle.addEventListener("touchstart", onPointerDown, { passive: false });
+
+        window.addEventListener("resize", function () {
+          MAX_W = Math.min(900, window.innerWidth - 32);
+          MAX_H = Math.min(560, window.innerHeight - 120);
+          applySize(clamp(widget.offsetWidth, MIN_W, MAX_W), clamp(panel.offsetHeight, MIN_H, MAX_H));
+          saveSize();
+        });
       } catch (e) {
-        // ignore
+        /* ignore */
       }
     })();
   </script>
