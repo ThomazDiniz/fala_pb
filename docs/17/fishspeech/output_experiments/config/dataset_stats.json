@@ -1,0 +1,15 @@
+{
+  "metadata_path": "/workspace/project/filtered_char/metadata.csv",
+  "wav_dir": "/workspace/project/filtered_char/wavs",
+  "output_data_dir": "/workspace/project/experiments/paraiba_20260510_031412/prep/data/PB_PARAIBA",
+  "speaker_id": "PB_PARAIBA",
+  "relative_wav_prefix": "wavs",
+  "language": "pt-BR",
+  "finetune_language_note": "Todos os segmentos válidos são transcrições em português do Brasil (Paraíba). O fine-tuning text2semantic ajusta o LLaMA do Fish Speech 1.5 a essa distribuição; o modelo pré-treinado já inclui português entre os idiomas cobertos oficialmente.",
+  "lines_read": 41953,
+  "accepted_segments": 41952,
+  "discarded": {
+    "invalid_segment_id": 1
+  },
+  "total_discarded": 1
+}
