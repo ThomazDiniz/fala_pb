@@ -1,0 +1,31 @@
+{
+  "seconds_between_train_log_events_mean": 76.81120699904584,
+  "seconds_between_train_log_events_n": 2096,
+  "note": "Intervalo entre eventos de log de treino (depende de log_every_n_steps).",
+  "approx_wall_span_train_logs_seconds": 160996.29,
+  "approx_wall_span_train_logs_hours": 44.7212,
+  "train_log_steps_range": [
+    4,
+    10484
+  ],
+  "seconds_per_epoch_mean_from_sums": 160996.29,
+  "synthetic_epochs_count": 1,
+  "train_scalar_tag": "train/loss",
+  "eval_scalar_tag": "val/loss",
+  "steps_per_epoch_synthetic_definition": 10488,
+  "tensorboard_tags_found": [
+    "epoch",
+    "hp_metric",
+    "lr-AdamW/pg1",
+    "lr-AdamW/pg2",
+    "train/base_loss",
+    "train/grad_norm",
+    "train/loss",
+    "train/semantic_loss",
+    "train/top_5_accuracy",
+    "val/base_loss",
+    "val/loss",
+    "val/semantic_loss",
+    "val/top_5_accuracy"
+  ]
+}

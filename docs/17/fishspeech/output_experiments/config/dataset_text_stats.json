@@ -1,0 +1,39 @@
+{
+  "experiment_language": "pt-BR",
+  "filter_note": "Apenas segmentos com ficheiro .wav correspondente sob --wav-dir (alinha ao que pode ser treinado).",
+  "language_notes": "Corpus transcrito em português do Brasil (Paraíba / filtered_char). O fine-tuning text2semantic ajusta texto+fala nesse mesmo idioma; Fish Speech 1.5 já cobre português ao nível de modelo multilingual (card oficial).",
+  "utterances_used_for_stats": 41952,
+  "chars_per_line": {
+    "n": 41952,
+    "mean": 59.8865,
+    "stdev": 89.8985,
+    "min": 1,
+    "max": 2330,
+    "median": 44.0
+  },
+  "words_per_line": {
+    "n": 41952,
+    "mean": 11.6691,
+    "stdev": 20.4839,
+    "min": 1,
+    "max": 444,
+    "median": 9.0
+  },
+  "lines_flagged_pt_heuristic_pct": 63.13,
+  "durations_seconds_raw_file": {
+    "n": 41013,
+    "mean": 3.9323,
+    "stdev": 2.3523,
+    "min": 1.0,
+    "max": 19.001,
+    "median": 3.3
+  },
+  "estimated_total_audio_hours_raw_file": 44.7987,
+  "paired_dataset_stats_summary": {
+    "lines_read": 41953,
+    "accepted_segments": 41952,
+    "total_discarded": 1,
+    "speaker_id": "PB_PARAIBA",
+    "language": "pt-BR"
+  }
+}

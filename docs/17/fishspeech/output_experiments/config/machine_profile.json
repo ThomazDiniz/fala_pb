@@ -1,0 +1,38 @@
+{
+  "collected_at_utc": "2026-05-12T11:53:32.706857+00:00",
+  "locale_reporting": "pt-BR",
+  "system": {
+    "os": "Linux",
+    "os_release": "6.6.87.2-microsoft-standard-WSL2",
+    "machine": "x86_64",
+    "processor": "x86_64",
+    "hostname": "0eb34d77260c",
+    "container_hint": null
+  },
+  "cpu": {
+    "logical_cores": 12
+  },
+  "memory": {
+    "MemTotal": "16307408 kB",
+    "MemAvailable": "15350660 kB",
+    "SwapTotal": "4194304 kB"
+  },
+  "nvidia_smi": [
+    {
+      "error": "nvidia-smi indisponível"
+    }
+  ],
+  "pytorch": {
+    "python": "3.11.10",
+    "torch_version": "2.5.1+cu124",
+    "torch_cuda_compile": "12.4",
+    "cuda_available": true,
+    "cuda_device_count": 1,
+    "cuda_device_names": [
+      "NVIDIA GeForce RTX 4060 Ti"
+    ]
+  },
+  "env_relevant": {
+    "NVIDIA_VISIBLE_DEVICES": "all"
+  }
+}
