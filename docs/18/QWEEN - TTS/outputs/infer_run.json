@@ -1,0 +1,78 @@
+{
+  "timestamp_utc": "2026-05-20T13:47:03.821453+00:00",
+  "speaker": "pb_sotaque",
+  "language": "Portuguese",
+  "device": "cuda:0",
+  "dtype": "bf16",
+  "checkpoints": [
+    {
+      "checkpoint_dir": "/workspace/experiments/pb_001/run/checkpoint-step-005000",
+      "model_safetensors": "/workspace/experiments/pb_001/run/checkpoint-step-005000/model.safetensors",
+      "tts_model_type": "custom_voice",
+      "spk_id": {
+        "pb_sotaque": 3000
+      },
+      "speaker_slot": 3000,
+      "supported_speakers": [
+        "pb_sotaque"
+      ],
+      "runtime_spk_id": {
+        "pb_sotaque": 3000
+      },
+      "step": 5000,
+      "outputs": [
+        "step_5000_frase1.wav",
+        "step_5000_frase2.wav",
+        "step_5000_frase3.wav",
+        "step_5000_frase4.wav",
+        "step_5000_frase5.wav"
+      ]
+    },
+    {
+      "checkpoint_dir": "/workspace/experiments/pb_001/run/checkpoint-step-010000",
+      "model_safetensors": "/workspace/experiments/pb_001/run/checkpoint-step-010000/model.safetensors",
+      "tts_model_type": "custom_voice",
+      "spk_id": {
+        "pb_sotaque": 3000
+      },
+      "speaker_slot": 3000,
+      "supported_speakers": [
+        "pb_sotaque"
+      ],
+      "runtime_spk_id": {
+        "pb_sotaque": 3000
+      },
+      "step": 10000,
+      "outputs": [
+        "step_10000_frase1.wav",
+        "step_10000_frase2.wav",
+        "step_10000_frase3.wav",
+        "step_10000_frase4.wav",
+        "step_10000_frase5.wav"
+      ]
+    },
+    {
+      "checkpoint_dir": "/workspace/experiments/pb_001/run/checkpoint-step-015000",
+      "model_safetensors": "/workspace/experiments/pb_001/run/checkpoint-step-015000/model.safetensors",
+      "tts_model_type": "custom_voice",
+      "spk_id": {
+        "pb_sotaque": 3000
+      },
+      "speaker_slot": 3000,
+      "supported_speakers": [
+        "pb_sotaque"
+      ],
+      "runtime_spk_id": {
+        "pb_sotaque": 3000
+      },
+      "step": 15000,
+      "outputs": [
+        "step_15000_frase1.wav",
+        "step_15000_frase2.wav",
+        "step_15000_frase3.wav",
+        "step_15000_frase4.wav",
+        "step_15000_frase5.wav"
+      ]
+    }
+  ]
+}

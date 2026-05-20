@@ -1,0 +1,175 @@
+{
+  "experiment_dir": "experiments\\pb_001",
+  "generated_at_utc": "2026-05-20T13:58:23.836559+00:00",
+  "run_session": {
+    "train_start_line_1based": 4694,
+    "steps_per_epoch": 20976,
+    "progress_fraction": 0.8176
+  },
+  "dataset": {
+    "num_samples": 41952,
+    "num_missing_audio": 1,
+    "ref_audio": "/workspace/filtered_char/wavs/segment_0.wav",
+    "dataset_dir": "/workspace/filtered_char",
+    "wavs_24k_dir": "/workspace/experiments/pb_001/prep/wavs_24k",
+    "duration_seconds": {
+      "count": 41013,
+      "mean": 3.9322979350043568,
+      "min": 1.0,
+      "max": 19.001,
+      "total": 161275.33520833368
+    }
+  },
+  "train_meta": {
+    "train_jsonl": "/workspace/experiments/pb_001/prep/train_with_codes.jsonl",
+    "num_samples": 41952,
+    "init_model_path": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+    "init_local": "/root/.cache/huggingface/hub/models--Qwen--Qwen3-TTS-12Hz-1.7B-Base/snapshots/fd4b254389122332181a7c3db7f27e918eec64e3",
+    "output_dir": "/workspace/experiments/pb_001/run"
+  },
+  "hyperparameters": {
+    "num_epochs": 1,
+    "batch_size": 2,
+    "grad_accum": 4,
+    "learning_rate": 2e-06,
+    "log_every": 10,
+    "precision": "bf16",
+    "attn_implementation": "sdpa",
+    "num_workers": 2,
+    "save_top_k": 6,
+    "save_every_steps": 5000,
+    "speaker_name": "pb_sotaque",
+    "effective_batch_size": 8,
+    "device": "cuda:0",
+    "accum": 4,
+    "lr": 2e-06,
+    "attn_impl": "sdpa"
+  },
+  "timing": {
+    "first_timestamp": "2026-05-17T03:12:51Z",
+    "last_timestamp": "2026-05-20T12:32:18Z",
+    "last_step_in_epoch": 17151,
+    "wall_clock_total_seconds": 292767.0,
+    "wall_clock_total_human": "3 dia(s), 9 h, 19 min, 27 s",
+    "seconds_per_step_mean": 17.07,
+    "seconds_per_step_median": 16.4,
+    "estimated_full_epoch_seconds": 358080.5,
+    "estimated_full_epoch_human": "4 dia(s), 3 h, 28 min, 1 s",
+    "note": "Tempos derivados de timestamps entre linhas TRAIN (log_every); cada ponto cobre N steps do DataLoader."
+  },
+  "timing_through_checkpoint": {
+    "first_timestamp": "2026-05-17T03:12:51Z",
+    "last_timestamp": "2026-05-20T01:44:54Z",
+    "last_step_in_epoch": 14991,
+    "wall_clock_total_seconds": 253923.0,
+    "wall_clock_total_human": "2 dia(s), 22 h, 32 min, 3 s",
+    "seconds_per_step_mean": 16.94,
+    "seconds_per_step_median": 16.4,
+    "estimated_full_epoch_seconds": 355322.8,
+    "estimated_full_epoch_human": "4 dia(s), 2 h, 42 min, 3 s",
+    "through_checkpoint_step": 15000
+  },
+  "checkpoints_saved": [
+    {
+      "timestamp": "2026-05-18T00:48:55Z",
+      "path": "/workspace/experiments/pb_001/run",
+      "step": 5000,
+      "speaker": "pb_sotaque"
+    },
+    {
+      "timestamp": "2026-05-19T02:07:17Z",
+      "path": "/workspace/experiments/pb_001/run",
+      "step": 10000,
+      "speaker": "pb_sotaque"
+    },
+    {
+      "timestamp": "2026-05-20T01:50:13Z",
+      "path": "/workspace/experiments/pb_001/run",
+      "step": 15000,
+      "speaker": "pb_sotaque"
+    }
+  ],
+  "loss_summary": {
+    "first_loss": 12.2913,
+    "last_loss": null,
+    "nan_logged_points": 2
+  },
+  "inference": {
+    "timestamp_utc": "2026-05-20T13:47:03.821453+00:00",
+    "speaker": "pb_sotaque",
+    "language": "Portuguese",
+    "device": "cuda:0",
+    "dtype": "bf16",
+    "checkpoints": [
+      {
+        "checkpoint_dir": "/workspace/experiments/pb_001/run/checkpoint-step-005000",
+        "model_safetensors": "/workspace/experiments/pb_001/run/checkpoint-step-005000/model.safetensors",
+        "tts_model_type": "custom_voice",
+        "spk_id": {
+          "pb_sotaque": 3000
+        },
+        "speaker_slot": 3000,
+        "supported_speakers": [
+          "pb_sotaque"
+        ],
+        "runtime_spk_id": {
+          "pb_sotaque": 3000
+        },
+        "step": 5000,
+        "outputs": [
+          "step_5000_frase1.wav",
+          "step_5000_frase2.wav",
+          "step_5000_frase3.wav",
+          "step_5000_frase4.wav",
+          "step_5000_frase5.wav"
+        ]
+      },
+      {
+        "checkpoint_dir": "/workspace/experiments/pb_001/run/checkpoint-step-010000",
+        "model_safetensors": "/workspace/experiments/pb_001/run/checkpoint-step-010000/model.safetensors",
+        "tts_model_type": "custom_voice",
+        "spk_id": {
+          "pb_sotaque": 3000
+        },
+        "speaker_slot": 3000,
+        "supported_speakers": [
+          "pb_sotaque"
+        ],
+        "runtime_spk_id": {
+          "pb_sotaque": 3000
+        },
+        "step": 10000,
+        "outputs": [
+          "step_10000_frase1.wav",
+          "step_10000_frase2.wav",
+          "step_10000_frase3.wav",
+          "step_10000_frase4.wav",
+          "step_10000_frase5.wav"
+        ]
+      },
+      {
+        "checkpoint_dir": "/workspace/experiments/pb_001/run/checkpoint-step-015000",
+        "model_safetensors": "/workspace/experiments/pb_001/run/checkpoint-step-015000/model.safetensors",
+        "tts_model_type": "custom_voice",
+        "spk_id": {
+          "pb_sotaque": 3000
+        },
+        "speaker_slot": 3000,
+        "supported_speakers": [
+          "pb_sotaque"
+        ],
+        "runtime_spk_id": {
+          "pb_sotaque": 3000
+        },
+        "step": 15000,
+        "outputs": [
+          "step_15000_frase1.wav",
+          "step_15000_frase2.wav",
+          "step_15000_frase3.wav",
+          "step_15000_frase4.wav",
+          "step_15000_frase5.wav"
+        ]
+      }
+    ]
+  }
+}
