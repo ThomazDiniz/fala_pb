@@ -2,9 +2,10 @@
 
 Pasta de apoio a [`docs/19.md`](../19.md) (reuniao 19).
 
-| Subpasta | Conteudo esperado |
-|----------|-------------------|
-| `parler-tts/` | *(cancelado — dificuldades de configuracao / prioridade ao F5-TTS)* |
-| `f5-tts/` | Treino **150 epocas** em andamento — checkpoints, curvas, audios |
-| `plataforma-brasil/` | Prints, protocolos, status CEP/submissoes |
-| `mock-form/` | Capturas do Google Forms, rascunhos de fluxo |
+| Subpasta | Conteudo |
+|----------|----------|
+| `parler-tts/` | *(cancelado)* |
+| `f5tts_do_zero/` | F5-TTS treinado do zero (150 epocas), loss, 5 frases |
+| `agents for good/` | 2 sinteses clinicas (`.mpeg`) + `transcricoes_whisper.json` |
+| `plataforma-brasil/` | CEP / Plataforma Brasil |
+| `mock-form/` | Form [forms.gle/BsuphrH6hF3f37A38](https://forms.gle/BsuphrH6hF3f37A38) |
