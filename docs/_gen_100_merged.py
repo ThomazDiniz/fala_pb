@@ -25,7 +25,7 @@ STYLES = """<style>
   .wrapper,
   .markdown-body, .inner, #main_content {
     max-width: none !important;
-    padding: 1rem 2rem !important;
+    padding: 0 !important;
     overflow-x: auto;
   }
   .muted { color: #666; }
@@ -91,14 +91,13 @@ STYLES = """<style>
     font-weight: 600;
     text-align: center;
   }
-  .infer-table .col-idx { text-align: center; background: #2a2a2a; color: #eee; }
-  .infer-table .col-ref { text-align: center; font-size: 0.75rem; background: #2a2a2a; color: #eee; }
   .infer-table .col-texto {
     white-space: normal;
-    min-width: 200px;
-    max-width: 280px;
+    min-width: 140px;
+    max-width: 200px;
     background: #2a2a2a;
     color: #eee;
+    text-align: left;
   }
   .infer-table .col-audio { text-align: center; }
   /* Cores por modelo */
@@ -181,7 +180,7 @@ def build_table(sentences: list[str]) -> str:
     lines = [
         "## Tabela unificada de inferencias",
         "",
-        "Uma linha por sentenca; **mesmo texto e ref** para os tres modelos. "
+        "Uma linha por sentenca (mesmo texto nos tres modelos). "
         "Clique em **&#9654;** para tocar no player abaixo. "
         "Cores por modelo; **linha vertical mais forte** a cada 3 colunas (Orig v1–v3 | Ajust v1–v3) e entre modelos.",
         "",
@@ -200,8 +199,6 @@ def build_table(sentences: list[str]) -> str:
         '<table class="infer-table" markdown="0">',
         "<thead>",
         '<tr class="infer-head-model">',
-        '<th rowspan="2" class="col-idx">#</th>',
-        '<th rowspan="2" class="col-ref">Ref</th>',
         '<th rowspan="2" class="col-texto">Texto</th>',
     ]
     for _slug, title, anchor, mclass in MODELS:
@@ -218,12 +215,7 @@ def build_table(sentences: list[str]) -> str:
     lines.append("<tbody>")
 
     for i, text in enumerate(sentences, start=1):
-        ref = (i - 1) // 10 + 1
-        row = [
-            f'<td class="col-idx">{i}</td>',
-            f'<td class="col-ref">refs/{ref}.wav</td>',
-            f'<td class="col-texto">{text}</td>',
-        ]
+        row = [f'<td class="col-texto">{text}</td>']
         for slug, title, _anchor, mclass in MODELS:
             for vi, (cond, var, lab) in enumerate(VARS):
                 cell_label = f"{title} — frase {i} — {lab}"
