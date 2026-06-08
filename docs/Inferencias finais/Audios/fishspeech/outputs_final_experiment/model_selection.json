@@ -1,0 +1,24 @@
+{
+  "generated_at_utc": "2026-06-07T14:36:52.195179+00:00",
+  "stack": "Fish Speech 1.5 + VQGAN Firefly",
+  "variations": 3,
+  "seeds": [
+    42,
+    123,
+    456
+  ],
+  "original": {
+    "experiment_id": "fishaudio/fish-speech-1.5",
+    "checkpoint": "model.pth (pré-treino Hub, sem LoRA)",
+    "criterion": "Modelo base fish-speech-1.5 sem adaptação regional",
+    "llama_path": "/workspace/project/.cache/fish-models/fish-speech-1.5",
+    "notes": "Sem fine-tune Paraíba; VQGAN compartilhado com o ajustado"
+  },
+  "ajustado": {
+    "experiment_id": "paraiba_20260510_031412",
+    "checkpoint": "step_000010488.ckpt",
+    "criterion": "1) Artefatos de validação perceptiva (listening_comparison, inference_audio, Eyshla) | 2) Experimento selecionado: paraiba_20260510_031412 | 3) Checkpoint LoRA: step_000010488.ckpt | 4) eval_loss época sintética: 8.9629 | 5) Pesos fundidos em final_merged_llama (merge_lora do último step_*.ckpt)",
+    "llama_path": "/workspace/project/experiments/paraiba_20260510_031412/final_merged_llama",
+    "notes": "listening_comparison presente; inferência por checkpoint validada; experimento principal com testes Eyshla e pós-treino completo"
+  }
+}

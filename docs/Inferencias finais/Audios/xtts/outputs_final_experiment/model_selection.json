@@ -1,0 +1,28 @@
+{
+  "variations": 3,
+  "seeds": [
+    42,
+    123,
+    456
+  ],
+  "original": {
+    "experiment_id": "XTTS_v2_original",
+    "checkpoint": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260425-224952\\xtts_work\\run\\training\\XTTS_v2.0_original_model_files\\model.pth",
+    "criterion": "modelo_base_oficial",
+    "notes": [
+      "Usando E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260425-224952\\xtts_work\\run\\training\\XTTS_v2.0_original_model_files\\model.pth (XTTS v2 multilingue, sem adaptação paraibano).",
+      "config/vocab resolvidos via experimento ptbr-20260425-224952."
+    ]
+  },
+  "ajustado": {
+    "experiment_id": "ptbr-20260425-224952",
+    "checkpoint": "E:\\git\\coqui-ai-TTS\\data\\xtts-experiments\\ptbr-20260425-224952\\xtts_work\\run\\training\\GPT_XTTS_FT-April-25-2026_10+51PM-2cac93ec\\checkpoint_35472.pth",
+    "criterion": "avaliacao_perceptual_projeto_eyshla",
+    "notes": [
+      "experiment_config em data\\xtts-experiments\\eyshla_experiment\\experiment_config.json.",
+      "Checkpoint checkpoint_35472.pth escolhido após testes do projeto (preferido sobre best_model).",
+      "Experimento ptbr-20260425-224952: fine-tune com data/filtered (corpus paraibano filtrado).",
+      "Artefatos A/B em artifacts/outputs/xtts_outputs_map.csv incluem comparação entre checkpoints."
+    ]
+  }
+}

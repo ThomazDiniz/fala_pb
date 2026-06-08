@@ -1,0 +1,1391 @@
+2026-06-06 23:27:25 [INFO] ================================================================================
+2026-06-06 23:27:25 [INFO] Experimento final de avaliacao perceptual — Orpheus TTS
+2026-06-06 23:27:25 [INFO] Projeto: E:\git\unsloth
+2026-06-06 23:27:25 [INFO] Saida: E:\git\unsloth\outputs_final_experiment
+2026-06-06 23:27:25 [INFO] Variacoes: 3 | Seeds: [42, 123, 456] | Overwrite: False | Dry-run: True
+2026-06-06 23:27:25 [INFO] Validadas 100 sentencas em E:\git\unsloth\sentenças.txt
+2026-06-06 23:27:25 [INFO] Referencias disponiveis: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+2026-06-06 23:27:25 [INFO] Checkpoint ajustado selecionado: outputs\finetune\artoodtoo_ft_e3\checkpoints\checkpoint-3351
+2026-06-06 23:27:25 [INFO] Criterio: A/B perceptivo documentado em outputs_unsloth_experimento/comparacao_audios.csv (unsloth_artoodtoo_model_1 vs baseline HF). | eval_loss_resumo.json: best_step=3351, best_eval_loss=5.1795. | Checkpoint epoch-end step 3351 (unico ponto de eval; menor eval_loss do run).
+2026-06-06 23:27:25 [INFO] model_selection.json escrito em E:\git\unsloth\outputs_final_experiment\model_selection.json
+2026-06-06 23:27:25 [INFO] Carregando SNAC (hubertsiuzdak/snac_24khz) em cuda...
+2026-06-06 23:27:27 [INFO] [DRY-RUN] Fase original: 300 jobs simulados
+2026-06-06 23:27:30 [INFO] [DRY-RUN] Fase ajustado: 300 jobs simulados
+2026-06-06 23:27:31 [INFO] ================================================================================
+2026-06-06 23:27:31 [INFO] RESUMO FINAL
+2026-06-06 23:27:31 [INFO] ================================================================================
+2026-06-06 23:27:31 [INFO] Audios original:  0 / 300 esperados
+2026-06-06 23:27:31 [INFO] Audios ajustado:  0 / 300 esperados
+2026-06-06 23:27:31 [INFO] Gerados nesta execucao — original: ok=300 skip=0 err=0
+2026-06-06 23:27:31 [INFO] Gerados nesta execucao — ajustado: ok=300 skip=0 err=0
+2026-06-06 23:27:31 [INFO] Falhas totais nesta execucao: 0
+2026-06-06 23:27:31 [INFO] Tempo total: 4.8 s (0.1 min)
+2026-06-06 23:27:31 [INFO] Experimento ajustado: artoodtoo_ft_e3
+2026-06-06 23:27:31 [INFO] Checkpoint ajustado: outputs\finetune\artoodtoo_ft_e3\checkpoints\checkpoint-3351
+2026-06-06 23:27:31 [INFO] Criterio de selecao: A/B perceptivo documentado em outputs_unsloth_experimento/comparacao_audios.csv (unsloth_artoodtoo_model_1 vs baseline HF). | eval_loss_resumo.json: best_step=3351, best_eval_loss=5.1795. | Checkpoint epoch-end step 3351 (unico ponto de eval; menor eval_loss do run).
+2026-06-06 23:27:31 [INFO] Saida: E:\git\unsloth\outputs_final_experiment
+2026-06-06 23:27:31 [INFO] Logs: E:\git\unsloth\outputs_final_experiment\generation_run.log | E:\git\unsloth\outputs_final_experiment\generation_log.csv
+2026-06-06 23:27:31 [INFO] [DRY-RUN] Validacao concluida sem sintese.
+2026-06-06 23:31:56 [INFO] ================================================================================
+2026-06-06 23:31:56 [INFO] Experimento final de avaliacao perceptual — Orpheus TTS
+2026-06-06 23:31:56 [INFO] Projeto: E:\git\unsloth
+2026-06-06 23:31:56 [INFO] Saida: E:\git\unsloth\outputs_final_experiment
+2026-06-06 23:31:56 [INFO] Variacoes: 3 | Seeds: [42, 123, 456] | Overwrite: False | Dry-run: False
+2026-06-06 23:31:56 [INFO] Validadas 100 sentencas em E:\git\unsloth\sentenças.txt
+2026-06-06 23:31:56 [INFO] Referencias disponiveis: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+2026-06-06 23:31:56 [INFO] Checkpoint ajustado selecionado: outputs\finetune\artoodtoo_ft_e3\checkpoints\checkpoint-3351
+2026-06-06 23:31:56 [INFO] Criterio: A/B perceptivo documentado em outputs_unsloth_experimento/comparacao_audios.csv (unsloth_artoodtoo_model_1 vs baseline HF). | eval_loss_resumo.json: best_step=3351, best_eval_loss=5.1795. | Checkpoint epoch-end step 3351 (unico ponto de eval; menor eval_loss do run).
+2026-06-06 23:31:56 [INFO] model_selection.json escrito em E:\git\unsloth\outputs_final_experiment\model_selection.json
+2026-06-06 23:31:56 [INFO] Carregando SNAC (hubertsiuzdak/snac_24khz) em cuda...
+2026-06-06 23:31:57 [INFO] ================================================================================
+2026-06-06 23:31:57 [INFO] Fase original: carregando modelo...
+2026-06-06 23:32:22 [INFO] ================================================================================
+2026-06-06 23:32:22 [INFO] Experimento final de avaliacao perceptual — Orpheus TTS
+2026-06-06 23:32:22 [INFO] Projeto: E:\git\unsloth
+2026-06-06 23:32:22 [INFO] Saida: E:\git\unsloth\outputs_final_experiment
+2026-06-06 23:32:22 [INFO] Variacoes: 3 | Seeds: [42, 123, 456] | Overwrite: False | Dry-run: False
+2026-06-06 23:32:22 [INFO] Validadas 100 sentencas em E:\git\unsloth\sentenças.txt
+2026-06-06 23:32:22 [INFO] Referencias disponiveis: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+2026-06-06 23:32:22 [INFO] Checkpoint ajustado selecionado: outputs\finetune\artoodtoo_ft_e3\checkpoints\checkpoint-3351
+2026-06-06 23:32:22 [INFO] Criterio: A/B perceptivo documentado em outputs_unsloth_experimento/comparacao_audios.csv (unsloth_artoodtoo_model_1 vs baseline HF). | eval_loss_resumo.json: best_step=3351, best_eval_loss=5.1795. | Checkpoint epoch-end step 3351 (unico ponto de eval; menor eval_loss do run).
+2026-06-06 23:32:22 [INFO] model_selection.json escrito em E:\git\unsloth\outputs_final_experiment\model_selection.json
+2026-06-06 23:32:22 [INFO] Carregando SNAC (hubertsiuzdak/snac_24khz) em cuda...
+2026-06-06 23:32:23 [INFO] ================================================================================
+2026-06-06 23:32:23 [INFO] Fase original: carregando modelo...
+2026-06-06 23:32:23 [INFO] [original] Base model: canopylabs/3b-es_it-ft-research_release
+2026-06-06 23:32:47 [INFO] Modelo original carregado em 24.4s
+2026-06-06 23:32:48 [INFO] [1/300] idx=001 v1 seed=42 modelo=original ref=1.wav
+2026-06-06 23:33:09 [ERROR]   -> ERRO em 21.2s: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+2026-06-06 23:33:09 [INFO] [2/300] idx=001 v2 seed=123 modelo=original ref=1.wav
+2026-06-06 23:33:32 [ERROR]   -> ERRO em 22.9s: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+2026-06-06 23:33:32 [INFO] [3/300] idx=001 v3 seed=456 modelo=original ref=1.wav
+2026-06-06 23:33:52 [ERROR]   -> ERRO em 19.9s: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+2026-06-06 23:33:52 [INFO] [4/300] idx=002 v1 seed=42 modelo=original ref=1.wav
+2026-06-06 23:34:22 [ERROR]   -> ERRO em 29.8s: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+2026-06-06 23:34:22 [INFO] [5/300] idx=002 v2 seed=123 modelo=original ref=1.wav
+2026-06-06 23:34:47 [ERROR]   -> ERRO em 25.0s: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+2026-06-06 23:34:47 [INFO] [6/300] idx=002 v3 seed=456 modelo=original ref=1.wav
+2026-06-06 23:35:13 [ERROR]   -> ERRO em 25.7s: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+2026-06-06 23:35:13 [INFO] [7/300] idx=003 v1 seed=42 modelo=original ref=1.wav
+2026-06-06 23:35:58 [ERROR]   -> ERRO em 45.9s: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+2026-06-06 23:35:58 [INFO] [8/300] idx=003 v2 seed=123 modelo=original ref=1.wav
+2026-06-06 23:36:42 [ERROR]   -> ERRO em 43.4s: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+2026-06-06 23:36:42 [INFO] [9/300] idx=003 v3 seed=456 modelo=original ref=1.wav
+2026-06-06 23:37:28 [ERROR]   -> ERRO em 46.3s: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+2026-06-06 23:37:28 [INFO] [10/300] idx=004 v1 seed=42 modelo=original ref=1.wav
+2026-06-06 23:38:12 [ERROR]   -> ERRO em 43.6s: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+2026-06-06 23:38:12 [INFO] [11/300] idx=004 v2 seed=123 modelo=original ref=1.wav
+2026-06-06 23:38:18 [INFO] [original] Base model: canopylabs/3b-es_it-ft-research_release
+2026-06-06 23:39:05 [ERROR]   -> ERRO em 53.1s: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+2026-06-06 23:39:05 [INFO] [12/300] idx=004 v3 seed=456 modelo=original ref=1.wav
+2026-06-06 23:39:34 [INFO] ================================================================================
+2026-06-06 23:39:34 [INFO] Experimento final de avaliacao perceptual — Orpheus TTS
+2026-06-06 23:39:34 [INFO] Projeto: E:\git\unsloth
+2026-06-06 23:39:34 [INFO] Saida: E:\git\unsloth\outputs_final_experiment
+2026-06-06 23:39:34 [INFO] Variacoes: 3 | Seeds: [42, 123, 456] | Overwrite: False | Dry-run: False
+2026-06-06 23:39:34 [INFO] Validadas 100 sentencas em E:\git\unsloth\sentenças.txt
+2026-06-06 23:39:34 [INFO] Referencias disponiveis: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+2026-06-06 23:39:34 [INFO] Checkpoint ajustado selecionado: outputs\finetune\artoodtoo_ft_e3\checkpoints\checkpoint-3351
+2026-06-06 23:39:34 [INFO] Criterio: A/B perceptivo documentado em outputs_unsloth_experimento/comparacao_audios.csv (unsloth_artoodtoo_model_1 vs baseline HF). | eval_loss_resumo.json: best_step=3351, best_eval_loss=5.1795. | Checkpoint epoch-end step 3351 (unico ponto de eval; menor eval_loss do run).
+2026-06-06 23:39:34 [INFO] model_selection.json escrito em E:\git\unsloth\outputs_final_experiment\model_selection.json
+2026-06-06 23:39:34 [INFO] Carregando SNAC (hubertsiuzdak/snac_24khz) em cpu...
+2026-06-06 23:39:34 [INFO] ================================================================================
+2026-06-06 23:39:34 [INFO] Fase original: carregando modelo...
+2026-06-06 23:39:35 [INFO] [original] Base model: canopylabs/3b-es_it-ft-research_release
+2026-06-06 23:40:01 [INFO] Modelo original carregado em 26.4s
+2026-06-06 23:40:03 [INFO] [1/300] idx=001 v1 seed=42 modelo=original ref=1.wav
+2026-06-06 23:40:07 [ERROR]   -> ERRO em 62.3s: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+2026-06-06 23:40:07 [INFO] [13/300] idx=005 v1 seed=42 modelo=original ref=1.wav
+2026-06-06 23:40:29 [INFO]   -> OK em 26.2s: 001.wav
+2026-06-06 23:40:29 [INFO] [2/300] idx=001 v2 seed=123 modelo=original ref=1.wav
+2026-06-06 23:40:44 [ERROR]   -> ERRO em 36.3s: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+2026-06-06 23:40:44 [INFO] [14/300] idx=005 v2 seed=123 modelo=original ref=1.wav
+2026-06-06 23:40:58 [INFO]   -> OK em 28.9s: 001.wav
+2026-06-06 23:40:58 [INFO] [3/300] idx=001 v3 seed=456 modelo=original ref=1.wav
+2026-06-06 23:41:15 [ERROR]   -> ERRO em 31.2s: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+2026-06-06 23:41:15 [INFO] [15/300] idx=005 v3 seed=456 modelo=original ref=1.wav
+2026-06-06 23:41:23 [INFO]   -> OK em 25.2s: 001.wav
+2026-06-06 23:41:23 [INFO] [4/300] idx=002 v1 seed=42 modelo=original ref=1.wav
+2026-06-06 23:41:48 [ERROR]   -> ERRO em 32.8s: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+2026-06-06 23:41:48 [INFO] [16/300] idx=006 v1 seed=42 modelo=original ref=1.wav
+2026-06-06 23:42:01 [INFO]   -> OK em 37.8s: 002.wav
+2026-06-06 23:42:01 [INFO] [5/300] idx=002 v2 seed=123 modelo=original ref=1.wav
+2026-06-06 23:42:33 [INFO]   -> OK em 31.9s: 002.wav
+2026-06-06 23:42:33 [INFO] [6/300] idx=002 v3 seed=456 modelo=original ref=1.wav
+2026-06-06 23:42:52 [ERROR]   -> ERRO em 64.8s: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+2026-06-06 23:42:52 [INFO] [17/300] idx=006 v2 seed=123 modelo=original ref=1.wav
+2026-06-06 23:43:05 [INFO]   -> OK em 32.7s: 002.wav
+2026-06-06 23:43:05 [INFO] [7/300] idx=003 v1 seed=42 modelo=original ref=1.wav
+2026-06-06 23:44:05 [INFO]   -> OK em 59.8s: 003.wav
+2026-06-06 23:44:05 [INFO] [8/300] idx=003 v2 seed=123 modelo=original ref=1.wav
+2026-06-06 23:44:06 [ERROR]   -> ERRO em 73.2s: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+2026-06-06 23:44:06 [INFO] [18/300] idx=006 v3 seed=456 modelo=original ref=1.wav
+2026-06-06 23:45:02 [INFO]   -> OK em 56.8s: 003.wav
+2026-06-06 23:45:02 [INFO] [9/300] idx=003 v3 seed=456 modelo=original ref=1.wav
+2026-06-06 23:45:11 [ERROR]   -> ERRO em 65.0s: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+2026-06-06 23:45:11 [INFO] [19/300] idx=007 v1 seed=42 modelo=original ref=1.wav
+2026-06-06 23:45:38 [ERROR]   -> ERRO em 27.6s: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+2026-06-06 23:45:38 [INFO] [20/300] idx=007 v2 seed=123 modelo=original ref=1.wav
+2026-06-06 23:46:04 [INFO]   -> OK em 62.4s: 003.wav
+2026-06-06 23:46:04 [INFO] [10/300] idx=004 v1 seed=42 modelo=original ref=1.wav
+2026-06-06 23:46:05 [ERROR]   -> ERRO em 26.7s: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+2026-06-06 23:46:05 [INFO] [21/300] idx=007 v3 seed=456 modelo=original ref=1.wav
+2026-06-06 23:46:29 [ERROR]   -> ERRO em 23.7s: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+2026-06-06 23:46:29 [INFO] [22/300] idx=008 v1 seed=42 modelo=original ref=1.wav
+2026-06-06 23:46:57 [INFO]   -> OK em 52.7s: 004.wav
+2026-06-06 23:46:57 [INFO] [11/300] idx=004 v2 seed=123 modelo=original ref=1.wav
+2026-06-06 23:47:01 [ERROR]   -> ERRO em 32.7s: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+2026-06-06 23:47:01 [INFO] [23/300] idx=008 v2 seed=123 modelo=original ref=1.wav
+2026-06-06 23:47:32 [ERROR]   -> ERRO em 31.1s: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+2026-06-06 23:47:32 [INFO] [24/300] idx=008 v3 seed=456 modelo=original ref=1.wav
+2026-06-06 23:47:45 [INFO]   -> OK em 47.9s: 004.wav
+2026-06-06 23:47:45 [INFO] [12/300] idx=004 v3 seed=456 modelo=original ref=1.wav
+2026-06-06 23:48:10 [ERROR]   -> ERRO em 37.9s: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+2026-06-06 23:48:10 [INFO] [25/300] idx=009 v1 seed=42 modelo=original ref=1.wav
+2026-06-06 23:48:42 [INFO]   -> OK em 56.9s: 004.wav
+2026-06-06 23:48:42 [INFO] [13/300] idx=005 v1 seed=42 modelo=original ref=1.wav
+2026-06-06 23:49:06 [ERROR]   -> ERRO em 55.6s: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+2026-06-06 23:49:06 [INFO] [26/300] idx=009 v2 seed=123 modelo=original ref=1.wav
+2026-06-06 23:49:19 [INFO]   -> OK em 37.0s: 005.wav
+2026-06-06 23:49:19 [INFO] [14/300] idx=005 v2 seed=123 modelo=original ref=1.wav
+2026-06-06 23:49:50 [INFO]   -> OK em 31.4s: 005.wav
+2026-06-06 23:49:50 [INFO] [15/300] idx=005 v3 seed=456 modelo=original ref=1.wav
+2026-06-06 23:50:11 [ERROR]   -> ERRO em 65.3s: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+2026-06-06 23:50:11 [INFO] [27/300] idx=009 v3 seed=456 modelo=original ref=1.wav
+2026-06-06 23:50:22 [INFO]   -> OK em 32.1s: 005.wav
+2026-06-06 23:50:22 [INFO] [16/300] idx=006 v1 seed=42 modelo=original ref=1.wav
+2026-06-06 23:51:16 [ERROR]   -> ERRO em 64.9s: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+2026-06-06 23:51:16 [INFO] [28/300] idx=010 v1 seed=42 modelo=original ref=1.wav
+2026-06-06 23:51:26 [INFO]   -> OK em 64.1s: 006.wav
+2026-06-06 23:51:26 [INFO] [17/300] idx=006 v2 seed=123 modelo=original ref=1.wav
+2026-06-06 23:51:37 [ERROR]   -> ERRO em 21.2s: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+2026-06-06 23:51:37 [INFO] [29/300] idx=010 v2 seed=123 modelo=original ref=1.wav
+2026-06-06 23:51:57 [ERROR]   -> ERRO em 19.6s: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+2026-06-06 23:51:57 [INFO] [30/300] idx=010 v3 seed=456 modelo=original ref=1.wav
+2026-06-06 23:52:17 [ERROR]   -> ERRO em 20.5s: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument index in method wrapper_CUDA__index_select)
+2026-06-06 23:59:19 [INFO]   -> OK em 472.1s: 006.wav
+2026-06-06 23:59:19 [INFO] [18/300] idx=006 v3 seed=456 modelo=original ref=1.wav
+2026-06-07 00:14:25 [INFO]   -> OK em 906.3s: 006.wav
+2026-06-07 00:14:25 [INFO] [19/300] idx=007 v1 seed=42 modelo=original ref=1.wav
+2026-06-07 00:29:31 [INFO]   -> OK em 906.5s: 007.wav
+2026-06-07 00:29:31 [INFO] [20/300] idx=007 v2 seed=123 modelo=original ref=1.wav
+2026-06-07 00:44:34 [INFO]   -> OK em 902.7s: 007.wav
+2026-06-07 00:44:34 [INFO] [21/300] idx=007 v3 seed=456 modelo=original ref=1.wav
+2026-06-07 00:59:39 [INFO]   -> OK em 905.1s: 007.wav
+2026-06-07 00:59:39 [INFO] [22/300] idx=008 v1 seed=42 modelo=original ref=1.wav
+2026-06-07 01:14:42 [INFO]   -> OK em 903.1s: 008.wav
+2026-06-07 01:14:42 [INFO] [23/300] idx=008 v2 seed=123 modelo=original ref=1.wav
+2026-06-07 01:29:48 [INFO]   -> OK em 905.4s: 008.wav
+2026-06-07 01:29:48 [INFO] [24/300] idx=008 v3 seed=456 modelo=original ref=1.wav
+2026-06-07 01:42:08 [INFO] ================================================================================
+2026-06-07 01:42:08 [INFO] Experimento final de avaliacao perceptual — Orpheus TTS
+2026-06-07 01:42:08 [INFO] Projeto: E:\git\unsloth
+2026-06-07 01:42:08 [INFO] Saida: E:\git\unsloth\outputs_final_experiment
+2026-06-07 01:42:08 [INFO] Variacoes: 3 | Seeds: [42, 123, 456] | Overwrite: False | Dry-run: False
+2026-06-07 01:42:08 [INFO] Validadas 100 sentencas em E:\git\unsloth\sentenças.txt
+2026-06-07 01:42:08 [INFO] Referencias disponiveis: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+2026-06-07 01:42:08 [INFO] Checkpoint ajustado selecionado: outputs\finetune\artoodtoo_ft_e3\checkpoints\checkpoint-3351
+2026-06-07 01:42:08 [INFO] Criterio: A/B perceptivo documentado em outputs_unsloth_experimento/comparacao_audios.csv (unsloth_artoodtoo_model_1 vs baseline HF). | eval_loss_resumo.json: best_step=3351, best_eval_loss=5.1795. | Checkpoint epoch-end step 3351 (unico ponto de eval; menor eval_loss do run).
+2026-06-07 01:42:08 [INFO] model_selection.json escrito em E:\git\unsloth\outputs_final_experiment\model_selection.json
+2026-06-07 01:42:08 [INFO] Carregando SNAC (hubertsiuzdak/snac_24khz) em cpu...
+2026-06-07 01:42:09 [INFO] ================================================================================
+2026-06-07 01:42:09 [INFO] Fase original: carregando modelo...
+2026-06-07 01:42:09 [INFO] [original] Base model: canopylabs/3b-es_it-ft-research_release
+2026-06-07 01:42:33 [INFO] Modelo original carregado em 24.5s
+2026-06-07 01:42:35 [INFO] [1/300] idx=001 v1 seed=42 modelo=original ref=1.wav -> SKIP (existente)
+2026-06-07 01:42:35 [INFO] [2/300] idx=001 v2 seed=123 modelo=original ref=1.wav -> SKIP (existente)
+2026-06-07 01:42:35 [INFO] [3/300] idx=001 v3 seed=456 modelo=original ref=1.wav -> SKIP (existente)
+2026-06-07 01:42:35 [INFO] [4/300] idx=002 v1 seed=42 modelo=original ref=1.wav -> SKIP (existente)
+2026-06-07 01:42:35 [INFO] [5/300] idx=002 v2 seed=123 modelo=original ref=1.wav -> SKIP (existente)
+2026-06-07 01:42:35 [INFO] [6/300] idx=002 v3 seed=456 modelo=original ref=1.wav -> SKIP (existente)
+2026-06-07 01:42:35 [INFO] [7/300] idx=003 v1 seed=42 modelo=original ref=1.wav -> SKIP (existente)
+2026-06-07 01:42:35 [INFO] [8/300] idx=003 v2 seed=123 modelo=original ref=1.wav -> SKIP (existente)
+2026-06-07 01:42:35 [INFO] [9/300] idx=003 v3 seed=456 modelo=original ref=1.wav -> SKIP (existente)
+2026-06-07 01:42:35 [INFO] [10/300] idx=004 v1 seed=42 modelo=original ref=1.wav -> SKIP (existente)
+2026-06-07 01:42:35 [INFO] [11/300] idx=004 v2 seed=123 modelo=original ref=1.wav -> SKIP (existente)
+2026-06-07 01:42:35 [INFO] [12/300] idx=004 v3 seed=456 modelo=original ref=1.wav -> SKIP (existente)
+2026-06-07 01:42:35 [INFO] [13/300] idx=005 v1 seed=42 modelo=original ref=1.wav -> SKIP (existente)
+2026-06-07 01:42:35 [INFO] [14/300] idx=005 v2 seed=123 modelo=original ref=1.wav -> SKIP (existente)
+2026-06-07 01:42:35 [INFO] [15/300] idx=005 v3 seed=456 modelo=original ref=1.wav -> SKIP (existente)
+2026-06-07 01:42:35 [INFO] [16/300] idx=006 v1 seed=42 modelo=original ref=1.wav -> SKIP (existente)
+2026-06-07 01:42:35 [INFO] [17/300] idx=006 v2 seed=123 modelo=original ref=1.wav -> SKIP (existente)
+2026-06-07 01:42:35 [INFO] [18/300] idx=006 v3 seed=456 modelo=original ref=1.wav -> SKIP (existente)
+2026-06-07 01:42:35 [INFO] [19/300] idx=007 v1 seed=42 modelo=original ref=1.wav -> SKIP (existente)
+2026-06-07 01:42:35 [INFO] [20/300] idx=007 v2 seed=123 modelo=original ref=1.wav -> SKIP (existente)
+2026-06-07 01:42:35 [INFO] [21/300] idx=007 v3 seed=456 modelo=original ref=1.wav -> SKIP (existente)
+2026-06-07 01:42:35 [INFO] [22/300] idx=008 v1 seed=42 modelo=original ref=1.wav -> SKIP (existente)
+2026-06-07 01:42:35 [INFO] [23/300] idx=008 v2 seed=123 modelo=original ref=1.wav -> SKIP (existente)
+2026-06-07 01:42:35 [INFO] [24/300] idx=008 v3 seed=456 modelo=original ref=1.wav
+2026-06-07 01:43:06 [INFO]   -> OK em 31.7s: 008.wav
+2026-06-07 01:43:06 [INFO] [25/300] idx=009 v1 seed=42 modelo=original ref=1.wav
+2026-06-07 01:43:41 [INFO]   -> OK em 34.5s: 009.wav
+2026-06-07 01:43:41 [INFO] [26/300] idx=009 v2 seed=123 modelo=original ref=1.wav
+2026-06-07 01:44:16 [INFO]   -> OK em 35.0s: 009.wav
+2026-06-07 01:44:16 [INFO] [27/300] idx=009 v3 seed=456 modelo=original ref=1.wav
+2026-06-07 01:44:50 [INFO]   -> OK em 34.6s: 009.wav
+2026-06-07 01:44:50 [INFO] [28/300] idx=010 v1 seed=42 modelo=original ref=1.wav
+2026-06-07 01:45:07 [INFO]   -> OK em 16.6s: 010.wav
+2026-06-07 01:45:07 [INFO] [29/300] idx=010 v2 seed=123 modelo=original ref=1.wav
+2026-06-07 01:45:23 [INFO]   -> OK em 15.8s: 010.wav
+2026-06-07 01:45:23 [INFO] [30/300] idx=010 v3 seed=456 modelo=original ref=1.wav
+2026-06-07 01:45:39 [INFO]   -> OK em 15.7s: 010.wav
+2026-06-07 01:45:40 [INFO] [31/300] idx=011 v1 seed=42 modelo=original ref=2.wav
+2026-06-07 01:46:03 [INFO]   -> OK em 22.5s: 011.wav
+2026-06-07 01:46:03 [INFO] [32/300] idx=011 v2 seed=123 modelo=original ref=2.wav
+2026-06-07 01:46:25 [INFO]   -> OK em 22.2s: 011.wav
+2026-06-07 01:46:25 [INFO] [33/300] idx=011 v3 seed=456 modelo=original ref=2.wav
+2026-06-07 01:46:47 [INFO]   -> OK em 22.0s: 011.wav
+2026-06-07 01:46:47 [INFO] [34/300] idx=012 v1 seed=42 modelo=original ref=2.wav
+2026-06-07 01:47:30 [INFO]   -> OK em 42.8s: 012.wav
+2026-06-07 01:47:30 [INFO] [35/300] idx=012 v2 seed=123 modelo=original ref=2.wav
+2026-06-07 01:48:13 [INFO]   -> OK em 42.9s: 012.wav
+2026-06-07 01:48:13 [INFO] [36/300] idx=012 v3 seed=456 modelo=original ref=2.wav
+2026-06-07 01:48:55 [INFO]   -> OK em 42.3s: 012.wav
+2026-06-07 01:48:55 [INFO] [37/300] idx=013 v1 seed=42 modelo=original ref=2.wav
+2026-06-07 01:49:13 [INFO]   -> OK em 18.0s: 013.wav
+2026-06-07 01:49:13 [INFO] [38/300] idx=013 v2 seed=123 modelo=original ref=2.wav
+2026-06-07 01:49:34 [INFO]   -> OK em 21.0s: 013.wav
+2026-06-07 01:49:34 [INFO] [39/300] idx=013 v3 seed=456 modelo=original ref=2.wav
+2026-06-07 01:49:54 [INFO]   -> OK em 20.3s: 013.wav
+2026-06-07 01:49:54 [INFO] [40/300] idx=014 v1 seed=42 modelo=original ref=2.wav
+2026-06-07 01:50:19 [INFO]   -> OK em 24.7s: 014.wav
+2026-06-07 01:50:19 [INFO] [41/300] idx=014 v2 seed=123 modelo=original ref=2.wav
+2026-06-07 01:50:43 [INFO]   -> OK em 24.1s: 014.wav
+2026-06-07 01:50:43 [INFO] [42/300] idx=014 v3 seed=456 modelo=original ref=2.wav
+2026-06-07 01:51:07 [INFO]   -> OK em 24.2s: 014.wav
+2026-06-07 01:51:07 [INFO] [43/300] idx=015 v1 seed=42 modelo=original ref=2.wav
+2026-06-07 01:51:36 [INFO]   -> OK em 28.9s: 015.wav
+2026-06-07 01:51:36 [INFO] [44/300] idx=015 v2 seed=123 modelo=original ref=2.wav
+2026-06-07 01:52:05 [INFO]   -> OK em 28.3s: 015.wav
+2026-06-07 01:52:05 [INFO] [45/300] idx=015 v3 seed=456 modelo=original ref=2.wav
+2026-06-07 01:52:33 [INFO]   -> OK em 28.6s: 015.wav
+2026-06-07 01:52:33 [INFO] [46/300] idx=016 v1 seed=42 modelo=original ref=2.wav
+2026-06-07 01:53:10 [INFO]   -> OK em 36.7s: 016.wav
+2026-06-07 01:53:10 [INFO] [47/300] idx=016 v2 seed=123 modelo=original ref=2.wav
+2026-06-07 01:53:47 [INFO]   -> OK em 36.9s: 016.wav
+2026-06-07 01:53:47 [INFO] [48/300] idx=016 v3 seed=456 modelo=original ref=2.wav
+2026-06-07 01:54:24 [INFO]   -> OK em 37.2s: 016.wav
+2026-06-07 01:54:24 [INFO] [49/300] idx=017 v1 seed=42 modelo=original ref=2.wav
+2026-06-07 01:54:44 [INFO]   -> OK em 20.1s: 017.wav
+2026-06-07 01:54:44 [INFO] [50/300] idx=017 v2 seed=123 modelo=original ref=2.wav
+2026-06-07 01:55:04 [INFO]   -> OK em 20.2s: 017.wav
+2026-06-07 01:55:04 [INFO] [51/300] idx=017 v3 seed=456 modelo=original ref=2.wav
+2026-06-07 01:55:25 [INFO]   -> OK em 20.3s: 017.wav
+2026-06-07 01:55:25 [INFO] [52/300] idx=018 v1 seed=42 modelo=original ref=2.wav
+2026-06-07 01:55:51 [INFO]   -> OK em 26.5s: 018.wav
+2026-06-07 01:55:51 [INFO] [53/300] idx=018 v2 seed=123 modelo=original ref=2.wav
+2026-06-07 01:56:17 [INFO]   -> OK em 26.3s: 018.wav
+2026-06-07 01:56:17 [INFO] [54/300] idx=018 v3 seed=456 modelo=original ref=2.wav
+2026-06-07 01:56:44 [INFO]   -> OK em 26.6s: 018.wav
+2026-06-07 01:56:44 [INFO] [55/300] idx=019 v1 seed=42 modelo=original ref=2.wav
+2026-06-07 01:57:15 [INFO]   -> OK em 30.9s: 019.wav
+2026-06-07 01:57:15 [INFO] [56/300] idx=019 v2 seed=123 modelo=original ref=2.wav
+2026-06-07 01:57:46 [INFO]   -> OK em 30.8s: 019.wav
+2026-06-07 01:57:46 [INFO] [57/300] idx=019 v3 seed=456 modelo=original ref=2.wav
+2026-06-07 01:58:16 [INFO]   -> OK em 30.3s: 019.wav
+2026-06-07 01:58:16 [INFO] [58/300] idx=020 v1 seed=42 modelo=original ref=2.wav
+2026-06-07 01:58:30 [INFO]   -> OK em 14.0s: 020.wav
+2026-06-07 01:58:30 [INFO] [59/300] idx=020 v2 seed=123 modelo=original ref=2.wav
+2026-06-07 01:58:42 [INFO]   -> OK em 12.4s: 020.wav
+2026-06-07 01:58:42 [INFO] [60/300] idx=020 v3 seed=456 modelo=original ref=2.wav
+2026-06-07 01:58:57 [INFO]   -> OK em 14.9s: 020.wav
+2026-06-07 01:58:59 [INFO] [61/300] idx=021 v1 seed=42 modelo=original ref=3.wav
+2026-06-07 01:59:33 [INFO]   -> OK em 34.6s: 021.wav
+2026-06-07 01:59:33 [INFO] [62/300] idx=021 v2 seed=123 modelo=original ref=3.wav
+2026-06-07 02:00:07 [INFO]   -> OK em 33.3s: 021.wav
+2026-06-07 02:00:07 [INFO] [63/300] idx=021 v3 seed=456 modelo=original ref=3.wav
+2026-06-07 02:00:42 [INFO]   -> OK em 34.8s: 021.wav
+2026-06-07 02:00:42 [INFO] [64/300] idx=022 v1 seed=42 modelo=original ref=3.wav
+2026-06-07 02:01:05 [INFO]   -> OK em 23.7s: 022.wav
+2026-06-07 02:01:05 [INFO] [65/300] idx=022 v2 seed=123 modelo=original ref=3.wav
+2026-06-07 02:01:30 [INFO]   -> OK em 24.2s: 022.wav
+2026-06-07 02:01:30 [INFO] [66/300] idx=022 v3 seed=456 modelo=original ref=3.wav
+2026-06-07 02:01:53 [INFO]   -> OK em 23.7s: 022.wav
+2026-06-07 02:01:53 [INFO] [67/300] idx=023 v1 seed=42 modelo=original ref=3.wav
+2026-06-07 02:02:22 [INFO]   -> OK em 29.0s: 023.wav
+2026-06-07 02:02:22 [INFO] [68/300] idx=023 v2 seed=123 modelo=original ref=3.wav
+2026-06-07 02:02:52 [INFO]   -> OK em 29.9s: 023.wav
+2026-06-07 02:02:52 [INFO] [69/300] idx=023 v3 seed=456 modelo=original ref=3.wav
+2026-06-07 02:03:21 [INFO]   -> OK em 28.7s: 023.wav
+2026-06-07 02:03:21 [INFO] [70/300] idx=024 v1 seed=42 modelo=original ref=3.wav
+2026-06-07 02:03:49 [INFO]   -> OK em 28.6s: 024.wav
+2026-06-07 02:03:49 [INFO] [71/300] idx=024 v2 seed=123 modelo=original ref=3.wav
+2026-06-07 02:04:18 [INFO]   -> OK em 28.4s: 024.wav
+2026-06-07 02:04:18 [INFO] [72/300] idx=024 v3 seed=456 modelo=original ref=3.wav
+2026-06-07 02:04:46 [INFO]   -> OK em 28.6s: 024.wav
+2026-06-07 02:04:46 [INFO] [73/300] idx=025 v1 seed=42 modelo=original ref=3.wav
+2026-06-07 02:05:21 [INFO]   -> OK em 34.8s: 025.wav
+2026-06-07 02:05:21 [INFO] [74/300] idx=025 v2 seed=123 modelo=original ref=3.wav
+2026-06-07 02:05:56 [INFO]   -> OK em 34.6s: 025.wav
+2026-06-07 02:05:56 [INFO] [75/300] idx=025 v3 seed=456 modelo=original ref=3.wav
+2026-06-07 02:06:30 [INFO]   -> OK em 34.7s: 025.wav
+2026-06-07 02:06:30 [INFO] [76/300] idx=026 v1 seed=42 modelo=original ref=3.wav
+2026-06-07 02:06:48 [INFO]   -> OK em 18.1s: 026.wav
+2026-06-07 02:06:48 [INFO] [77/300] idx=026 v2 seed=123 modelo=original ref=3.wav
+2026-06-07 02:07:09 [INFO]   -> OK em 20.4s: 026.wav
+2026-06-07 02:07:09 [INFO] [78/300] idx=026 v3 seed=456 modelo=original ref=3.wav
+2026-06-07 02:07:27 [INFO]   -> OK em 18.6s: 026.wav
+2026-06-07 02:07:27 [INFO] [79/300] idx=027 v1 seed=42 modelo=original ref=3.wav
+2026-06-07 02:07:42 [INFO]   -> OK em 14.7s: 027.wav
+2026-06-07 02:07:42 [INFO] [80/300] idx=027 v2 seed=123 modelo=original ref=3.wav
+2026-06-07 02:07:55 [INFO]   -> OK em 13.2s: 027.wav
+2026-06-07 02:07:55 [INFO] [81/300] idx=027 v3 seed=456 modelo=original ref=3.wav
+2026-06-07 02:08:09 [INFO]   -> OK em 13.6s: 027.wav
+2026-06-07 02:08:09 [INFO] [82/300] idx=028 v1 seed=42 modelo=original ref=3.wav
+2026-06-07 02:08:43 [INFO]   -> OK em 34.5s: 028.wav
+2026-06-07 02:08:43 [INFO] [83/300] idx=028 v2 seed=123 modelo=original ref=3.wav
+2026-06-07 02:09:18 [INFO]   -> OK em 34.7s: 028.wav
+2026-06-07 02:09:18 [INFO] [84/300] idx=028 v3 seed=456 modelo=original ref=3.wav
+2026-06-07 02:09:53 [INFO]   -> OK em 34.5s: 028.wav
+2026-06-07 02:09:53 [INFO] [85/300] idx=029 v1 seed=42 modelo=original ref=3.wav
+2026-06-07 02:10:03 [INFO]   -> OK em 9.9s: 029.wav
+2026-06-07 02:10:03 [INFO] [86/300] idx=029 v2 seed=123 modelo=original ref=3.wav
+2026-06-07 02:10:13 [INFO]   -> OK em 10.5s: 029.wav
+2026-06-07 02:10:13 [INFO] [87/300] idx=029 v3 seed=456 modelo=original ref=3.wav
+2026-06-07 02:10:27 [INFO]   -> OK em 14.2s: 029.wav
+2026-06-07 02:10:27 [INFO] [88/300] idx=030 v1 seed=42 modelo=original ref=3.wav
+2026-06-07 02:10:56 [INFO]   -> OK em 28.4s: 030.wav
+2026-06-07 02:10:56 [INFO] [89/300] idx=030 v2 seed=123 modelo=original ref=3.wav
+2026-06-07 02:11:24 [INFO]   -> OK em 28.2s: 030.wav
+2026-06-07 02:11:24 [INFO] [90/300] idx=030 v3 seed=456 modelo=original ref=3.wav
+2026-06-07 02:11:52 [INFO]   -> OK em 28.3s: 030.wav
+2026-06-07 02:11:54 [INFO] [91/300] idx=031 v1 seed=42 modelo=original ref=4.wav
+2026-06-07 02:12:14 [INFO]   -> OK em 19.7s: 031.wav
+2026-06-07 02:12:14 [INFO] [92/300] idx=031 v2 seed=123 modelo=original ref=4.wav
+2026-06-07 02:12:32 [INFO]   -> OK em 18.2s: 031.wav
+2026-06-07 02:12:32 [INFO] [93/300] idx=031 v3 seed=456 modelo=original ref=4.wav
+2026-06-07 02:12:52 [INFO]   -> OK em 20.0s: 031.wav
+2026-06-07 02:12:52 [INFO] [94/300] idx=032 v1 seed=42 modelo=original ref=4.wav
+2026-06-07 02:13:28 [INFO]   -> OK em 36.4s: 032.wav
+2026-06-07 02:13:28 [INFO] [95/300] idx=032 v2 seed=123 modelo=original ref=4.wav
+2026-06-07 02:14:05 [INFO]   -> OK em 36.6s: 032.wav
+2026-06-07 02:14:05 [INFO] [96/300] idx=032 v3 seed=456 modelo=original ref=4.wav
+2026-06-07 02:14:41 [INFO]   -> OK em 36.3s: 032.wav
+2026-06-07 02:14:41 [INFO] [97/300] idx=033 v1 seed=42 modelo=original ref=4.wav
+2026-06-07 02:14:57 [INFO]   -> OK em 16.0s: 033.wav
+2026-06-07 02:14:57 [INFO] [98/300] idx=033 v2 seed=123 modelo=original ref=4.wav
+2026-06-07 02:15:12 [INFO]   -> OK em 15.1s: 033.wav
+2026-06-07 02:15:12 [INFO] [99/300] idx=033 v3 seed=456 modelo=original ref=4.wav
+2026-06-07 02:15:28 [INFO]   -> OK em 15.5s: 033.wav
+2026-06-07 02:15:28 [INFO] [100/300] idx=034 v1 seed=42 modelo=original ref=4.wav
+2026-06-07 02:15:57 [INFO]   -> OK em 29.4s: 034.wav
+2026-06-07 02:15:57 [INFO] [101/300] idx=034 v2 seed=123 modelo=original ref=4.wav
+2026-06-07 02:16:28 [INFO]   -> OK em 30.6s: 034.wav
+2026-06-07 02:16:28 [INFO] [102/300] idx=034 v3 seed=456 modelo=original ref=4.wav
+2026-06-07 02:16:58 [INFO]   -> OK em 30.0s: 034.wav
+2026-06-07 02:16:58 [INFO] [103/300] idx=035 v1 seed=42 modelo=original ref=4.wav
+2026-06-07 02:17:27 [INFO]   -> OK em 28.8s: 035.wav
+2026-06-07 02:17:27 [INFO] [104/300] idx=035 v2 seed=123 modelo=original ref=4.wav
+2026-06-07 02:17:55 [INFO]   -> OK em 28.6s: 035.wav
+2026-06-07 02:17:55 [INFO] [105/300] idx=035 v3 seed=456 modelo=original ref=4.wav
+2026-06-07 02:18:24 [INFO]   -> OK em 28.9s: 035.wav
+2026-06-07 02:18:24 [INFO] [106/300] idx=036 v1 seed=42 modelo=original ref=4.wav
+2026-06-07 02:18:50 [INFO]   -> OK em 26.1s: 036.wav
+2026-06-07 02:18:50 [INFO] [107/300] idx=036 v2 seed=123 modelo=original ref=4.wav
+2026-06-07 02:19:17 [INFO]   -> OK em 26.5s: 036.wav
+2026-06-07 02:19:17 [INFO] [108/300] idx=036 v3 seed=456 modelo=original ref=4.wav
+2026-06-07 02:19:43 [INFO]   -> OK em 26.2s: 036.wav
+2026-06-07 02:19:43 [INFO] [109/300] idx=037 v1 seed=42 modelo=original ref=4.wav
+2026-06-07 02:20:07 [INFO]   -> OK em 24.2s: 037.wav
+2026-06-07 02:20:07 [INFO] [110/300] idx=037 v2 seed=123 modelo=original ref=4.wav
+2026-06-07 02:20:32 [INFO]   -> OK em 24.6s: 037.wav
+2026-06-07 02:20:32 [INFO] [111/300] idx=037 v3 seed=456 modelo=original ref=4.wav
+2026-06-07 02:20:56 [INFO]   -> OK em 24.1s: 037.wav
+2026-06-07 02:20:56 [INFO] [112/300] idx=038 v1 seed=42 modelo=original ref=4.wav
+2026-06-07 02:21:24 [INFO]   -> OK em 28.6s: 038.wav
+2026-06-07 02:21:24 [INFO] [113/300] idx=038 v2 seed=123 modelo=original ref=4.wav
+2026-06-07 02:21:52 [INFO]   -> OK em 28.1s: 038.wav
+2026-06-07 02:21:52 [INFO] [114/300] idx=038 v3 seed=456 modelo=original ref=4.wav
+2026-06-07 02:22:21 [INFO]   -> OK em 28.4s: 038.wav
+2026-06-07 02:22:21 [INFO] [115/300] idx=039 v1 seed=42 modelo=original ref=4.wav
+2026-06-07 02:22:39 [INFO]   -> OK em 18.5s: 039.wav
+2026-06-07 02:22:39 [INFO] [116/300] idx=039 v2 seed=123 modelo=original ref=4.wav
+2026-06-07 02:22:57 [INFO]   -> OK em 18.0s: 039.wav
+2026-06-07 02:22:57 [INFO] [117/300] idx=039 v3 seed=456 modelo=original ref=4.wav
+2026-06-07 02:23:15 [INFO]   -> OK em 17.9s: 039.wav
+2026-06-07 02:23:15 [INFO] [118/300] idx=040 v1 seed=42 modelo=original ref=4.wav
+2026-06-07 02:23:36 [INFO]   -> OK em 20.4s: 040.wav
+2026-06-07 02:23:36 [INFO] [119/300] idx=040 v2 seed=123 modelo=original ref=4.wav
+2026-06-07 02:23:56 [INFO]   -> OK em 20.1s: 040.wav
+2026-06-07 02:23:56 [INFO] [120/300] idx=040 v3 seed=456 modelo=original ref=4.wav
+2026-06-07 02:24:15 [INFO]   -> OK em 19.5s: 040.wav
+2026-06-07 02:24:18 [INFO] [121/300] idx=041 v1 seed=42 modelo=original ref=5.wav
+2026-06-07 02:24:37 [INFO]   -> OK em 19.7s: 041.wav
+2026-06-07 02:24:37 [INFO] [122/300] idx=041 v2 seed=123 modelo=original ref=5.wav
+2026-06-07 02:24:59 [INFO]   -> OK em 22.2s: 041.wav
+2026-06-07 02:24:59 [INFO] [123/300] idx=041 v3 seed=456 modelo=original ref=5.wav
+2026-06-07 02:25:22 [INFO]   -> OK em 22.2s: 041.wav
+2026-06-07 02:25:22 [INFO] [124/300] idx=042 v1 seed=42 modelo=original ref=5.wav
+2026-06-07 02:25:59 [INFO]   -> OK em 36.9s: 042.wav
+2026-06-07 02:25:59 [INFO] [125/300] idx=042 v2 seed=123 modelo=original ref=5.wav
+2026-06-07 02:26:35 [INFO]   -> OK em 36.8s: 042.wav
+2026-06-07 02:26:35 [INFO] [126/300] idx=042 v3 seed=456 modelo=original ref=5.wav
+2026-06-07 02:27:12 [INFO]   -> OK em 36.9s: 042.wav
+2026-06-07 02:27:12 [INFO] [127/300] idx=043 v1 seed=42 modelo=original ref=5.wav
+2026-06-07 02:27:34 [INFO]   -> OK em 22.2s: 043.wav
+2026-06-07 02:27:34 [INFO] [128/300] idx=043 v2 seed=123 modelo=original ref=5.wav
+2026-06-07 02:27:57 [INFO]   -> OK em 22.2s: 043.wav
+2026-06-07 02:27:57 [INFO] [129/300] idx=043 v3 seed=456 modelo=original ref=5.wav
+2026-06-07 02:28:17 [INFO]   -> OK em 20.2s: 043.wav
+2026-06-07 02:28:17 [INFO] [130/300] idx=044 v1 seed=42 modelo=original ref=5.wav
+2026-06-07 02:28:50 [INFO]   -> OK em 33.2s: 044.wav
+2026-06-07 02:28:50 [INFO] [131/300] idx=044 v2 seed=123 modelo=original ref=5.wav
+2026-06-07 02:29:24 [INFO]   -> OK em 33.9s: 044.wav
+2026-06-07 02:29:24 [INFO] [132/300] idx=044 v3 seed=456 modelo=original ref=5.wav
+2026-06-07 02:29:58 [INFO]   -> OK em 34.3s: 044.wav
+2026-06-07 02:29:58 [INFO] [133/300] idx=045 v1 seed=42 modelo=original ref=5.wav
+2026-06-07 02:30:20 [INFO]   -> OK em 21.7s: 045.wav
+2026-06-07 02:30:20 [INFO] [134/300] idx=045 v2 seed=123 modelo=original ref=5.wav
+2026-06-07 02:30:42 [INFO]   -> OK em 22.2s: 045.wav
+2026-06-07 02:30:42 [INFO] [135/300] idx=045 v3 seed=456 modelo=original ref=5.wav
+2026-06-07 02:31:03 [INFO]   -> OK em 21.2s: 045.wav
+2026-06-07 02:31:03 [INFO] [136/300] idx=046 v1 seed=42 modelo=original ref=5.wav
+2026-06-07 02:31:40 [INFO]   -> OK em 36.7s: 046.wav
+2026-06-07 02:31:40 [INFO] [137/300] idx=046 v2 seed=123 modelo=original ref=5.wav
+2026-06-07 02:32:16 [INFO]   -> OK em 35.9s: 046.wav
+2026-06-07 02:32:16 [INFO] [138/300] idx=046 v3 seed=456 modelo=original ref=5.wav
+2026-06-07 02:32:52 [INFO]   -> OK em 36.5s: 046.wav
+2026-06-07 02:32:52 [INFO] [139/300] idx=047 v1 seed=42 modelo=original ref=5.wav
+2026-06-07 02:33:09 [INFO]   -> OK em 16.6s: 047.wav
+2026-06-07 02:33:09 [INFO] [140/300] idx=047 v2 seed=123 modelo=original ref=5.wav
+2026-06-07 02:33:27 [INFO]   -> OK em 18.0s: 047.wav
+2026-06-07 02:33:27 [INFO] [141/300] idx=047 v3 seed=456 modelo=original ref=5.wav
+2026-06-07 02:33:44 [INFO]   -> OK em 16.8s: 047.wav
+2026-06-07 02:33:44 [INFO] [142/300] idx=048 v1 seed=42 modelo=original ref=5.wav
+2026-06-07 02:34:15 [INFO]   -> OK em 31.6s: 048.wav
+2026-06-07 02:34:15 [INFO] [143/300] idx=048 v2 seed=123 modelo=original ref=5.wav
+2026-06-07 02:34:47 [INFO]   -> OK em 31.6s: 048.wav
+2026-06-07 02:34:47 [INFO] [144/300] idx=048 v3 seed=456 modelo=original ref=5.wav
+2026-06-07 02:35:19 [INFO]   -> OK em 31.6s: 048.wav
+2026-06-07 02:35:19 [INFO] [145/300] idx=049 v1 seed=42 modelo=original ref=5.wav
+2026-06-07 02:35:35 [INFO]   -> OK em 16.1s: 049.wav
+2026-06-07 02:35:35 [INFO] [146/300] idx=049 v2 seed=123 modelo=original ref=5.wav
+2026-06-07 02:35:52 [INFO]   -> OK em 17.2s: 049.wav
+2026-06-07 02:35:52 [INFO] [147/300] idx=049 v3 seed=456 modelo=original ref=5.wav
+2026-06-07 02:36:08 [INFO]   -> OK em 16.4s: 049.wav
+2026-06-07 02:36:08 [INFO] [148/300] idx=050 v1 seed=42 modelo=original ref=5.wav
+2026-06-07 02:36:35 [INFO]   -> OK em 26.8s: 050.wav
+2026-06-07 02:36:35 [INFO] [149/300] idx=050 v2 seed=123 modelo=original ref=5.wav
+2026-06-07 02:37:05 [INFO]   -> OK em 30.0s: 050.wav
+2026-06-07 02:37:05 [INFO] [150/300] idx=050 v3 seed=456 modelo=original ref=5.wav
+2026-06-07 02:37:32 [INFO]   -> OK em 26.5s: 050.wav
+2026-06-07 02:37:32 [INFO] [151/300] idx=051 v1 seed=42 modelo=original ref=6.wav
+2026-06-07 02:37:55 [INFO]   -> OK em 22.5s: 051.wav
+2026-06-07 02:37:55 [INFO] [152/300] idx=051 v2 seed=123 modelo=original ref=6.wav
+2026-06-07 02:38:17 [INFO]   -> OK em 22.3s: 051.wav
+2026-06-07 02:38:17 [INFO] [153/300] idx=051 v3 seed=456 modelo=original ref=6.wav
+2026-06-07 02:38:40 [INFO]   -> OK em 22.3s: 051.wav
+2026-06-07 02:38:40 [INFO] [154/300] idx=052 v1 seed=42 modelo=original ref=6.wav
+2026-06-07 02:39:24 [INFO]   -> OK em 44.3s: 052.wav
+2026-06-07 02:39:24 [INFO] [155/300] idx=052 v2 seed=123 modelo=original ref=6.wav
+2026-06-07 02:40:08 [INFO]   -> OK em 44.3s: 052.wav
+2026-06-07 02:40:08 [INFO] [156/300] idx=052 v3 seed=456 modelo=original ref=6.wav
+2026-06-07 02:40:52 [INFO]   -> OK em 43.4s: 052.wav
+2026-06-07 02:40:52 [INFO] [157/300] idx=053 v1 seed=42 modelo=original ref=6.wav
+2026-06-07 02:41:11 [INFO]   -> OK em 19.7s: 053.wav
+2026-06-07 02:41:11 [INFO] [158/300] idx=053 v2 seed=123 modelo=original ref=6.wav
+2026-06-07 02:41:35 [INFO]   -> OK em 23.3s: 053.wav
+2026-06-07 02:41:35 [INFO] [159/300] idx=053 v3 seed=456 modelo=original ref=6.wav
+2026-06-07 02:41:55 [INFO]   -> OK em 20.7s: 053.wav
+2026-06-07 02:41:55 [INFO] [160/300] idx=054 v1 seed=42 modelo=original ref=6.wav
+2026-06-07 02:42:33 [INFO]   -> OK em 37.4s: 054.wav
+2026-06-07 02:42:33 [INFO] [161/300] idx=054 v2 seed=123 modelo=original ref=6.wav
+2026-06-07 02:43:09 [INFO]   -> OK em 35.9s: 054.wav
+2026-06-07 02:43:09 [INFO] [162/300] idx=054 v3 seed=456 modelo=original ref=6.wav
+2026-06-07 02:43:45 [INFO]   -> OK em 36.3s: 054.wav
+2026-06-07 02:43:45 [INFO] [163/300] idx=055 v1 seed=42 modelo=original ref=6.wav
+2026-06-07 02:44:10 [INFO]   -> OK em 24.7s: 055.wav
+2026-06-07 02:44:10 [INFO] [164/300] idx=055 v2 seed=123 modelo=original ref=6.wav
+2026-06-07 02:44:35 [INFO]   -> OK em 25.0s: 055.wav
+2026-06-07 02:44:35 [INFO] [165/300] idx=055 v3 seed=456 modelo=original ref=6.wav
+2026-06-07 02:45:00 [INFO]   -> OK em 25.0s: 055.wav
+2026-06-07 02:45:00 [INFO] [166/300] idx=056 v1 seed=42 modelo=original ref=6.wav
+2026-06-07 02:45:41 [INFO]   -> OK em 41.6s: 056.wav
+2026-06-07 02:45:41 [INFO] [167/300] idx=056 v2 seed=123 modelo=original ref=6.wav
+2026-06-07 02:46:22 [INFO]   -> OK em 41.0s: 056.wav
+2026-06-07 02:46:22 [INFO] [168/300] idx=056 v3 seed=456 modelo=original ref=6.wav
+2026-06-07 02:47:04 [INFO]   -> OK em 41.3s: 056.wav
+2026-06-07 02:47:04 [INFO] [169/300] idx=057 v1 seed=42 modelo=original ref=6.wav
+2026-06-07 02:47:15 [INFO]   -> OK em 11.8s: 057.wav
+2026-06-07 02:47:15 [INFO] [170/300] idx=057 v2 seed=123 modelo=original ref=6.wav
+2026-06-07 02:47:32 [INFO]   -> OK em 16.2s: 057.wav
+2026-06-07 02:47:32 [INFO] [171/300] idx=057 v3 seed=456 modelo=original ref=6.wav
+2026-06-07 02:47:45 [INFO]   -> OK em 13.1s: 057.wav
+2026-06-07 02:47:45 [INFO] [172/300] idx=058 v1 seed=42 modelo=original ref=6.wav
+2026-06-07 02:48:21 [INFO]   -> OK em 36.1s: 058.wav
+2026-06-07 02:48:21 [INFO] [173/300] idx=058 v2 seed=123 modelo=original ref=6.wav
+2026-06-07 02:48:57 [INFO]   -> OK em 36.0s: 058.wav
+2026-06-07 02:48:57 [INFO] [174/300] idx=058 v3 seed=456 modelo=original ref=6.wav
+2026-06-07 02:49:33 [INFO]   -> OK em 36.7s: 058.wav
+2026-06-07 02:49:33 [INFO] [175/300] idx=059 v1 seed=42 modelo=original ref=6.wav
+2026-06-07 02:49:48 [INFO]   -> OK em 14.6s: 059.wav
+2026-06-07 02:49:48 [INFO] [176/300] idx=059 v2 seed=123 modelo=original ref=6.wav
+2026-06-07 02:50:08 [INFO]   -> OK em 19.7s: 059.wav
+2026-06-07 02:50:08 [INFO] [177/300] idx=059 v3 seed=456 modelo=original ref=6.wav
+2026-06-07 02:50:28 [INFO]   -> OK em 19.8s: 059.wav
+2026-06-07 02:50:28 [INFO] [178/300] idx=060 v1 seed=42 modelo=original ref=6.wav
+2026-06-07 02:50:52 [INFO]   -> OK em 24.3s: 060.wav
+2026-06-07 02:50:52 [INFO] [179/300] idx=060 v2 seed=123 modelo=original ref=6.wav
+2026-06-07 02:51:21 [INFO]   -> OK em 28.9s: 060.wav
+2026-06-07 02:51:21 [INFO] [180/300] idx=060 v3 seed=456 modelo=original ref=6.wav
+2026-06-07 02:51:48 [INFO]   -> OK em 26.9s: 060.wav
+2026-06-07 02:51:50 [INFO] [181/300] idx=061 v1 seed=42 modelo=original ref=7.wav
+2026-06-07 02:52:12 [INFO]   -> OK em 22.0s: 061.wav
+2026-06-07 02:52:12 [INFO] [182/300] idx=061 v2 seed=123 modelo=original ref=7.wav
+2026-06-07 02:52:31 [INFO]   -> OK em 19.1s: 061.wav
+2026-06-07 02:52:31 [INFO] [183/300] idx=061 v3 seed=456 modelo=original ref=7.wav
+2026-06-07 02:52:52 [INFO]   -> OK em 21.2s: 061.wav
+2026-06-07 02:52:52 [INFO] [184/300] idx=062 v1 seed=42 modelo=original ref=7.wav
+2026-06-07 02:53:33 [INFO]   -> OK em 41.2s: 062.wav
+2026-06-07 02:53:33 [INFO] [185/300] idx=062 v2 seed=123 modelo=original ref=7.wav
+2026-06-07 02:54:13 [INFO]   -> OK em 40.2s: 062.wav
+2026-06-07 02:54:13 [INFO] [186/300] idx=062 v3 seed=456 modelo=original ref=7.wav
+2026-06-07 02:54:55 [INFO]   -> OK em 41.4s: 062.wav
+2026-06-07 02:54:55 [INFO] [187/300] idx=063 v1 seed=42 modelo=original ref=7.wav
+2026-06-07 02:55:19 [INFO]   -> OK em 24.7s: 063.wav
+2026-06-07 02:55:19 [INFO] [188/300] idx=063 v2 seed=123 modelo=original ref=7.wav
+2026-06-07 02:55:47 [INFO]   -> OK em 27.7s: 063.wav
+2026-06-07 02:55:47 [INFO] [189/300] idx=063 v3 seed=456 modelo=original ref=7.wav
+2026-06-07 02:56:15 [INFO]   -> OK em 27.8s: 063.wav
+2026-06-07 02:56:15 [INFO] [190/300] idx=064 v1 seed=42 modelo=original ref=7.wav
+2026-06-07 02:56:38 [INFO]   -> OK em 22.7s: 064.wav
+2026-06-07 02:56:38 [INFO] [191/300] idx=064 v2 seed=123 modelo=original ref=7.wav
+2026-06-07 02:56:59 [INFO]   -> OK em 21.5s: 064.wav
+2026-06-07 02:56:59 [INFO] [192/300] idx=064 v3 seed=456 modelo=original ref=7.wav
+2026-06-07 02:57:21 [INFO]   -> OK em 21.6s: 064.wav
+2026-06-07 02:57:21 [INFO] [193/300] idx=065 v1 seed=42 modelo=original ref=7.wav
+2026-06-07 02:58:03 [INFO]   -> OK em 41.8s: 065.wav
+2026-06-07 02:58:03 [INFO] [194/300] idx=065 v2 seed=123 modelo=original ref=7.wav
+2026-06-07 02:58:45 [INFO]   -> OK em 42.2s: 065.wav
+2026-06-07 02:58:45 [INFO] [195/300] idx=065 v3 seed=456 modelo=original ref=7.wav
+2026-06-07 02:59:28 [INFO]   -> OK em 43.1s: 065.wav
+2026-06-07 02:59:28 [INFO] [196/300] idx=066 v1 seed=42 modelo=original ref=7.wav
+2026-06-07 02:59:46 [INFO]   -> OK em 17.7s: 066.wav
+2026-06-07 02:59:46 [INFO] [197/300] idx=066 v2 seed=123 modelo=original ref=7.wav
+2026-06-07 03:00:05 [INFO]   -> OK em 19.6s: 066.wav
+2026-06-07 03:00:05 [INFO] [198/300] idx=066 v3 seed=456 modelo=original ref=7.wav
+2026-06-07 03:00:20 [INFO]   -> OK em 14.7s: 066.wav
+2026-06-07 03:00:20 [INFO] [199/300] idx=067 v1 seed=42 modelo=original ref=7.wav
+2026-06-07 03:00:59 [INFO]   -> OK em 39.0s: 067.wav
+2026-06-07 03:00:59 [INFO] [200/300] idx=067 v2 seed=123 modelo=original ref=7.wav
+2026-06-07 03:01:40 [INFO]   -> OK em 41.2s: 067.wav
+2026-06-07 03:01:40 [INFO] [201/300] idx=067 v3 seed=456 modelo=original ref=7.wav
+2026-06-07 03:02:22 [INFO]   -> OK em 41.6s: 067.wav
+2026-06-07 03:02:22 [INFO] [202/300] idx=068 v1 seed=42 modelo=original ref=7.wav
+2026-06-07 03:02:43 [INFO]   -> OK em 21.3s: 068.wav
+2026-06-07 03:02:43 [INFO] [203/300] idx=068 v2 seed=123 modelo=original ref=7.wav
+2026-06-07 03:03:05 [INFO]   -> OK em 22.0s: 068.wav
+2026-06-07 03:03:05 [INFO] [204/300] idx=068 v3 seed=456 modelo=original ref=7.wav
+2026-06-07 03:03:26 [INFO]   -> OK em 21.5s: 068.wav
+2026-06-07 03:03:26 [INFO] [205/300] idx=069 v1 seed=42 modelo=original ref=7.wav
+2026-06-07 03:03:40 [INFO]   -> OK em 13.6s: 069.wav
+2026-06-07 03:03:40 [INFO] [206/300] idx=069 v2 seed=123 modelo=original ref=7.wav
+2026-06-07 03:03:55 [INFO]   -> OK em 14.6s: 069.wav
+2026-06-07 03:03:55 [INFO] [207/300] idx=069 v3 seed=456 modelo=original ref=7.wav
+2026-06-07 03:04:09 [INFO]   -> OK em 14.2s: 069.wav
+2026-06-07 03:04:09 [INFO] [208/300] idx=070 v1 seed=42 modelo=original ref=7.wav
+2026-06-07 03:04:41 [INFO]   -> OK em 32.1s: 070.wav
+2026-06-07 03:04:41 [INFO] [209/300] idx=070 v2 seed=123 modelo=original ref=7.wav
+2026-06-07 03:05:13 [INFO]   -> OK em 32.5s: 070.wav
+2026-06-07 03:05:13 [INFO] [210/300] idx=070 v3 seed=456 modelo=original ref=7.wav
+2026-06-07 03:05:46 [INFO]   -> OK em 32.2s: 070.wav
+2026-06-07 03:05:48 [INFO] [211/300] idx=071 v1 seed=42 modelo=original ref=8.wav
+2026-06-07 03:06:05 [INFO]   -> OK em 16.8s: 071.wav
+2026-06-07 03:06:05 [INFO] [212/300] idx=071 v2 seed=123 modelo=original ref=8.wav
+2026-06-07 03:06:21 [INFO]   -> OK em 16.0s: 071.wav
+2026-06-07 03:06:21 [INFO] [213/300] idx=071 v3 seed=456 modelo=original ref=8.wav
+2026-06-07 03:06:37 [INFO]   -> OK em 16.3s: 071.wav
+2026-06-07 03:06:37 [INFO] [214/300] idx=072 v1 seed=42 modelo=original ref=8.wav
+2026-06-07 03:07:06 [INFO]   -> OK em 29.4s: 072.wav
+2026-06-07 03:07:06 [INFO] [215/300] idx=072 v2 seed=123 modelo=original ref=8.wav
+2026-06-07 03:07:33 [INFO]   -> OK em 26.5s: 072.wav
+2026-06-07 03:07:33 [INFO] [216/300] idx=072 v3 seed=456 modelo=original ref=8.wav
+2026-06-07 03:08:01 [INFO]   -> OK em 28.2s: 072.wav
+2026-06-07 03:08:01 [INFO] [217/300] idx=073 v1 seed=42 modelo=original ref=8.wav
+2026-06-07 03:08:25 [INFO]   -> OK em 24.4s: 073.wav
+2026-06-07 03:08:25 [INFO] [218/300] idx=073 v2 seed=123 modelo=original ref=8.wav
+2026-06-07 03:08:50 [INFO]   -> OK em 24.2s: 073.wav
+2026-06-07 03:08:50 [INFO] [219/300] idx=073 v3 seed=456 modelo=original ref=8.wav
+2026-06-07 03:09:14 [INFO]   -> OK em 24.5s: 073.wav
+2026-06-07 03:09:14 [INFO] [220/300] idx=074 v1 seed=42 modelo=original ref=8.wav
+2026-06-07 03:09:48 [INFO]   -> OK em 34.3s: 074.wav
+2026-06-07 03:09:48 [INFO] [221/300] idx=074 v2 seed=123 modelo=original ref=8.wav
+2026-06-07 03:10:23 [INFO]   -> OK em 34.6s: 074.wav
+2026-06-07 03:10:23 [INFO] [222/300] idx=074 v3 seed=456 modelo=original ref=8.wav
+2026-06-07 03:10:57 [INFO]   -> OK em 34.3s: 074.wav
+2026-06-07 03:10:57 [INFO] [223/300] idx=075 v1 seed=42 modelo=original ref=8.wav
+2026-06-07 03:11:16 [INFO]   -> OK em 18.9s: 075.wav
+2026-06-07 03:11:16 [INFO] [224/300] idx=075 v2 seed=123 modelo=original ref=8.wav
+2026-06-07 03:11:34 [INFO]   -> OK em 18.2s: 075.wav
+2026-06-07 03:11:34 [INFO] [225/300] idx=075 v3 seed=456 modelo=original ref=8.wav
+2026-06-07 03:11:53 [INFO]   -> OK em 18.5s: 075.wav
+2026-06-07 03:11:53 [INFO] [226/300] idx=076 v1 seed=42 modelo=original ref=8.wav
+2026-06-07 03:12:26 [INFO]   -> OK em 32.9s: 076.wav
+2026-06-07 03:12:26 [INFO] [227/300] idx=076 v2 seed=123 modelo=original ref=8.wav
+2026-06-07 03:12:58 [INFO]   -> OK em 32.5s: 076.wav
+2026-06-07 03:12:58 [INFO] [228/300] idx=076 v3 seed=456 modelo=original ref=8.wav
+2026-06-07 03:13:31 [INFO]   -> OK em 32.7s: 076.wav
+2026-06-07 03:13:31 [INFO] [229/300] idx=077 v1 seed=42 modelo=original ref=8.wav
+2026-06-07 03:13:47 [INFO]   -> OK em 16.0s: 077.wav
+2026-06-07 03:13:47 [INFO] [230/300] idx=077 v2 seed=123 modelo=original ref=8.wav
+2026-06-07 03:14:03 [INFO]   -> OK em 16.0s: 077.wav
+2026-06-07 03:14:03 [INFO] [231/300] idx=077 v3 seed=456 modelo=original ref=8.wav
+2026-06-07 03:14:19 [INFO]   -> OK em 16.1s: 077.wav
+2026-06-07 03:14:19 [INFO] [232/300] idx=078 v1 seed=42 modelo=original ref=8.wav
+2026-06-07 03:14:50 [INFO]   -> OK em 30.7s: 078.wav
+2026-06-07 03:14:50 [INFO] [233/300] idx=078 v2 seed=123 modelo=original ref=8.wav
+2026-06-07 03:15:20 [INFO]   -> OK em 30.5s: 078.wav
+2026-06-07 03:15:20 [INFO] [234/300] idx=078 v3 seed=456 modelo=original ref=8.wav
+2026-06-07 03:15:50 [INFO]   -> OK em 30.2s: 078.wav
+2026-06-07 03:15:50 [INFO] [235/300] idx=079 v1 seed=42 modelo=original ref=8.wav
+2026-06-07 03:16:02 [INFO]   -> OK em 11.7s: 079.wav
+2026-06-07 03:16:02 [INFO] [236/300] idx=079 v2 seed=123 modelo=original ref=8.wav
+2026-06-07 03:16:18 [INFO]   -> OK em 15.9s: 079.wav
+2026-06-07 03:16:18 [INFO] [237/300] idx=079 v3 seed=456 modelo=original ref=8.wav
+2026-06-07 03:16:30 [INFO]   -> OK em 12.3s: 079.wav
+2026-06-07 03:16:30 [INFO] [238/300] idx=080 v1 seed=42 modelo=original ref=8.wav
+2026-06-07 03:16:58 [INFO]   -> OK em 28.1s: 080.wav
+2026-06-07 03:16:58 [INFO] [239/300] idx=080 v2 seed=123 modelo=original ref=8.wav
+2026-06-07 03:17:26 [INFO]   -> OK em 27.8s: 080.wav
+2026-06-07 03:17:26 [INFO] [240/300] idx=080 v3 seed=456 modelo=original ref=8.wav
+2026-06-07 03:17:55 [INFO]   -> OK em 28.4s: 080.wav
+2026-06-07 03:17:56 [INFO] [241/300] idx=081 v1 seed=42 modelo=original ref=9.wav
+2026-06-07 03:18:10 [INFO]   -> OK em 14.2s: 081.wav
+2026-06-07 03:18:10 [INFO] [242/300] idx=081 v2 seed=123 modelo=original ref=9.wav
+2026-06-07 03:18:28 [INFO]   -> OK em 18.1s: 081.wav
+2026-06-07 03:18:28 [INFO] [243/300] idx=081 v3 seed=456 modelo=original ref=9.wav
+2026-06-07 03:18:43 [INFO]   -> OK em 14.8s: 081.wav
+2026-06-07 03:18:43 [INFO] [244/300] idx=082 v1 seed=42 modelo=original ref=9.wav
+2026-06-07 03:19:14 [INFO]   -> OK em 30.4s: 082.wav
+2026-06-07 03:19:14 [INFO] [245/300] idx=082 v2 seed=123 modelo=original ref=9.wav
+2026-06-07 03:19:44 [INFO]   -> OK em 30.6s: 082.wav
+2026-06-07 03:19:44 [INFO] [246/300] idx=082 v3 seed=456 modelo=original ref=9.wav
+2026-06-07 03:20:14 [INFO]   -> OK em 30.3s: 082.wav
+2026-06-07 03:20:14 [INFO] [247/300] idx=083 v1 seed=42 modelo=original ref=9.wav
+2026-06-07 03:20:29 [INFO]   -> OK em 14.3s: 083.wav
+2026-06-07 03:20:29 [INFO] [248/300] idx=083 v2 seed=123 modelo=original ref=9.wav
+2026-06-07 03:20:47 [INFO]   -> OK em 18.2s: 083.wav
+2026-06-07 03:20:47 [INFO] [249/300] idx=083 v3 seed=456 modelo=original ref=9.wav
+2026-06-07 03:21:05 [INFO]   -> OK em 17.5s: 083.wav
+2026-06-07 03:21:05 [INFO] [250/300] idx=084 v1 seed=42 modelo=original ref=9.wav
+2026-06-07 03:21:37 [INFO]   -> OK em 32.5s: 084.wav
+2026-06-07 03:21:37 [INFO] [251/300] idx=084 v2 seed=123 modelo=original ref=9.wav
+2026-06-07 03:22:09 [INFO]   -> OK em 32.4s: 084.wav
+2026-06-07 03:22:09 [INFO] [252/300] idx=084 v3 seed=456 modelo=original ref=9.wav
+2026-06-07 03:22:42 [INFO]   -> OK em 32.9s: 084.wav
+2026-06-07 03:22:42 [INFO] [253/300] idx=085 v1 seed=42 modelo=original ref=9.wav
+2026-06-07 03:22:58 [INFO]   -> OK em 15.9s: 085.wav
+2026-06-07 03:22:58 [INFO] [254/300] idx=085 v2 seed=123 modelo=original ref=9.wav
+2026-06-07 03:23:14 [INFO]   -> OK em 16.0s: 085.wav
+2026-06-07 03:23:14 [INFO] [255/300] idx=085 v3 seed=456 modelo=original ref=9.wav
+2026-06-07 03:23:30 [INFO]   -> OK em 15.8s: 085.wav
+2026-06-07 03:23:30 [INFO] [256/300] idx=086 v1 seed=42 modelo=original ref=9.wav
+2026-06-07 03:24:01 [INFO]   -> OK em 30.5s: 086.wav
+2026-06-07 03:24:01 [INFO] [257/300] idx=086 v2 seed=123 modelo=original ref=9.wav
+2026-06-07 03:24:31 [INFO]   -> OK em 30.2s: 086.wav
+2026-06-07 03:24:31 [INFO] [258/300] idx=086 v3 seed=456 modelo=original ref=9.wav
+2026-06-07 03:25:02 [INFO]   -> OK em 30.6s: 086.wav
+2026-06-07 03:25:02 [INFO] [259/300] idx=087 v1 seed=42 modelo=original ref=9.wav
+2026-06-07 03:25:26 [INFO]   -> OK em 24.1s: 087.wav
+2026-06-07 03:25:26 [INFO] [260/300] idx=087 v2 seed=123 modelo=original ref=9.wav
+2026-06-07 03:25:50 [INFO]   -> OK em 24.4s: 087.wav
+2026-06-07 03:25:50 [INFO] [261/300] idx=087 v3 seed=456 modelo=original ref=9.wav
+2026-06-07 03:26:14 [INFO]   -> OK em 24.2s: 087.wav
+2026-06-07 03:26:14 [INFO] [262/300] idx=088 v1 seed=42 modelo=original ref=9.wav
+2026-06-07 03:26:40 [INFO]   -> OK em 26.1s: 088.wav
+2026-06-07 03:26:40 [INFO] [263/300] idx=088 v2 seed=123 modelo=original ref=9.wav
+2026-06-07 03:27:07 [INFO]   -> OK em 26.6s: 088.wav
+2026-06-07 03:27:07 [INFO] [264/300] idx=088 v3 seed=456 modelo=original ref=9.wav
+2026-06-07 03:27:33 [INFO]   -> OK em 26.1s: 088.wav
+2026-06-07 03:27:33 [INFO] [265/300] idx=089 v1 seed=42 modelo=original ref=9.wav
+2026-06-07 03:27:47 [INFO]   -> OK em 13.9s: 089.wav
+2026-06-07 03:27:47 [INFO] [266/300] idx=089 v2 seed=123 modelo=original ref=9.wav
+2026-06-07 03:28:03 [INFO]   -> OK em 15.9s: 089.wav
+2026-06-07 03:28:03 [INFO] [267/300] idx=089 v3 seed=456 modelo=original ref=9.wav
+2026-06-07 03:28:18 [INFO]   -> OK em 15.6s: 089.wav
+2026-06-07 03:28:18 [INFO] [268/300] idx=090 v1 seed=42 modelo=original ref=9.wav
+2026-06-07 03:28:39 [INFO]   -> OK em 20.1s: 090.wav
+2026-06-07 03:28:39 [INFO] [269/300] idx=090 v2 seed=123 modelo=original ref=9.wav
+2026-06-07 03:28:57 [INFO]   -> OK em 18.5s: 090.wav
+2026-06-07 03:28:57 [INFO] [270/300] idx=090 v3 seed=456 modelo=original ref=9.wav
+2026-06-07 03:29:17 [INFO]   -> OK em 20.0s: 090.wav
+2026-06-07 03:29:19 [INFO] [271/300] idx=091 v1 seed=42 modelo=original ref=10.wav
+2026-06-07 03:29:38 [INFO]   -> OK em 19.3s: 091.wav
+2026-06-07 03:29:38 [INFO] [272/300] idx=091 v2 seed=123 modelo=original ref=10.wav
+2026-06-07 03:29:59 [INFO]   -> OK em 20.8s: 091.wav
+2026-06-07 03:29:59 [INFO] [273/300] idx=091 v3 seed=456 modelo=original ref=10.wav
+2026-06-07 03:30:18 [INFO]   -> OK em 19.4s: 091.wav
+2026-06-07 03:30:18 [INFO] [274/300] idx=092 v1 seed=42 modelo=original ref=10.wav
+2026-06-07 03:30:57 [INFO]   -> OK em 38.7s: 092.wav
+2026-06-07 03:30:57 [INFO] [275/300] idx=092 v2 seed=123 modelo=original ref=10.wav
+2026-06-07 03:31:35 [INFO]   -> OK em 38.5s: 092.wav
+2026-06-07 03:31:35 [INFO] [276/300] idx=092 v3 seed=456 modelo=original ref=10.wav
+2026-06-07 03:32:14 [INFO]   -> OK em 39.1s: 092.wav
+2026-06-07 03:32:14 [INFO] [277/300] idx=093 v1 seed=42 modelo=original ref=10.wav
+2026-06-07 03:32:34 [INFO]   -> OK em 19.5s: 093.wav
+2026-06-07 03:32:34 [INFO] [278/300] idx=093 v2 seed=123 modelo=original ref=10.wav
+2026-06-07 03:32:54 [INFO]   -> OK em 20.0s: 093.wav
+2026-06-07 03:32:54 [INFO] [279/300] idx=093 v3 seed=456 modelo=original ref=10.wav
+2026-06-07 03:33:13 [INFO]   -> OK em 18.6s: 093.wav
+2026-06-07 03:33:13 [INFO] [280/300] idx=094 v1 seed=42 modelo=original ref=10.wav
+2026-06-07 03:33:35 [INFO]   -> OK em 22.6s: 094.wav
+2026-06-07 03:33:35 [INFO] [281/300] idx=094 v2 seed=123 modelo=original ref=10.wav
+2026-06-07 03:33:59 [INFO]   -> OK em 23.9s: 094.wav
+2026-06-07 03:33:59 [INFO] [282/300] idx=094 v3 seed=456 modelo=original ref=10.wav
+2026-06-07 03:34:23 [INFO]   -> OK em 24.3s: 094.wav
+2026-06-07 03:34:23 [INFO] [283/300] idx=095 v1 seed=42 modelo=original ref=10.wav
+2026-06-07 03:34:58 [INFO]   -> OK em 34.3s: 095.wav
+2026-06-07 03:34:58 [INFO] [284/300] idx=095 v2 seed=123 modelo=original ref=10.wav
+2026-06-07 03:35:32 [INFO]   -> OK em 34.7s: 095.wav
+2026-06-07 03:35:32 [INFO] [285/300] idx=095 v3 seed=456 modelo=original ref=10.wav
+2026-06-07 03:36:07 [INFO]   -> OK em 35.0s: 095.wav
+2026-06-07 03:36:07 [INFO] [286/300] idx=096 v1 seed=42 modelo=original ref=10.wav
+2026-06-07 03:36:23 [INFO]   -> OK em 15.9s: 096.wav
+2026-06-07 03:36:23 [INFO] [287/300] idx=096 v2 seed=123 modelo=original ref=10.wav
+2026-06-07 03:36:39 [INFO]   -> OK em 15.5s: 096.wav
+2026-06-07 03:36:39 [INFO] [288/300] idx=096 v3 seed=456 modelo=original ref=10.wav
+2026-06-07 03:36:55 [INFO]   -> OK em 15.6s: 096.wav
+2026-06-07 03:36:55 [INFO] [289/300] idx=097 v1 seed=42 modelo=original ref=10.wav
+2026-06-07 03:37:29 [INFO]   -> OK em 34.5s: 097.wav
+2026-06-07 03:37:29 [INFO] [290/300] idx=097 v2 seed=123 modelo=original ref=10.wav
+2026-06-07 03:38:03 [INFO]   -> OK em 34.4s: 097.wav
+2026-06-07 03:38:03 [INFO] [291/300] idx=097 v3 seed=456 modelo=original ref=10.wav
+2026-06-07 03:38:38 [INFO]   -> OK em 34.9s: 097.wav
+2026-06-07 03:38:38 [INFO] [292/300] idx=098 v1 seed=42 modelo=original ref=10.wav
+2026-06-07 03:38:54 [INFO]   -> OK em 15.9s: 098.wav
+2026-06-07 03:38:54 [INFO] [293/300] idx=098 v2 seed=123 modelo=original ref=10.wav
+2026-06-07 03:39:10 [INFO]   -> OK em 15.6s: 098.wav
+2026-06-07 03:39:10 [INFO] [294/300] idx=098 v3 seed=456 modelo=original ref=10.wav
+2026-06-07 03:39:26 [INFO]   -> OK em 16.0s: 098.wav
+2026-06-07 03:39:26 [INFO] [295/300] idx=099 v1 seed=42 modelo=original ref=10.wav
+2026-06-07 03:39:54 [INFO]   -> OK em 28.1s: 099.wav
+2026-06-07 03:39:54 [INFO] [296/300] idx=099 v2 seed=123 modelo=original ref=10.wav
+2026-06-07 03:40:22 [INFO]   -> OK em 28.4s: 099.wav
+2026-06-07 03:40:22 [INFO] [297/300] idx=099 v3 seed=456 modelo=original ref=10.wav
+2026-06-07 03:40:51 [INFO]   -> OK em 28.2s: 099.wav
+2026-06-07 03:40:51 [INFO] [298/300] idx=100 v1 seed=42 modelo=original ref=10.wav
+2026-06-07 03:41:25 [INFO]   -> OK em 34.7s: 100.wav
+2026-06-07 03:41:25 [INFO] [299/300] idx=100 v2 seed=123 modelo=original ref=10.wav
+2026-06-07 03:41:59 [INFO]   -> OK em 34.2s: 100.wav
+2026-06-07 03:41:59 [INFO] [300/300] idx=100 v3 seed=456 modelo=original ref=10.wav
+2026-06-07 03:42:34 [INFO]   -> OK em 35.0s: 100.wav
+2026-06-07 03:42:35 [INFO] Fase original concluida: ok=277 skipped=23 errors=0 (cache refs=10)
+2026-06-07 03:42:35 [INFO] ================================================================================
+2026-06-07 03:42:35 [INFO] Fase ajustado: carregando modelo...
+2026-06-07 03:42:35 [INFO] [ajustado] Base model: canopylabs/3b-es_it-ft-research_release
+2026-06-07 03:42:58 [INFO] Modelo ajustado carregado em 23.4s
+2026-06-07 03:42:59 [INFO] [1/300] idx=001 v1 seed=42 modelo=ajustado ref=1.wav
+2026-06-07 03:43:00 [INFO]   -> OK em 0.7s: 001.wav
+2026-06-07 03:43:00 [INFO] [2/300] idx=001 v2 seed=123 modelo=ajustado ref=1.wav
+2026-06-07 03:43:02 [INFO]   -> OK em 2.0s: 001.wav
+2026-06-07 03:43:02 [INFO] [3/300] idx=001 v3 seed=456 modelo=ajustado ref=1.wav
+2026-06-07 03:43:02 [INFO]   -> OK em 0.3s: 001.wav
+2026-06-07 03:43:02 [INFO] [4/300] idx=002 v1 seed=42 modelo=ajustado ref=1.wav
+2026-06-07 03:43:27 [INFO]   -> OK em 24.3s: 002.wav
+2026-06-07 03:43:27 [INFO] [5/300] idx=002 v2 seed=123 modelo=ajustado ref=1.wav
+2026-06-07 03:43:51 [INFO]   -> OK em 24.3s: 002.wav
+2026-06-07 03:43:51 [INFO] [6/300] idx=002 v3 seed=456 modelo=ajustado ref=1.wav
+2026-06-07 03:44:15 [INFO]   -> OK em 24.0s: 002.wav
+2026-06-07 03:44:15 [INFO] [7/300] idx=003 v1 seed=42 modelo=ajustado ref=1.wav
+2026-06-07 03:44:52 [INFO]   -> OK em 36.9s: 003.wav
+2026-06-07 03:44:52 [INFO] [8/300] idx=003 v2 seed=123 modelo=ajustado ref=1.wav
+2026-06-07 03:45:29 [INFO]   -> OK em 37.0s: 003.wav
+2026-06-07 03:45:29 [INFO] [9/300] idx=003 v3 seed=456 modelo=ajustado ref=1.wav
+2026-06-07 03:46:06 [INFO]   -> OK em 36.8s: 003.wav
+2026-06-07 03:46:06 [INFO] [10/300] idx=004 v1 seed=42 modelo=ajustado ref=1.wav
+2026-06-07 03:46:41 [INFO]   -> OK em 35.2s: 004.wav
+2026-06-07 03:46:41 [INFO] [11/300] idx=004 v2 seed=123 modelo=ajustado ref=1.wav
+2026-06-07 03:46:58 [INFO]   -> OK em 16.7s: 004.wav
+2026-06-07 03:46:58 [INFO] [12/300] idx=004 v3 seed=456 modelo=ajustado ref=1.wav
+2026-06-07 03:47:32 [INFO]   -> OK em 34.8s: 004.wav
+2026-06-07 03:47:32 [INFO] [13/300] idx=005 v1 seed=42 modelo=ajustado ref=1.wav
+2026-06-07 03:47:55 [INFO]   -> OK em 22.3s: 005.wav
+2026-06-07 03:47:55 [INFO] [14/300] idx=005 v2 seed=123 modelo=ajustado ref=1.wav
+2026-06-07 03:48:17 [INFO]   -> OK em 22.1s: 005.wav
+2026-06-07 03:48:17 [INFO] [15/300] idx=005 v3 seed=456 modelo=ajustado ref=1.wav
+2026-06-07 03:48:39 [INFO]   -> OK em 22.2s: 005.wav
+2026-06-07 03:48:39 [INFO] [16/300] idx=006 v1 seed=42 modelo=ajustado ref=1.wav
+2026-06-07 03:49:22 [INFO]   -> OK em 42.8s: 006.wav
+2026-06-07 03:49:22 [INFO] [17/300] idx=006 v2 seed=123 modelo=ajustado ref=1.wav
+2026-06-07 03:50:05 [INFO]   -> OK em 43.0s: 006.wav
+2026-06-07 03:50:05 [INFO] [18/300] idx=006 v3 seed=456 modelo=ajustado ref=1.wav
+2026-06-07 03:50:37 [INFO]   -> OK em 32.7s: 006.wav
+2026-06-07 03:50:37 [INFO] [19/300] idx=007 v1 seed=42 modelo=ajustado ref=1.wav
+2026-06-07 03:50:38 [INFO]   -> OK em 0.8s: 007.wav
+2026-06-07 03:50:38 [INFO] [20/300] idx=007 v2 seed=123 modelo=ajustado ref=1.wav
+2026-06-07 03:50:41 [INFO]   -> OK em 2.8s: 007.wav
+2026-06-07 03:50:41 [INFO] [21/300] idx=007 v3 seed=456 modelo=ajustado ref=1.wav
+2026-06-07 03:50:41 [INFO]   -> OK em 0.3s: 007.wav
+2026-06-07 03:50:41 [INFO] [22/300] idx=008 v1 seed=42 modelo=ajustado ref=1.wav
+2026-06-07 03:51:09 [INFO]   -> OK em 27.4s: 008.wav
+2026-06-07 03:51:09 [INFO] [23/300] idx=008 v2 seed=123 modelo=ajustado ref=1.wav
+2026-06-07 03:51:41 [INFO]   -> OK em 32.1s: 008.wav
+2026-06-07 03:51:41 [INFO] [24/300] idx=008 v3 seed=456 modelo=ajustado ref=1.wav
+2026-06-07 03:52:13 [INFO]   -> OK em 32.7s: 008.wav
+2026-06-07 03:52:13 [INFO] [25/300] idx=009 v1 seed=42 modelo=ajustado ref=1.wav
+2026-06-07 03:52:49 [INFO]   -> OK em 35.1s: 009.wav
+2026-06-07 03:52:49 [INFO] [26/300] idx=009 v2 seed=123 modelo=ajustado ref=1.wav
+2026-06-07 03:53:23 [INFO]   -> OK em 34.7s: 009.wav
+2026-06-07 03:53:23 [INFO] [27/300] idx=009 v3 seed=456 modelo=ajustado ref=1.wav
+2026-06-07 03:53:58 [INFO]   -> OK em 34.9s: 009.wav
+2026-06-07 03:53:58 [INFO] [28/300] idx=010 v1 seed=42 modelo=ajustado ref=1.wav
+2026-06-07 03:54:02 [INFO]   -> OK em 3.7s: 010.wav
+2026-06-07 03:54:02 [INFO] [29/300] idx=010 v2 seed=123 modelo=ajustado ref=1.wav
+2026-06-07 03:54:05 [INFO]   -> OK em 3.1s: 010.wav
+2026-06-07 03:54:05 [INFO] [30/300] idx=010 v3 seed=456 modelo=ajustado ref=1.wav
+2026-06-07 03:54:05 [INFO]   -> OK em 0.3s: 010.wav
+2026-06-07 03:54:07 [INFO] [31/300] idx=011 v1 seed=42 modelo=ajustado ref=2.wav
+2026-06-07 03:54:07 [INFO]   -> OK em 0.2s: 011.wav
+2026-06-07 03:54:07 [INFO] [32/300] idx=011 v2 seed=123 modelo=ajustado ref=2.wav
+2026-06-07 03:54:07 [INFO]   -> OK em 0.3s: 011.wav
+2026-06-07 03:54:07 [INFO] [33/300] idx=011 v3 seed=456 modelo=ajustado ref=2.wav
+2026-06-07 03:54:08 [INFO]   -> OK em 0.3s: 011.wav
+2026-06-07 03:54:08 [INFO] [34/300] idx=012 v1 seed=42 modelo=ajustado ref=2.wav
+2026-06-07 03:54:51 [INFO]   -> OK em 43.0s: 012.wav
+2026-06-07 03:54:51 [INFO] [35/300] idx=012 v2 seed=123 modelo=ajustado ref=2.wav
+2026-06-07 03:55:33 [INFO]   -> OK em 42.5s: 012.wav
+2026-06-07 03:55:33 [INFO] [36/300] idx=012 v3 seed=456 modelo=ajustado ref=2.wav
+2026-06-07 03:56:17 [INFO]   -> OK em 43.4s: 012.wav
+2026-06-07 03:56:17 [INFO] [37/300] idx=013 v1 seed=42 modelo=ajustado ref=2.wav
+2026-06-07 03:56:41 [INFO]   -> OK em 24.5s: 013.wav
+2026-06-07 03:56:41 [INFO] [38/300] idx=013 v2 seed=123 modelo=ajustado ref=2.wav
+2026-06-07 03:57:04 [INFO]   -> OK em 22.5s: 013.wav
+2026-06-07 03:57:04 [INFO] [39/300] idx=013 v3 seed=456 modelo=ajustado ref=2.wav
+2026-06-07 03:57:28 [INFO]   -> OK em 24.3s: 013.wav
+2026-06-07 03:57:28 [INFO] [40/300] idx=014 v1 seed=42 modelo=ajustado ref=2.wav
+2026-06-07 03:57:28 [INFO]   -> OK em 0.3s: 014.wav
+2026-06-07 03:57:28 [INFO] [41/300] idx=014 v2 seed=123 modelo=ajustado ref=2.wav
+2026-06-07 03:57:28 [INFO]   -> OK em 0.3s: 014.wav
+2026-06-07 03:57:28 [INFO] [42/300] idx=014 v3 seed=456 modelo=ajustado ref=2.wav
+2026-06-07 03:57:29 [INFO]   -> OK em 0.4s: 014.wav
+2026-06-07 03:57:29 [INFO] [43/300] idx=015 v1 seed=42 modelo=ajustado ref=2.wav
+2026-06-07 03:57:57 [INFO]   -> OK em 28.5s: 015.wav
+2026-06-07 03:57:57 [INFO] [44/300] idx=015 v2 seed=123 modelo=ajustado ref=2.wav
+2026-06-07 03:58:26 [INFO]   -> OK em 28.1s: 015.wav
+2026-06-07 03:58:26 [INFO] [45/300] idx=015 v3 seed=456 modelo=ajustado ref=2.wav
+2026-06-07 03:58:54 [INFO]   -> OK em 28.3s: 015.wav
+2026-06-07 03:58:54 [INFO] [46/300] idx=016 v1 seed=42 modelo=ajustado ref=2.wav
+2026-06-07 03:59:31 [INFO]   -> OK em 36.8s: 016.wav
+2026-06-07 03:59:31 [INFO] [47/300] idx=016 v2 seed=123 modelo=ajustado ref=2.wav
+2026-06-07 04:00:08 [INFO]   -> OK em 36.9s: 016.wav
+2026-06-07 04:00:08 [INFO] [48/300] idx=016 v3 seed=456 modelo=ajustado ref=2.wav
+2026-06-07 04:00:44 [INFO]   -> OK em 36.6s: 016.wav
+2026-06-07 04:00:44 [INFO] [49/300] idx=017 v1 seed=42 modelo=ajustado ref=2.wav
+2026-06-07 04:00:45 [INFO]   -> OK em 0.6s: 017.wav
+2026-06-07 04:00:45 [INFO] [50/300] idx=017 v2 seed=123 modelo=ajustado ref=2.wav
+2026-06-07 04:00:46 [INFO]   -> OK em 1.8s: 017.wav
+2026-06-07 04:00:46 [INFO] [51/300] idx=017 v3 seed=456 modelo=ajustado ref=2.wav
+2026-06-07 04:00:47 [INFO]   -> OK em 0.3s: 017.wav
+2026-06-07 04:00:47 [INFO] [52/300] idx=018 v1 seed=42 modelo=ajustado ref=2.wav
+2026-06-07 04:01:13 [INFO]   -> OK em 26.3s: 018.wav
+2026-06-07 04:01:13 [INFO] [53/300] idx=018 v2 seed=123 modelo=ajustado ref=2.wav
+2026-06-07 04:01:39 [INFO]   -> OK em 25.9s: 018.wav
+2026-06-07 04:01:39 [INFO] [54/300] idx=018 v3 seed=456 modelo=ajustado ref=2.wav
+2026-06-07 04:02:05 [INFO]   -> OK em 26.2s: 018.wav
+2026-06-07 04:02:05 [INFO] [55/300] idx=019 v1 seed=42 modelo=ajustado ref=2.wav
+2026-06-07 04:02:35 [INFO]   -> OK em 30.1s: 019.wav
+2026-06-07 04:02:35 [INFO] [56/300] idx=019 v2 seed=123 modelo=ajustado ref=2.wav
+2026-06-07 04:03:06 [INFO]   -> OK em 30.3s: 019.wav
+2026-06-07 04:03:06 [INFO] [57/300] idx=019 v3 seed=456 modelo=ajustado ref=2.wav
+2026-06-07 04:03:36 [INFO]   -> OK em 30.5s: 019.wav
+2026-06-07 04:03:36 [INFO] [58/300] idx=020 v1 seed=42 modelo=ajustado ref=2.wav
+2026-06-07 04:03:52 [INFO]   -> OK em 15.9s: 020.wav
+2026-06-07 04:03:52 [INFO] [59/300] idx=020 v2 seed=123 modelo=ajustado ref=2.wav
+2026-06-07 04:04:02 [INFO]   -> OK em 10.4s: 020.wav
+2026-06-07 04:04:02 [INFO] [60/300] idx=020 v3 seed=456 modelo=ajustado ref=2.wav
+2026-06-07 04:04:17 [INFO]   -> OK em 14.2s: 020.wav
+2026-06-07 04:04:18 [INFO] [61/300] idx=021 v1 seed=42 modelo=ajustado ref=3.wav
+2026-06-07 04:04:52 [INFO]   -> OK em 34.2s: 021.wav
+2026-06-07 04:04:52 [INFO] [62/300] idx=021 v2 seed=123 modelo=ajustado ref=3.wav
+2026-06-07 04:05:27 [INFO]   -> OK em 34.7s: 021.wav
+2026-06-07 04:05:27 [INFO] [63/300] idx=021 v3 seed=456 modelo=ajustado ref=3.wav
+2026-06-07 04:06:01 [INFO]   -> OK em 34.3s: 021.wav
+2026-06-07 04:06:01 [INFO] [64/300] idx=022 v1 seed=42 modelo=ajustado ref=3.wav
+2026-06-07 04:06:02 [INFO]   -> OK em 0.2s: 022.wav
+2026-06-07 04:06:02 [INFO] [65/300] idx=022 v2 seed=123 modelo=ajustado ref=3.wav
+2026-06-07 04:06:02 [INFO]   -> OK em 0.5s: 022.wav
+2026-06-07 04:06:02 [INFO] [66/300] idx=022 v3 seed=456 modelo=ajustado ref=3.wav
+2026-06-07 04:06:02 [INFO]   -> OK em 0.4s: 022.wav
+2026-06-07 04:06:02 [INFO] [67/300] idx=023 v1 seed=42 modelo=ajustado ref=3.wav
+2026-06-07 04:06:33 [INFO]   -> OK em 30.2s: 023.wav
+2026-06-07 04:06:33 [INFO] [68/300] idx=023 v2 seed=123 modelo=ajustado ref=3.wav
+2026-06-07 04:07:03 [INFO]   -> OK em 30.2s: 023.wav
+2026-06-07 04:07:03 [INFO] [69/300] idx=023 v3 seed=456 modelo=ajustado ref=3.wav
+2026-06-07 04:07:33 [INFO]   -> OK em 30.5s: 023.wav
+2026-06-07 04:07:33 [INFO] [70/300] idx=024 v1 seed=42 modelo=ajustado ref=3.wav
+2026-06-07 04:08:01 [INFO]   -> OK em 28.1s: 024.wav
+2026-06-07 04:08:01 [INFO] [71/300] idx=024 v2 seed=123 modelo=ajustado ref=3.wav
+2026-06-07 04:08:22 [INFO]   -> OK em 20.9s: 024.wav
+2026-06-07 04:08:22 [INFO] [72/300] idx=024 v3 seed=456 modelo=ajustado ref=3.wav
+2026-06-07 04:08:50 [INFO]   -> OK em 28.0s: 024.wav
+2026-06-07 04:08:50 [INFO] [73/300] idx=025 v1 seed=42 modelo=ajustado ref=3.wav
+2026-06-07 04:09:20 [INFO]   -> OK em 29.7s: 025.wav
+2026-06-07 04:09:20 [INFO] [74/300] idx=025 v2 seed=123 modelo=ajustado ref=3.wav
+2026-06-07 04:09:54 [INFO]   -> OK em 34.2s: 025.wav
+2026-06-07 04:09:54 [INFO] [75/300] idx=025 v3 seed=456 modelo=ajustado ref=3.wav
+2026-06-07 04:10:29 [INFO]   -> OK em 34.5s: 025.wav
+2026-06-07 04:10:29 [INFO] [76/300] idx=026 v1 seed=42 modelo=ajustado ref=3.wav
+2026-06-07 04:10:33 [INFO]   -> OK em 4.5s: 026.wav
+2026-06-07 04:10:33 [INFO] [77/300] idx=026 v2 seed=123 modelo=ajustado ref=3.wav
+2026-06-07 04:10:35 [INFO]   -> OK em 1.9s: 026.wav
+2026-06-07 04:10:35 [INFO] [78/300] idx=026 v3 seed=456 modelo=ajustado ref=3.wav
+2026-06-07 04:10:37 [INFO]   -> OK em 1.7s: 026.wav
+2026-06-07 04:10:37 [INFO] [79/300] idx=027 v1 seed=42 modelo=ajustado ref=3.wav
+2026-06-07 04:10:37 [INFO]   -> OK em 0.5s: 027.wav
+2026-06-07 04:10:37 [INFO] [80/300] idx=027 v2 seed=123 modelo=ajustado ref=3.wav
+2026-06-07 04:10:38 [INFO]   -> OK em 0.3s: 027.wav
+2026-06-07 04:10:38 [INFO] [81/300] idx=027 v3 seed=456 modelo=ajustado ref=3.wav
+2026-06-07 04:10:38 [INFO]   -> OK em 0.3s: 027.wav
+2026-06-07 04:10:38 [INFO] [82/300] idx=028 v1 seed=42 modelo=ajustado ref=3.wav
+2026-06-07 04:11:12 [INFO]   -> OK em 34.2s: 028.wav
+2026-06-07 04:11:12 [INFO] [83/300] idx=028 v2 seed=123 modelo=ajustado ref=3.wav
+2026-06-07 04:11:47 [INFO]   -> OK em 34.5s: 028.wav
+2026-06-07 04:11:47 [INFO] [84/300] idx=028 v3 seed=456 modelo=ajustado ref=3.wav
+2026-06-07 04:12:21 [INFO]   -> OK em 34.3s: 028.wav
+2026-06-07 04:12:21 [INFO] [85/300] idx=029 v1 seed=42 modelo=ajustado ref=3.wav
+2026-06-07 04:12:37 [INFO]   -> OK em 16.3s: 029.wav
+2026-06-07 04:12:37 [INFO] [86/300] idx=029 v2 seed=123 modelo=ajustado ref=3.wav
+2026-06-07 04:12:49 [INFO]   -> OK em 11.7s: 029.wav
+2026-06-07 04:12:49 [INFO] [87/300] idx=029 v3 seed=456 modelo=ajustado ref=3.wav
+2026-06-07 04:13:00 [INFO]   -> OK em 11.6s: 029.wav
+2026-06-07 04:13:00 [INFO] [88/300] idx=030 v1 seed=42 modelo=ajustado ref=3.wav
+2026-06-07 04:13:28 [INFO]   -> OK em 28.0s: 030.wav
+2026-06-07 04:13:28 [INFO] [89/300] idx=030 v2 seed=123 modelo=ajustado ref=3.wav
+2026-06-07 04:13:57 [INFO]   -> OK em 28.3s: 030.wav
+2026-06-07 04:13:57 [INFO] [90/300] idx=030 v3 seed=456 modelo=ajustado ref=3.wav
+2026-06-07 04:14:25 [INFO]   -> OK em 28.3s: 030.wav
+2026-06-07 04:14:27 [INFO] [91/300] idx=031 v1 seed=42 modelo=ajustado ref=4.wav
+2026-06-07 04:14:31 [INFO]   -> OK em 4.2s: 031.wav
+2026-06-07 04:14:31 [INFO] [92/300] idx=031 v2 seed=123 modelo=ajustado ref=4.wav
+2026-06-07 04:14:34 [INFO]   -> OK em 2.4s: 031.wav
+2026-06-07 04:14:34 [INFO] [93/300] idx=031 v3 seed=456 modelo=ajustado ref=4.wav
+2026-06-07 04:14:36 [INFO]   -> OK em 2.1s: 031.wav
+2026-06-07 04:14:36 [INFO] [94/300] idx=032 v1 seed=42 modelo=ajustado ref=4.wav
+2026-06-07 04:15:12 [INFO]   -> OK em 36.3s: 032.wav
+2026-06-07 04:15:12 [INFO] [95/300] idx=032 v2 seed=123 modelo=ajustado ref=4.wav
+2026-06-07 04:15:48 [INFO]   -> OK em 36.4s: 032.wav
+2026-06-07 04:15:48 [INFO] [96/300] idx=032 v3 seed=456 modelo=ajustado ref=4.wav
+2026-06-07 04:16:25 [INFO]   -> OK em 36.6s: 032.wav
+2026-06-07 04:16:25 [INFO] [97/300] idx=033 v1 seed=42 modelo=ajustado ref=4.wav
+2026-06-07 04:16:28 [INFO]   -> OK em 3.3s: 033.wav
+2026-06-07 04:16:28 [INFO] [98/300] idx=033 v2 seed=123 modelo=ajustado ref=4.wav
+2026-06-07 04:16:34 [INFO]   -> OK em 5.5s: 033.wav
+2026-06-07 04:16:34 [INFO] [99/300] idx=033 v3 seed=456 modelo=ajustado ref=4.wav
+2026-06-07 04:16:37 [INFO]   -> OK em 3.8s: 033.wav
+2026-06-07 04:16:38 [INFO] [100/300] idx=034 v1 seed=42 modelo=ajustado ref=4.wav
+2026-06-07 04:17:08 [INFO]   -> OK em 30.1s: 034.wav
+2026-06-07 04:17:08 [INFO] [101/300] idx=034 v2 seed=123 modelo=ajustado ref=4.wav
+2026-06-07 04:17:38 [INFO]   -> OK em 30.2s: 034.wav
+2026-06-07 04:17:38 [INFO] [102/300] idx=034 v3 seed=456 modelo=ajustado ref=4.wav
+2026-06-07 04:18:06 [INFO]   -> OK em 28.1s: 034.wav
+2026-06-07 04:18:06 [INFO] [103/300] idx=035 v1 seed=42 modelo=ajustado ref=4.wav
+2026-06-07 04:18:34 [INFO]   -> OK em 28.1s: 035.wav
+2026-06-07 04:18:34 [INFO] [104/300] idx=035 v2 seed=123 modelo=ajustado ref=4.wav
+2026-06-07 04:19:02 [INFO]   -> OK em 28.3s: 035.wav
+2026-06-07 04:19:02 [INFO] [105/300] idx=035 v3 seed=456 modelo=ajustado ref=4.wav
+2026-06-07 04:19:30 [INFO]   -> OK em 28.1s: 035.wav
+2026-06-07 04:19:30 [INFO] [106/300] idx=036 v1 seed=42 modelo=ajustado ref=4.wav
+2026-06-07 04:19:57 [INFO]   -> OK em 26.3s: 036.wav
+2026-06-07 04:19:57 [INFO] [107/300] idx=036 v2 seed=123 modelo=ajustado ref=4.wav
+2026-06-07 04:20:23 [INFO]   -> OK em 26.0s: 036.wav
+2026-06-07 04:20:23 [INFO] [108/300] idx=036 v3 seed=456 modelo=ajustado ref=4.wav
+2026-06-07 04:20:49 [INFO]   -> OK em 26.3s: 036.wav
+2026-06-07 04:20:49 [INFO] [109/300] idx=037 v1 seed=42 modelo=ajustado ref=4.wav
+2026-06-07 04:20:52 [INFO]   -> OK em 2.8s: 037.wav
+2026-06-07 04:20:52 [INFO] [110/300] idx=037 v2 seed=123 modelo=ajustado ref=4.wav
+2026-06-07 04:20:52 [INFO]   -> OK em 0.3s: 037.wav
+2026-06-07 04:20:52 [INFO] [111/300] idx=037 v3 seed=456 modelo=ajustado ref=4.wav
+2026-06-07 04:20:52 [INFO]   -> OK em 0.4s: 037.wav
+2026-06-07 04:20:52 [INFO] [112/300] idx=038 v1 seed=42 modelo=ajustado ref=4.wav
+2026-06-07 04:21:21 [INFO]   -> OK em 28.1s: 038.wav
+2026-06-07 04:21:21 [INFO] [113/300] idx=038 v2 seed=123 modelo=ajustado ref=4.wav
+2026-06-07 04:21:49 [INFO]   -> OK em 28.1s: 038.wav
+2026-06-07 04:21:49 [INFO] [114/300] idx=038 v3 seed=456 modelo=ajustado ref=4.wav
+2026-06-07 04:22:18 [INFO]   -> OK em 29.1s: 038.wav
+2026-06-07 04:22:18 [INFO] [115/300] idx=039 v1 seed=42 modelo=ajustado ref=4.wav
+2026-06-07 04:22:20 [INFO]   -> OK em 2.7s: 039.wav
+2026-06-07 04:22:20 [INFO] [116/300] idx=039 v2 seed=123 modelo=ajustado ref=4.wav
+2026-06-07 04:22:25 [INFO]   -> OK em 4.1s: 039.wav
+2026-06-07 04:22:25 [INFO] [117/300] idx=039 v3 seed=456 modelo=ajustado ref=4.wav
+2026-06-07 04:22:28 [INFO]   -> OK em 3.8s: 039.wav
+2026-06-07 04:22:28 [INFO] [118/300] idx=040 v1 seed=42 modelo=ajustado ref=4.wav
+2026-06-07 04:22:32 [INFO]   -> OK em 3.5s: 040.wav
+2026-06-07 04:22:32 [INFO] [119/300] idx=040 v2 seed=123 modelo=ajustado ref=4.wav
+2026-06-07 04:22:33 [INFO]   -> OK em 1.7s: 040.wav
+2026-06-07 04:22:33 [INFO] [120/300] idx=040 v3 seed=456 modelo=ajustado ref=4.wav
+2026-06-07 04:22:35 [INFO]   -> OK em 1.7s: 040.wav
+2026-06-07 04:22:37 [INFO] [121/300] idx=041 v1 seed=42 modelo=ajustado ref=5.wav
+2026-06-07 04:22:40 [INFO]   -> OK em 3.1s: 041.wav
+2026-06-07 04:22:40 [INFO] [122/300] idx=041 v2 seed=123 modelo=ajustado ref=5.wav
+2026-06-07 04:22:42 [INFO]   -> OK em 1.8s: 041.wav
+2026-06-07 04:22:42 [INFO] [123/300] idx=041 v3 seed=456 modelo=ajustado ref=5.wav
+2026-06-07 04:22:44 [INFO]   -> OK em 2.2s: 041.wav
+2026-06-07 04:22:44 [INFO] [124/300] idx=042 v1 seed=42 modelo=ajustado ref=5.wav
+2026-06-07 04:23:21 [INFO]   -> OK em 36.4s: 042.wav
+2026-06-07 04:23:21 [INFO] [125/300] idx=042 v2 seed=123 modelo=ajustado ref=5.wav
+2026-06-07 04:23:57 [INFO]   -> OK em 36.5s: 042.wav
+2026-06-07 04:23:57 [INFO] [126/300] idx=042 v3 seed=456 modelo=ajustado ref=5.wav
+2026-06-07 04:24:34 [INFO]   -> OK em 36.3s: 042.wav
+2026-06-07 04:24:34 [INFO] [127/300] idx=043 v1 seed=42 modelo=ajustado ref=5.wav
+2026-06-07 04:24:36 [INFO]   -> OK em 2.4s: 043.wav
+2026-06-07 04:24:36 [INFO] [128/300] idx=043 v2 seed=123 modelo=ajustado ref=5.wav
+2026-06-07 04:24:38 [INFO]   -> OK em 2.2s: 043.wav
+2026-06-07 04:24:38 [INFO] [129/300] idx=043 v3 seed=456 modelo=ajustado ref=5.wav
+2026-06-07 04:24:40 [INFO]   -> OK em 2.0s: 043.wav
+2026-06-07 04:24:40 [INFO] [130/300] idx=044 v1 seed=42 modelo=ajustado ref=5.wav
+2026-06-07 04:25:11 [INFO]   -> OK em 30.4s: 044.wav
+2026-06-07 04:25:11 [INFO] [131/300] idx=044 v2 seed=123 modelo=ajustado ref=5.wav
+2026-06-07 04:25:41 [INFO]   -> OK em 29.9s: 044.wav
+2026-06-07 04:25:41 [INFO] [132/300] idx=044 v3 seed=456 modelo=ajustado ref=5.wav
+2026-06-07 04:26:11 [INFO]   -> OK em 30.6s: 044.wav
+2026-06-07 04:26:11 [INFO] [133/300] idx=045 v1 seed=42 modelo=ajustado ref=5.wav
+2026-06-07 04:26:11 [INFO]   -> OK em 0.3s: 045.wav
+2026-06-07 04:26:11 [INFO] [134/300] idx=045 v2 seed=123 modelo=ajustado ref=5.wav
+2026-06-07 04:26:12 [INFO]   -> OK em 0.4s: 045.wav
+2026-06-07 04:26:12 [INFO] [135/300] idx=045 v3 seed=456 modelo=ajustado ref=5.wav
+2026-06-07 04:26:12 [INFO]   -> OK em 0.4s: 045.wav
+2026-06-07 04:26:12 [INFO] [136/300] idx=046 v1 seed=42 modelo=ajustado ref=5.wav
+2026-06-07 04:26:45 [INFO]   -> OK em 32.4s: 046.wav
+2026-06-07 04:26:45 [INFO] [137/300] idx=046 v2 seed=123 modelo=ajustado ref=5.wav
+2026-06-07 04:27:17 [INFO]   -> OK em 32.4s: 046.wav
+2026-06-07 04:27:17 [INFO] [138/300] idx=046 v3 seed=456 modelo=ajustado ref=5.wav
+2026-06-07 04:27:50 [INFO]   -> OK em 32.6s: 046.wav
+2026-06-07 04:27:50 [INFO] [139/300] idx=047 v1 seed=42 modelo=ajustado ref=5.wav
+2026-06-07 04:27:50 [INFO]   -> OK em 0.3s: 047.wav
+2026-06-07 04:27:50 [INFO] [140/300] idx=047 v2 seed=123 modelo=ajustado ref=5.wav
+2026-06-07 04:27:53 [INFO]   -> OK em 3.5s: 047.wav
+2026-06-07 04:27:53 [INFO] [141/300] idx=047 v3 seed=456 modelo=ajustado ref=5.wav
+2026-06-07 04:27:56 [INFO]   -> OK em 2.3s: 047.wav
+2026-06-07 04:27:56 [INFO] [142/300] idx=048 v1 seed=42 modelo=ajustado ref=5.wav
+2026-06-07 04:28:24 [INFO]   -> OK em 28.2s: 048.wav
+2026-06-07 04:28:24 [INFO] [143/300] idx=048 v2 seed=123 modelo=ajustado ref=5.wav
+2026-06-07 04:28:52 [INFO]   -> OK em 28.0s: 048.wav
+2026-06-07 04:28:52 [INFO] [144/300] idx=048 v3 seed=456 modelo=ajustado ref=5.wav
+2026-06-07 04:29:20 [INFO]   -> OK em 28.2s: 048.wav
+2026-06-07 04:29:20 [INFO] [145/300] idx=049 v1 seed=42 modelo=ajustado ref=5.wav
+2026-06-07 04:29:20 [INFO]   -> OK em 0.3s: 049.wav
+2026-06-07 04:29:20 [INFO] [146/300] idx=049 v2 seed=123 modelo=ajustado ref=5.wav
+2026-06-07 04:29:22 [INFO]   -> OK em 1.8s: 049.wav
+2026-06-07 04:29:22 [INFO] [147/300] idx=049 v3 seed=456 modelo=ajustado ref=5.wav
+2026-06-07 04:29:24 [INFO]   -> OK em 1.5s: 049.wav
+2026-06-07 04:29:24 [INFO] [148/300] idx=050 v1 seed=42 modelo=ajustado ref=5.wav
+2026-06-07 04:29:51 [INFO]   -> OK em 27.8s: 050.wav
+2026-06-07 04:29:51 [INFO] [149/300] idx=050 v2 seed=123 modelo=ajustado ref=5.wav
+2026-06-07 04:30:22 [INFO]   -> OK em 30.2s: 050.wav
+2026-06-07 04:30:22 [INFO] [150/300] idx=050 v3 seed=456 modelo=ajustado ref=5.wav
+2026-06-07 04:30:52 [INFO]   -> OK em 30.1s: 050.wav
+2026-06-07 04:30:53 [INFO] [151/300] idx=051 v1 seed=42 modelo=ajustado ref=6.wav
+2026-06-07 04:30:53 [INFO]   -> OK em 0.3s: 051.wav
+2026-06-07 04:30:53 [INFO] [152/300] idx=051 v2 seed=123 modelo=ajustado ref=6.wav
+2026-06-07 04:30:55 [INFO]   -> OK em 2.3s: 051.wav
+2026-06-07 04:30:55 [INFO] [153/300] idx=051 v3 seed=456 modelo=ajustado ref=6.wav
+2026-06-07 04:30:57 [INFO]   -> OK em 1.7s: 051.wav
+2026-06-07 04:30:57 [INFO] [154/300] idx=052 v1 seed=42 modelo=ajustado ref=6.wav
+2026-06-07 04:31:35 [INFO]   -> OK em 38.5s: 052.wav
+2026-06-07 04:31:35 [INFO] [155/300] idx=052 v2 seed=123 modelo=ajustado ref=6.wav
+2026-06-07 04:32:14 [INFO]   -> OK em 38.4s: 052.wav
+2026-06-07 04:32:14 [INFO] [156/300] idx=052 v3 seed=456 modelo=ajustado ref=6.wav
+2026-06-07 04:32:52 [INFO]   -> OK em 38.6s: 052.wav
+2026-06-07 04:32:52 [INFO] [157/300] idx=053 v1 seed=42 modelo=ajustado ref=6.wav
+2026-06-07 04:32:54 [INFO]   -> OK em 2.2s: 053.wav
+2026-06-07 04:32:54 [INFO] [158/300] idx=053 v2 seed=123 modelo=ajustado ref=6.wav
+2026-06-07 04:32:58 [INFO]   -> OK em 3.3s: 053.wav
+2026-06-07 04:32:58 [INFO] [159/300] idx=053 v3 seed=456 modelo=ajustado ref=6.wav
+2026-06-07 04:33:00 [INFO]   -> OK em 2.2s: 053.wav
+2026-06-07 04:33:00 [INFO] [160/300] idx=054 v1 seed=42 modelo=ajustado ref=6.wav
+2026-06-07 04:33:15 [INFO]   -> OK em 15.3s: 054.wav
+2026-06-07 04:33:15 [INFO] [161/300] idx=054 v2 seed=123 modelo=ajustado ref=6.wav
+2026-06-07 04:33:47 [INFO]   -> OK em 32.0s: 054.wav
+2026-06-07 04:33:47 [INFO] [162/300] idx=054 v3 seed=456 modelo=ajustado ref=6.wav
+2026-06-07 04:34:19 [INFO]   -> OK em 32.2s: 054.wav
+2026-06-07 04:34:19 [INFO] [163/300] idx=055 v1 seed=42 modelo=ajustado ref=6.wav
+2026-06-07 04:34:20 [INFO]   -> OK em 0.2s: 055.wav
+2026-06-07 04:34:20 [INFO] [164/300] idx=055 v2 seed=123 modelo=ajustado ref=6.wav
+2026-06-07 04:34:20 [INFO]   -> OK em 0.5s: 055.wav
+2026-06-07 04:34:20 [INFO] [165/300] idx=055 v3 seed=456 modelo=ajustado ref=6.wav
+2026-06-07 04:34:21 [INFO]   -> OK em 0.4s: 055.wav
+2026-06-07 04:34:21 [INFO] [166/300] idx=056 v1 seed=42 modelo=ajustado ref=6.wav
+2026-06-07 04:34:57 [INFO]   -> OK em 36.1s: 056.wav
+2026-06-07 04:34:57 [INFO] [167/300] idx=056 v2 seed=123 modelo=ajustado ref=6.wav
+2026-06-07 04:35:33 [INFO]   -> OK em 36.6s: 056.wav
+2026-06-07 04:35:33 [INFO] [168/300] idx=056 v3 seed=456 modelo=ajustado ref=6.wav
+2026-06-07 04:36:13 [INFO]   -> OK em 39.2s: 056.wav
+2026-06-07 04:36:13 [INFO] [169/300] idx=057 v1 seed=42 modelo=ajustado ref=6.wav
+2026-06-07 04:36:29 [INFO]   -> OK em 16.5s: 057.wav
+2026-06-07 04:36:29 [INFO] [170/300] idx=057 v2 seed=123 modelo=ajustado ref=6.wav
+2026-06-07 04:36:43 [INFO]   -> OK em 13.8s: 057.wav
+2026-06-07 04:36:43 [INFO] [171/300] idx=057 v3 seed=456 modelo=ajustado ref=6.wav
+2026-06-07 04:36:55 [INFO]   -> OK em 12.3s: 057.wav
+2026-06-07 04:36:55 [INFO] [172/300] idx=058 v1 seed=42 modelo=ajustado ref=6.wav
+2026-06-07 04:37:30 [INFO]   -> OK em 35.3s: 058.wav
+2026-06-07 04:37:30 [INFO] [173/300] idx=058 v2 seed=123 modelo=ajustado ref=6.wav
+2026-06-07 04:38:06 [INFO]   -> OK em 35.8s: 058.wav
+2026-06-07 04:38:06 [INFO] [174/300] idx=058 v3 seed=456 modelo=ajustado ref=6.wav
+2026-06-07 04:38:42 [INFO]   -> OK em 36.0s: 058.wav
+2026-06-07 04:38:42 [INFO] [175/300] idx=059 v1 seed=42 modelo=ajustado ref=6.wav
+2026-06-07 04:38:57 [INFO]   -> OK em 14.5s: 059.wav
+2026-06-07 04:38:57 [INFO] [176/300] idx=059 v2 seed=123 modelo=ajustado ref=6.wav
+2026-06-07 04:39:17 [INFO]   -> OK em 19.8s: 059.wav
+2026-06-07 04:39:17 [INFO] [177/300] idx=059 v3 seed=456 modelo=ajustado ref=6.wav
+2026-06-07 04:39:36 [INFO]   -> OK em 19.9s: 059.wav
+2026-06-07 04:39:36 [INFO] [178/300] idx=060 v1 seed=42 modelo=ajustado ref=6.wav
+2026-06-07 04:40:06 [INFO]   -> OK em 29.1s: 060.wav
+2026-06-07 04:40:06 [INFO] [179/300] idx=060 v2 seed=123 modelo=ajustado ref=6.wav
+2026-06-07 04:40:33 [INFO]   -> OK em 27.9s: 060.wav
+2026-06-07 04:40:33 [INFO] [180/300] idx=060 v3 seed=456 modelo=ajustado ref=6.wav
+2026-06-07 04:41:02 [INFO]   -> OK em 29.0s: 060.wav
+2026-06-07 04:41:04 [INFO] [181/300] idx=061 v1 seed=42 modelo=ajustado ref=7.wav
+2026-06-07 04:41:05 [INFO]   -> OK em 0.6s: 061.wav
+2026-06-07 04:41:05 [INFO] [182/300] idx=061 v2 seed=123 modelo=ajustado ref=7.wav
+2026-06-07 04:41:07 [INFO]   -> OK em 1.9s: 061.wav
+2026-06-07 04:41:07 [INFO] [183/300] idx=061 v3 seed=456 modelo=ajustado ref=7.wav
+2026-06-07 04:41:09 [INFO]   -> OK em 1.8s: 061.wav
+2026-06-07 04:41:09 [INFO] [184/300] idx=062 v1 seed=42 modelo=ajustado ref=7.wav
+2026-06-07 04:41:49 [INFO]   -> OK em 40.5s: 062.wav
+2026-06-07 04:41:49 [INFO] [185/300] idx=062 v2 seed=123 modelo=ajustado ref=7.wav
+2026-06-07 04:42:30 [INFO]   -> OK em 40.5s: 062.wav
+2026-06-07 04:42:30 [INFO] [186/300] idx=062 v3 seed=456 modelo=ajustado ref=7.wav
+2026-06-07 04:43:10 [INFO]   -> OK em 40.5s: 062.wav
+2026-06-07 04:43:10 [INFO] [187/300] idx=063 v1 seed=42 modelo=ajustado ref=7.wav
+2026-06-07 04:43:36 [INFO]   -> OK em 25.8s: 063.wav
+2026-06-07 04:43:36 [INFO] [188/300] idx=063 v2 seed=123 modelo=ajustado ref=7.wav
+2026-06-07 04:44:01 [INFO]   -> OK em 25.0s: 063.wav
+2026-06-07 04:44:01 [INFO] [189/300] idx=063 v3 seed=456 modelo=ajustado ref=7.wav
+2026-06-07 04:44:26 [INFO]   -> OK em 24.8s: 063.wav
+2026-06-07 04:44:26 [INFO] [190/300] idx=064 v1 seed=42 modelo=ajustado ref=7.wav
+2026-06-07 04:44:26 [INFO]   -> OK em 0.6s: 064.wav
+2026-06-07 04:44:26 [INFO] [191/300] idx=064 v2 seed=123 modelo=ajustado ref=7.wav
+2026-06-07 04:44:30 [INFO]   -> OK em 3.7s: 064.wav
+2026-06-07 04:44:30 [INFO] [192/300] idx=064 v3 seed=456 modelo=ajustado ref=7.wav
+2026-06-07 04:44:33 [INFO]   -> OK em 2.9s: 064.wav
+2026-06-07 04:44:33 [INFO] [193/300] idx=065 v1 seed=42 modelo=ajustado ref=7.wav
+2026-06-07 04:44:47 [INFO]   -> OK em 13.7s: 065.wav
+2026-06-07 04:44:47 [INFO] [194/300] idx=065 v2 seed=123 modelo=ajustado ref=7.wav
+2026-06-07 04:45:24 [INFO]   -> OK em 37.5s: 065.wav
+2026-06-07 04:45:24 [INFO] [195/300] idx=065 v3 seed=456 modelo=ajustado ref=7.wav
+2026-06-07 04:46:03 [INFO]   -> OK em 38.9s: 065.wav
+2026-06-07 04:46:03 [INFO] [196/300] idx=066 v1 seed=42 modelo=ajustado ref=7.wav
+2026-06-07 04:46:18 [INFO]   -> OK em 15.2s: 066.wav
+2026-06-07 04:46:18 [INFO] [197/300] idx=066 v2 seed=123 modelo=ajustado ref=7.wav
+2026-06-07 04:46:33 [INFO]   -> OK em 14.5s: 066.wav
+2026-06-07 04:46:33 [INFO] [198/300] idx=066 v3 seed=456 modelo=ajustado ref=7.wav
+2026-06-07 04:46:48 [INFO]   -> OK em 14.7s: 066.wav
+2026-06-07 04:46:48 [INFO] [199/300] idx=067 v1 seed=42 modelo=ajustado ref=7.wav
+2026-06-07 04:47:33 [INFO]   -> OK em 45.4s: 067.wav
+2026-06-07 04:47:33 [INFO] [200/300] idx=067 v2 seed=123 modelo=ajustado ref=7.wav
+2026-06-07 04:47:43 [INFO]   -> OK em 10.1s: 067.wav
+2026-06-07 04:47:43 [INFO] [201/300] idx=067 v3 seed=456 modelo=ajustado ref=7.wav
+2026-06-07 04:48:28 [INFO]   -> OK em 45.1s: 067.wav
+2026-06-07 04:48:28 [INFO] [202/300] idx=068 v1 seed=42 modelo=ajustado ref=7.wav
+2026-06-07 04:48:30 [INFO]   -> OK em 2.1s: 068.wav
+2026-06-07 04:48:30 [INFO] [203/300] idx=068 v2 seed=123 modelo=ajustado ref=7.wav
+2026-06-07 04:48:33 [INFO]   -> OK em 2.3s: 068.wav
+2026-06-07 04:48:33 [INFO] [204/300] idx=068 v3 seed=456 modelo=ajustado ref=7.wav
+2026-06-07 04:48:34 [INFO]   -> OK em 1.7s: 068.wav
+2026-06-07 04:48:34 [INFO] [205/300] idx=069 v1 seed=42 modelo=ajustado ref=7.wav
+2026-06-07 04:48:51 [INFO]   -> OK em 16.3s: 069.wav
+2026-06-07 04:48:51 [INFO] [206/300] idx=069 v2 seed=123 modelo=ajustado ref=7.wav
+2026-06-07 04:49:06 [INFO]   -> OK em 15.6s: 069.wav
+2026-06-07 04:49:06 [INFO] [207/300] idx=069 v3 seed=456 modelo=ajustado ref=7.wav
+2026-06-07 04:49:22 [INFO]   -> OK em 15.7s: 069.wav
+2026-06-07 04:49:22 [INFO] [208/300] idx=070 v1 seed=42 modelo=ajustado ref=7.wav
+2026-06-07 04:49:58 [INFO]   -> OK em 36.0s: 070.wav
+2026-06-07 04:49:58 [INFO] [209/300] idx=070 v2 seed=123 modelo=ajustado ref=7.wav
+2026-06-07 04:50:34 [INFO]   -> OK em 36.4s: 070.wav
+2026-06-07 04:50:34 [INFO] [210/300] idx=070 v3 seed=456 modelo=ajustado ref=7.wav
+2026-06-07 04:51:10 [INFO]   -> OK em 36.2s: 070.wav
+2026-06-07 04:51:12 [INFO] [211/300] idx=071 v1 seed=42 modelo=ajustado ref=8.wav
+2026-06-07 04:51:13 [INFO]   -> OK em 0.3s: 071.wav
+2026-06-07 04:51:13 [INFO] [212/300] idx=071 v2 seed=123 modelo=ajustado ref=8.wav
+2026-06-07 04:51:15 [INFO]   -> OK em 2.8s: 071.wav
+2026-06-07 04:51:15 [INFO] [213/300] idx=071 v3 seed=456 modelo=ajustado ref=8.wav
+2026-06-07 04:51:18 [INFO]   -> OK em 2.1s: 071.wav
+2026-06-07 04:51:18 [INFO] [214/300] idx=072 v1 seed=42 modelo=ajustado ref=8.wav
+2026-06-07 04:51:53 [INFO]   -> OK em 35.6s: 072.wav
+2026-06-07 04:51:53 [INFO] [215/300] idx=072 v2 seed=123 modelo=ajustado ref=8.wav
+2026-06-07 04:52:29 [INFO]   -> OK em 35.6s: 072.wav
+2026-06-07 04:52:29 [INFO] [216/300] idx=072 v3 seed=456 modelo=ajustado ref=8.wav
+2026-06-07 04:53:06 [INFO]   -> OK em 37.2s: 072.wav
+2026-06-07 04:53:06 [INFO] [217/300] idx=073 v1 seed=42 modelo=ajustado ref=8.wav
+2026-06-07 04:53:10 [INFO]   -> OK em 3.7s: 073.wav
+2026-06-07 04:53:10 [INFO] [218/300] idx=073 v2 seed=123 modelo=ajustado ref=8.wav
+2026-06-07 04:53:12 [INFO]   -> OK em 2.3s: 073.wav
+2026-06-07 04:53:12 [INFO] [219/300] idx=073 v3 seed=456 modelo=ajustado ref=8.wav
+2026-06-07 04:53:14 [INFO]   -> OK em 2.3s: 073.wav
+2026-06-07 04:53:14 [INFO] [220/300] idx=074 v1 seed=42 modelo=ajustado ref=8.wav
+2026-06-07 04:53:53 [INFO]   -> OK em 38.4s: 074.wav
+2026-06-07 04:53:53 [INFO] [221/300] idx=074 v2 seed=123 modelo=ajustado ref=8.wav
+2026-06-07 04:54:31 [INFO]   -> OK em 38.6s: 074.wav
+2026-06-07 04:54:31 [INFO] [222/300] idx=074 v3 seed=456 modelo=ajustado ref=8.wav
+2026-06-07 04:55:10 [INFO]   -> OK em 38.3s: 074.wav
+2026-06-07 04:55:10 [INFO] [223/300] idx=075 v1 seed=42 modelo=ajustado ref=8.wav
+2026-06-07 04:55:10 [INFO]   -> OK em 0.7s: 075.wav
+2026-06-07 04:55:10 [INFO] [224/300] idx=075 v2 seed=123 modelo=ajustado ref=8.wav
+2026-06-07 04:55:13 [INFO]   -> OK em 2.7s: 075.wav
+2026-06-07 04:55:13 [INFO] [225/300] idx=075 v3 seed=456 modelo=ajustado ref=8.wav
+2026-06-07 04:55:13 [INFO]   -> OK em 0.3s: 075.wav
+2026-06-07 04:55:13 [INFO] [226/300] idx=076 v1 seed=42 modelo=ajustado ref=8.wav
+2026-06-07 04:55:49 [INFO]   -> OK em 36.0s: 076.wav
+2026-06-07 04:55:49 [INFO] [227/300] idx=076 v2 seed=123 modelo=ajustado ref=8.wav
+2026-06-07 04:56:25 [INFO]   -> OK em 36.1s: 076.wav
+2026-06-07 04:56:25 [INFO] [228/300] idx=076 v3 seed=456 modelo=ajustado ref=8.wav
+2026-06-07 04:57:01 [INFO]   -> OK em 35.9s: 076.wav
+2026-06-07 04:57:01 [INFO] [229/300] idx=077 v1 seed=42 modelo=ajustado ref=8.wav
+2026-06-07 04:57:03 [INFO]   -> OK em 2.2s: 077.wav
+2026-06-07 04:57:03 [INFO] [230/300] idx=077 v2 seed=123 modelo=ajustado ref=8.wav
+2026-06-07 04:57:07 [INFO]   -> OK em 3.8s: 077.wav
+2026-06-07 04:57:07 [INFO] [231/300] idx=077 v3 seed=456 modelo=ajustado ref=8.wav
+2026-06-07 04:57:11 [INFO]   -> OK em 4.0s: 077.wav
+2026-06-07 04:57:11 [INFO] [232/300] idx=078 v1 seed=42 modelo=ajustado ref=8.wav
+2026-06-07 04:57:45 [INFO]   -> OK em 33.7s: 078.wav
+2026-06-07 04:57:45 [INFO] [233/300] idx=078 v2 seed=123 modelo=ajustado ref=8.wav
+2026-06-07 04:58:19 [INFO]   -> OK em 34.3s: 078.wav
+2026-06-07 04:58:19 [INFO] [234/300] idx=078 v3 seed=456 modelo=ajustado ref=8.wav
+2026-06-07 04:58:53 [INFO]   -> OK em 33.8s: 078.wav
+2026-06-07 04:58:53 [INFO] [235/300] idx=079 v1 seed=42 modelo=ajustado ref=8.wav
+2026-06-07 04:59:11 [INFO]   -> OK em 18.0s: 079.wav
+2026-06-07 04:59:11 [INFO] [236/300] idx=079 v2 seed=123 modelo=ajustado ref=8.wav
+2026-06-07 04:59:29 [INFO]   -> OK em 17.8s: 079.wav
+2026-06-07 04:59:29 [INFO] [237/300] idx=079 v3 seed=456 modelo=ajustado ref=8.wav
+2026-06-07 04:59:46 [INFO]   -> OK em 17.5s: 079.wav
+2026-06-07 04:59:46 [INFO] [238/300] idx=080 v1 seed=42 modelo=ajustado ref=8.wav
+2026-06-07 05:00:17 [INFO]   -> OK em 30.5s: 080.wav
+2026-06-07 05:00:17 [INFO] [239/300] idx=080 v2 seed=123 modelo=ajustado ref=8.wav
+2026-06-07 05:00:45 [INFO]   -> OK em 28.3s: 080.wav
+2026-06-07 05:00:45 [INFO] [240/300] idx=080 v3 seed=456 modelo=ajustado ref=8.wav
+2026-06-07 05:01:14 [INFO]   -> OK em 28.4s: 080.wav
+2026-06-07 05:01:15 [INFO] [241/300] idx=081 v1 seed=42 modelo=ajustado ref=9.wav
+2026-06-07 05:01:17 [INFO]   -> OK em 1.7s: 081.wav
+2026-06-07 05:01:17 [INFO] [242/300] idx=081 v2 seed=123 modelo=ajustado ref=9.wav
+2026-06-07 05:01:20 [INFO]   -> OK em 2.8s: 081.wav
+2026-06-07 05:01:20 [INFO] [243/300] idx=081 v3 seed=456 modelo=ajustado ref=9.wav
+2026-06-07 05:01:22 [INFO]   -> OK em 1.7s: 081.wav
+2026-06-07 05:01:22 [INFO] [244/300] idx=082 v1 seed=42 modelo=ajustado ref=9.wav
+2026-06-07 05:01:52 [INFO]   -> OK em 30.5s: 082.wav
+2026-06-07 05:01:52 [INFO] [245/300] idx=082 v2 seed=123 modelo=ajustado ref=9.wav
+2026-06-07 05:02:23 [INFO]   -> OK em 30.8s: 082.wav
+2026-06-07 05:02:23 [INFO] [246/300] idx=082 v3 seed=456 modelo=ajustado ref=9.wav
+2026-06-07 05:02:53 [INFO]   -> OK em 30.4s: 082.wav
+2026-06-07 05:02:53 [INFO] [247/300] idx=083 v1 seed=42 modelo=ajustado ref=9.wav
+2026-06-07 05:02:53 [INFO]   -> OK em 0.2s: 083.wav
+2026-06-07 05:02:53 [INFO] [248/300] idx=083 v2 seed=123 modelo=ajustado ref=9.wav
+2026-06-07 05:02:54 [INFO]   -> OK em 0.3s: 083.wav
+2026-06-07 05:02:54 [INFO] [249/300] idx=083 v3 seed=456 modelo=ajustado ref=9.wav
+2026-06-07 05:02:54 [INFO]   -> OK em 0.5s: 083.wav
+2026-06-07 05:02:54 [INFO] [250/300] idx=084 v1 seed=42 modelo=ajustado ref=9.wav
+2026-06-07 05:03:27 [INFO]   -> OK em 32.5s: 084.wav
+2026-06-07 05:03:27 [INFO] [251/300] idx=084 v2 seed=123 modelo=ajustado ref=9.wav
+2026-06-07 05:03:59 [INFO]   -> OK em 32.1s: 084.wav
+2026-06-07 05:03:59 [INFO] [252/300] idx=084 v3 seed=456 modelo=ajustado ref=9.wav
+2026-06-07 05:04:31 [INFO]   -> OK em 32.6s: 084.wav
+2026-06-07 05:04:31 [INFO] [253/300] idx=085 v1 seed=42 modelo=ajustado ref=9.wav
+2026-06-07 05:04:32 [INFO]   -> OK em 0.3s: 085.wav
+2026-06-07 05:04:32 [INFO] [254/300] idx=085 v2 seed=123 modelo=ajustado ref=9.wav
+2026-06-07 05:04:34 [INFO]   -> OK em 2.5s: 085.wav
+2026-06-07 05:04:34 [INFO] [255/300] idx=085 v3 seed=456 modelo=ajustado ref=9.wav
+2026-06-07 05:04:37 [INFO]   -> OK em 2.4s: 085.wav
+2026-06-07 05:04:37 [INFO] [256/300] idx=086 v1 seed=42 modelo=ajustado ref=9.wav
+2026-06-07 05:05:07 [INFO]   -> OK em 30.1s: 086.wav
+2026-06-07 05:05:07 [INFO] [257/300] idx=086 v2 seed=123 modelo=ajustado ref=9.wav
+2026-06-07 05:05:37 [INFO]   -> OK em 30.5s: 086.wav
+2026-06-07 05:05:37 [INFO] [258/300] idx=086 v3 seed=456 modelo=ajustado ref=9.wav
+2026-06-07 05:06:08 [INFO]   -> OK em 30.4s: 086.wav
+2026-06-07 05:06:08 [INFO] [259/300] idx=087 v1 seed=42 modelo=ajustado ref=9.wav
+2026-06-07 05:06:32 [INFO]   -> OK em 24.4s: 087.wav
+2026-06-07 05:06:32 [INFO] [260/300] idx=087 v2 seed=123 modelo=ajustado ref=9.wav
+2026-06-07 05:06:56 [INFO]   -> OK em 24.2s: 087.wav
+2026-06-07 05:06:56 [INFO] [261/300] idx=087 v3 seed=456 modelo=ajustado ref=9.wav
+2026-06-07 05:07:20 [INFO]   -> OK em 24.1s: 087.wav
+2026-06-07 05:07:20 [INFO] [262/300] idx=088 v1 seed=42 modelo=ajustado ref=9.wav
+2026-06-07 05:07:47 [INFO]   -> OK em 26.7s: 088.wav
+2026-06-07 05:07:47 [INFO] [263/300] idx=088 v2 seed=123 modelo=ajustado ref=9.wav
+2026-06-07 05:08:13 [INFO]   -> OK em 26.2s: 088.wav
+2026-06-07 05:08:13 [INFO] [264/300] idx=088 v3 seed=456 modelo=ajustado ref=9.wav
+2026-06-07 05:08:40 [INFO]   -> OK em 26.4s: 088.wav
+2026-06-07 05:08:40 [INFO] [265/300] idx=089 v1 seed=42 modelo=ajustado ref=9.wav
+2026-06-07 05:08:42 [INFO]   -> OK em 2.6s: 089.wav
+2026-06-07 05:08:42 [INFO] [266/300] idx=089 v2 seed=123 modelo=ajustado ref=9.wav
+2026-06-07 05:08:45 [INFO]   -> OK em 2.9s: 089.wav
+2026-06-07 05:08:45 [INFO] [267/300] idx=089 v3 seed=456 modelo=ajustado ref=9.wav
+2026-06-07 05:08:47 [INFO]   -> OK em 1.8s: 089.wav
+2026-06-07 05:08:47 [INFO] [268/300] idx=090 v1 seed=42 modelo=ajustado ref=9.wav
+2026-06-07 05:08:51 [INFO]   -> OK em 3.6s: 090.wav
+2026-06-07 05:08:51 [INFO] [269/300] idx=090 v2 seed=123 modelo=ajustado ref=9.wav
+2026-06-07 05:08:53 [INFO]   -> OK em 2.8s: 090.wav
+2026-06-07 05:08:53 [INFO] [270/300] idx=090 v3 seed=456 modelo=ajustado ref=9.wav
+2026-06-07 05:08:57 [INFO]   -> OK em 3.3s: 090.wav
+2026-06-07 05:08:58 [INFO] [271/300] idx=091 v1 seed=42 modelo=ajustado ref=10.wav
+2026-06-07 05:09:00 [INFO]   -> OK em 2.4s: 091.wav
+2026-06-07 05:09:00 [INFO] [272/300] idx=091 v2 seed=123 modelo=ajustado ref=10.wav
+2026-06-07 05:09:02 [INFO]   -> OK em 1.8s: 091.wav
+2026-06-07 05:09:02 [INFO] [273/300] idx=091 v3 seed=456 modelo=ajustado ref=10.wav
+2026-06-07 05:09:04 [INFO]   -> OK em 1.7s: 091.wav
+2026-06-07 05:09:04 [INFO] [274/300] idx=092 v1 seed=42 modelo=ajustado ref=10.wav
+2026-06-07 05:09:42 [INFO]   -> OK em 38.5s: 092.wav
+2026-06-07 05:09:42 [INFO] [275/300] idx=092 v2 seed=123 modelo=ajustado ref=10.wav
+2026-06-07 05:10:21 [INFO]   -> OK em 38.4s: 092.wav
+2026-06-07 05:10:21 [INFO] [276/300] idx=092 v3 seed=456 modelo=ajustado ref=10.wav
+2026-06-07 05:11:00 [INFO]   -> OK em 38.9s: 092.wav
+2026-06-07 05:11:00 [INFO] [277/300] idx=093 v1 seed=42 modelo=ajustado ref=10.wav
+2026-06-07 05:11:03 [INFO]   -> OK em 3.4s: 093.wav
+2026-06-07 05:11:03 [INFO] [278/300] idx=093 v2 seed=123 modelo=ajustado ref=10.wav
+2026-06-07 05:11:05 [INFO]   -> OK em 2.0s: 093.wav
+2026-06-07 05:11:05 [INFO] [279/300] idx=093 v3 seed=456 modelo=ajustado ref=10.wav
+2026-06-07 05:11:09 [INFO]   -> OK em 3.4s: 093.wav
+2026-06-07 05:11:09 [INFO] [280/300] idx=094 v1 seed=42 modelo=ajustado ref=10.wav
+2026-06-07 05:11:32 [INFO]   -> OK em 23.9s: 094.wav
+2026-06-07 05:11:32 [INFO] [281/300] idx=094 v2 seed=123 modelo=ajustado ref=10.wav
+2026-06-07 05:11:57 [INFO]   -> OK em 24.2s: 094.wav
+2026-06-07 05:11:57 [INFO] [282/300] idx=094 v3 seed=456 modelo=ajustado ref=10.wav
+2026-06-07 05:12:21 [INFO]   -> OK em 24.0s: 094.wav
+2026-06-07 05:12:21 [INFO] [283/300] idx=095 v1 seed=42 modelo=ajustado ref=10.wav
+2026-06-07 05:12:55 [INFO]   -> OK em 34.6s: 095.wav
+2026-06-07 05:12:55 [INFO] [284/300] idx=095 v2 seed=123 modelo=ajustado ref=10.wav
+2026-06-07 05:13:30 [INFO]   -> OK em 34.3s: 095.wav
+2026-06-07 05:13:30 [INFO] [285/300] idx=095 v3 seed=456 modelo=ajustado ref=10.wav
+2026-06-07 05:14:04 [INFO]   -> OK em 34.8s: 095.wav
+2026-06-07 05:14:04 [INFO] [286/300] idx=096 v1 seed=42 modelo=ajustado ref=10.wav
+2026-06-07 05:14:05 [INFO]   -> OK em 0.3s: 096.wav
+2026-06-07 05:14:05 [INFO] [287/300] idx=096 v2 seed=123 modelo=ajustado ref=10.wav
+2026-06-07 05:14:08 [INFO]   -> OK em 3.2s: 096.wav
+2026-06-07 05:14:08 [INFO] [288/300] idx=096 v3 seed=456 modelo=ajustado ref=10.wav
+2026-06-07 05:14:10 [INFO]   -> OK em 1.6s: 096.wav
+2026-06-07 05:14:10 [INFO] [289/300] idx=097 v1 seed=42 modelo=ajustado ref=10.wav
+2026-06-07 05:14:29 [INFO]   -> OK em 19.4s: 097.wav
+2026-06-07 05:14:29 [INFO] [290/300] idx=097 v2 seed=123 modelo=ajustado ref=10.wav
+2026-06-07 05:15:03 [INFO]   -> OK em 34.5s: 097.wav
+2026-06-07 05:15:03 [INFO] [291/300] idx=097 v3 seed=456 modelo=ajustado ref=10.wav
+2026-06-07 05:15:28 [INFO]   -> OK em 24.1s: 097.wav
+2026-06-07 05:15:28 [INFO] [292/300] idx=098 v1 seed=42 modelo=ajustado ref=10.wav
+2026-06-07 05:15:31 [INFO]   -> OK em 3.5s: 098.wav
+2026-06-07 05:15:31 [INFO] [293/300] idx=098 v2 seed=123 modelo=ajustado ref=10.wav
+2026-06-07 05:15:33 [INFO]   -> OK em 2.2s: 098.wav
+2026-06-07 05:15:33 [INFO] [294/300] idx=098 v3 seed=456 modelo=ajustado ref=10.wav
+2026-06-07 05:15:34 [INFO]   -> OK em 0.3s: 098.wav
+2026-06-07 05:15:34 [INFO] [295/300] idx=099 v1 seed=42 modelo=ajustado ref=10.wav
+2026-06-07 05:16:02 [INFO]   -> OK em 28.5s: 099.wav
+2026-06-07 05:16:02 [INFO] [296/300] idx=099 v2 seed=123 modelo=ajustado ref=10.wav
+2026-06-07 05:16:30 [INFO]   -> OK em 28.2s: 099.wav
+2026-06-07 05:16:30 [INFO] [297/300] idx=099 v3 seed=456 modelo=ajustado ref=10.wav
+2026-06-07 05:16:57 [INFO]   -> OK em 26.9s: 099.wav
+2026-06-07 05:16:57 [INFO] [298/300] idx=100 v1 seed=42 modelo=ajustado ref=10.wav
+2026-06-07 05:17:30 [INFO]   -> OK em 33.2s: 100.wav
+2026-06-07 05:17:30 [INFO] [299/300] idx=100 v2 seed=123 modelo=ajustado ref=10.wav
+2026-06-07 05:18:05 [INFO]   -> OK em 34.9s: 100.wav
+2026-06-07 05:18:05 [INFO] [300/300] idx=100 v3 seed=456 modelo=ajustado ref=10.wav
+2026-06-07 05:18:40 [INFO]   -> OK em 34.4s: 100.wav
+2026-06-07 05:18:40 [INFO] Fase ajustado concluida: ok=300 skipped=0 errors=0 (cache refs=10)
+2026-06-07 05:18:40 [INFO] ================================================================================
+2026-06-07 05:18:40 [INFO] RESUMO FINAL
+2026-06-07 05:18:40 [INFO] ================================================================================
+2026-06-07 05:18:40 [INFO] Audios original:  300 / 300 esperados
+2026-06-07 05:18:40 [INFO] Audios ajustado:  300 / 300 esperados
+2026-06-07 05:18:40 [INFO] Gerados nesta execucao — original: ok=277 skip=23 err=0
+2026-06-07 05:18:40 [INFO] Gerados nesta execucao — ajustado: ok=300 skip=0 err=0
+2026-06-07 05:18:40 [INFO] Falhas totais nesta execucao: 0
+2026-06-07 05:18:40 [INFO] Tempo total: 12991.1 s (216.5 min)
+2026-06-07 05:18:40 [INFO] Experimento ajustado: artoodtoo_ft_e3
+2026-06-07 05:18:40 [INFO] Checkpoint ajustado: outputs\finetune\artoodtoo_ft_e3\checkpoints\checkpoint-3351
+2026-06-07 05:18:40 [INFO] Criterio de selecao: A/B perceptivo documentado em outputs_unsloth_experimento/comparacao_audios.csv (unsloth_artoodtoo_model_1 vs baseline HF). | eval_loss_resumo.json: best_step=3351, best_eval_loss=5.1795. | Checkpoint epoch-end step 3351 (unico ponto de eval; menor eval_loss do run).
+2026-06-07 05:18:40 [INFO] Saida: E:\git\unsloth\outputs_final_experiment
+2026-06-07 05:18:40 [INFO] Logs: E:\git\unsloth\outputs_final_experiment\generation_run.log | E:\git\unsloth\outputs_final_experiment\generation_log.csv

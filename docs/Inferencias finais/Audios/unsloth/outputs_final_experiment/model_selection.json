@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-06-07T05:18:40",
+  "stack": "Orpheus 3B + SNAC 24 kHz (Unsloth/HuggingFace)",
+  "language": "pt",
+  "variations": 3,
+  "seeds": [
+    42,
+    123,
+    456
+  ],
+  "sentence_count": 100,
+  "total_expected_wavs": 600,
+  "ref_mapping": "sentences 001-010 -> refs/1.wav, ..., 091-100 -> refs/10.wav",
+  "ref_conditioning_note": "Refs codificadas via SNAC e cacheadas por arquivo (protocolo experimental). Orpheus usa sintese text-only; voz vem do adapter, nao clonagem XTTS.",
+  "original": {
+    "experiment_id": "baseline_ptbr",
+    "checkpoint": "ArtooDtoo/Orpheus_PTBR_FT_Unsloth_Chk-1800",
+    "criterion": "Adapter PT-BR publico (HF) usado como ponto de partida antes do fine-tune regional paraibano; referenciado em comparacao_audios.csv como hf_ArtooDtoo e em setup_and_run_finetune_artoodtoo.bat como ADAPTER_REPO base.",
+    "notes": "Modelo original sem adaptacao paraibana. Stack Orpheus 3B + SNAC 24 kHz. Inferencia text-only (sem clonagem XTTS); refs mapeadas por bloco para protocolo."
+  },
+  "ajustado": {
+    "experiment_id": "artoodtoo_ft_e3",
+    "checkpoint": "outputs\\finetune\\artoodtoo_ft_e3\\checkpoints\\checkpoint-3351",
+    "criterion": "A/B perceptivo documentado em outputs_unsloth_experimento/comparacao_audios.csv (unsloth_artoodtoo_model_1 vs baseline HF). | eval_loss_resumo.json: best_step=3351, best_eval_loss=5.1795. | Checkpoint epoch-end step 3351 (unico ponto de eval; menor eval_loss do run).",
+    "notes": "Fine-tune regional paraibano (CoLing PB) a partir de ArtooDtoo PT-BR; treino SNAC via train_unsloth_tts_from_checkpoint.py; eval_loss=5.1795."
+  },
+  "ref_warnings": []
+}
