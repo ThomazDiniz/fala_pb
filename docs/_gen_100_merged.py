@@ -6,10 +6,11 @@ SRC = ROOT / "100.md"
 SENTENCES_FILE = ROOT / "Inferencias finais" / "Audios" / "sentenças.txt"
 AUDIO_BASE = "/fala_pb/Inferencias%20finais/Audios"
 
+# slug, titulo, anchor, classe CSS do modelo
 MODELS = [
-    ("xtts", "XTTS v2", "xtts"),
-    ("fishspeech", "Fish Speech 1.5", "fish-speech"),
-    ("unsloth", "Orpheus 3B (Unsloth)", "unsloth"),
+    ("xtts", "XTTS v2", "xtts", "m-xtts"),
+    ("fishspeech", "Fish Speech 1.5", "fish-speech", "m-fish"),
+    ("unsloth", "Orpheus 3B (Unsloth)", "unsloth", "m-unsloth"),
 ]
 VARS = [
     ("original", "v1", "Orig v1"),
@@ -28,6 +29,27 @@ STYLES = """<style>
     overflow-x: auto;
   }
   .muted { color: #666; }
+  .infer-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem 1.25rem;
+    margin: 0 0 0.85rem;
+    font-size: 0.82rem;
+  }
+  .infer-legend span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.2rem 0.55rem;
+    border-radius: 4px;
+    border: 1px solid #555;
+  }
+  .infer-legend i {
+    display: inline-block;
+    width: 0.85rem;
+    height: 0.85rem;
+    border-radius: 2px;
+  }
   .infer-player-bar {
     display: flex;
     flex-wrap: wrap;
@@ -66,19 +88,34 @@ STYLES = """<style>
     white-space: nowrap;
   }
   .infer-table thead th {
-    background: #2a2a2a;
-    color: #eee;
     font-weight: 600;
     text-align: center;
   }
-  .infer-table .col-idx { text-align: center; }
-  .infer-table .col-ref { text-align: center; font-size: 0.75rem; }
+  .infer-table .col-idx { text-align: center; background: #2a2a2a; color: #eee; }
+  .infer-table .col-ref { text-align: center; font-size: 0.75rem; background: #2a2a2a; color: #eee; }
   .infer-table .col-texto {
     white-space: normal;
     min-width: 200px;
     max-width: 280px;
+    background: #2a2a2a;
+    color: #eee;
   }
   .infer-table .col-audio { text-align: center; }
+  /* Cores por modelo */
+  .infer-table .m-xtts { background: rgba(91, 127, 199, 0.16); }
+  .infer-table thead .m-xtts { background: rgba(91, 127, 199, 0.42); color: #e8eeff; }
+  .infer-table .m-fish { background: rgba(56, 161, 105, 0.16); }
+  .infer-table thead .m-fish { background: rgba(56, 161, 105, 0.42); color: #eafff3; }
+  .infer-table .m-unsloth { background: rgba(221, 120, 44, 0.16); }
+  .infer-table thead .m-unsloth { background: rgba(221, 120, 44, 0.42); color: #fff4e8; }
+  /* Linha forte a cada 3 colunas (Orig v3 | Ajust v3) */
+  .infer-table .sep-triplet {
+    border-right: 3px solid rgba(255, 255, 255, 0.5) !important;
+  }
+  /* Linha forte entre modelos */
+  .infer-table .sep-model {
+    border-right: 4px solid rgba(255, 255, 255, 0.72) !important;
+  }
   .infer-play {
     display: inline-block;
     padding: 0.15rem 0.45rem;
@@ -130,13 +167,29 @@ def play_link(slug: str, label: str, cond: str, var: str, idx: int) -> str:
     )
 
 
+def audio_cell_classes(mclass: str, var_index: int) -> str:
+    """var_index: 0..5 dentro do bloco do modelo."""
+    classes = ["col-audio", mclass]
+    if var_index in (2, 5):
+        classes.append("sep-triplet")
+    if var_index == 5:
+        classes.append("sep-model")
+    return " ".join(classes)
+
+
 def build_table(sentences: list[str]) -> str:
     lines = [
         "## Tabela unificada de inferencias",
         "",
         "Uma linha por sentenca; **mesmo texto e ref** para os tres modelos. "
-        "Clique em **&#9654;** para tocar no player abaixo (um unico `<audio>` — evita travar o navegador). "
-        "A planilha pode **extrapolar para a direita**; role a pagina horizontalmente se precisar.",
+        "Clique em **&#9654;** para tocar no player abaixo. "
+        "Cores por modelo; **linha vertical mais forte** a cada 3 colunas (Orig v1–v3 | Ajust v1–v3) e entre modelos.",
+        "",
+        '<div class="infer-legend">',
+        '<span><i style="background:rgba(91,127,199,0.75)"></i> XTTS v2</span>',
+        '<span><i style="background:rgba(56,161,105,0.75)"></i> Fish Speech 1.5</span>',
+        '<span><i style="background:rgba(221,120,44,0.75)"></i> Orpheus / Unsloth</span>',
+        "</div>",
         "",
         '<div class="infer-player-bar">',
         '<audio id="infer-shared-audio" controls preload="none"></audio>',
@@ -151,13 +204,15 @@ def build_table(sentences: list[str]) -> str:
         '<th rowspan="2" class="col-ref">Ref</th>',
         '<th rowspan="2" class="col-texto">Texto</th>',
     ]
-    for _slug, title, anchor in MODELS:
-        lines.append(f'<th colspan="6" class="col-audio" id="{anchor}">{title}</th>')
+    for _slug, title, anchor, mclass in MODELS:
+        lines.append(
+            f'<th colspan="6" class="col-audio {mclass} sep-model" id="{anchor}">{title}</th>'
+        )
     lines.append("</tr>")
     lines.append('<tr class="infer-head-vars">')
-    for _ in MODELS:
-        for _c, _v, lab in VARS:
-            lines.append(f'<th class="col-audio">{lab}</th>')
+    for _slug, _title, _anchor, mclass in MODELS:
+        for vi, (_c, _v, lab) in enumerate(VARS):
+            lines.append(f'<th class="{audio_cell_classes(mclass, vi)}">{lab}</th>')
     lines.append("</tr>")
     lines.append("</thead>")
     lines.append("<tbody>")
@@ -169,10 +224,11 @@ def build_table(sentences: list[str]) -> str:
             f'<td class="col-ref">refs/{ref}.wav</td>',
             f'<td class="col-texto">{text}</td>',
         ]
-        for slug, title, _anchor in MODELS:
-            for cond, var, lab in VARS:
+        for slug, title, _anchor, mclass in MODELS:
+            for vi, (cond, var, lab) in enumerate(VARS):
                 cell_label = f"{title} — frase {i} — {lab}"
-                row.append(f'<td class="col-audio">{play_link(slug, cell_label, cond, var, i)}</td>')
+                cls = audio_cell_classes(mclass, vi)
+                row.append(f'<td class="{cls}">{play_link(slug, cell_label, cond, var, i)}</td>')
         lines.append("<tr>" + "".join(row) + "</tr>")
 
     lines.extend(
@@ -204,7 +260,6 @@ def main() -> None:
         raise SystemExit("style block not found")
     head = head[:style_start] + STYLES + head[style_end:]
 
-    # remove standalone test player (shared bar replaces it)
     head = head.replace(
         "**Teste de player** (XTTS, sentenca 1, original v1):\n\n"
         '<audio controls src="/fala_pb/Inferencias%20finais/Audios/xtts/'
