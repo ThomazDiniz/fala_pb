@@ -35,6 +35,21 @@
     background: #333;
     border-color: #999;
   }
+  .persist-status-done {
+    flex: 0 0 auto;
+    min-width: 9.5rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    background: #1a4d2e;
+    color: #b8f0c8;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  #site_model_checklist .persist-status-done {
+    background: #2d5a3d;
+    color: #d4f5dc;
+  }
 </style>
 
 <div style="margin-top: 1.25rem; padding: 1rem 1.25rem; background: #111; color: #fff; font-weight: 700; border-radius: 8px; border: 1px solid #333;">
@@ -43,41 +58,25 @@
     <li>
       <div class="persist-task-row">
         <span><strong>Enviar e-mail</strong> com sumario da pesquisa descrevendo o experimento (ex.: exibicao numa tela do computador com arquivos de audio sintetizados por modelos de IA generativa)</span>
-        <select class="js-persist-select" data-key="cron:email-sumario" aria-label="Status: Enviar e-mail com sumario">
-          <option value="pending">Pendente</option>
-          <option value="progress">Em andamento</option>
-          <option value="done">Concluido</option>
-        </select>
+        <span class="persist-status-done">Concluido</span>
       </div>
     </li>
     <li>
       <div class="persist-task-row">
         <span>Gerar PDF para revisao</span>
-        <select class="js-persist-select" data-key="cron:pdf-revisao" aria-label="Status: Gerar PDF para revisao">
-          <option value="pending">Pendente</option>
-          <option value="progress">Em andamento</option>
-          <option value="done">Concluido</option>
-        </select>
+        <span class="persist-status-done">Concluido</span>
       </div>
     </li>
     <li>
       <div class="persist-task-row">
         <span>Planejar sequencia de capitulos avulsos para entrega antecipada</span>
-        <select class="js-persist-select" data-key="cron:capitulos-avulsos" aria-label="Status: Planejar capitulos avulsos">
-          <option value="pending">Pendente</option>
-          <option value="progress">Em andamento</option>
-          <option value="done">Concluido</option>
-        </select>
+        <span class="persist-status-done">Concluido</span>
       </div>
     </li>
     <li>
       <div class="persist-task-row">
         <span>Tempo efetivo para concluir os experimentos: Maio</span>
-        <select class="js-persist-select" data-key="cron:experimentos-maio" aria-label="Status: Experimentos em Maio">
-          <option value="pending">Pendente</option>
-          <option value="progress">Em andamento</option>
-          <option value="done">Concluido</option>
-        </select>
+        <span class="persist-status-done">Concluido</span>
       </div>
     </li>
     <li>
@@ -143,15 +142,11 @@
     <li>
       <div class="persist-task-row">
         <span><strong>Agents for Good</strong>: levantar problemas e o que o paciente reclama; avaliar robustez dos reconhecedores de audio (ou fala); sintetizar audios de pacientes tipicos e avaliar ferramentas comerciais</span>
-        <select class="js-persist-select" data-key="cron:agents-for-good" aria-label="Status: Agents for Good">
-          <option value="pending">Pendente</option>
-          <option value="progress">Em andamento</option>
-          <option value="done">Concluido</option>
-        </select>
+        <span class="persist-status-done">Concluido</span>
       </div>
     </li>
   </ul>
-  <p style="margin: 0.75rem 0 0; font-weight: 400; font-size: 0.9rem; opacity: 0.85;">Status salvo neste navegador (localStorage). Sera atualizado semanalmente.</p>
+  <p style="margin: 0.75rem 0 0; font-weight: 400; font-size: 0.9rem; opacity: 0.85;">Itens marcados como concluidos sao fixos no site. Demais prazos usam select (localStorage neste navegador).</p>
 </div>
 
 {% include site-model-checklist.html %}
