@@ -50,6 +50,7 @@ Nesta página, você encontra a lista de todos os experimentos realizados, com l
 | [17° Fine-tune em teste (Qwen3-TTS, Parler-TTS, Fish Speech)](/fala_pb/17/)  |
 | [18° Qwen3-TTS e Parler-TTS (reuniao 18)                 ](/fala_pb/18/)  |
 | [19° F5-TTS do zero — Parler-TTS cancelado              ](/fala_pb/19/)  |
+| [**Inferencias finais** — 100 sentencas, 3 modelos, 1800 audios](/fala_pb/100/)  |
 | [20° Teoria da amostragem + validacao automatica + finalizacao dos forms](/fala_pb/20/)  |
 | [21° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/21/)  |
 | [22° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/22/)  |
