@@ -25,7 +25,7 @@ STYLES = """<style>
   .wrapper,
   .markdown-body, .inner, #main_content {
     max-width: none !important;
-    padding: 0 !important;
+    padding: 1rem 2rem !important;
     overflow-x: auto;
   }
   .muted { color: #666; }
