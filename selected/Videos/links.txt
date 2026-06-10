@@ -1,39 +1,38 @@
 links:
 XTTS
-1  https://youtu.be/6BP1R-1VMYM
-2  https://youtu.be/PFSlhfluWx8
-3  https://youtu.be/2Sog0vJxepU
-4  https://youtu.be/oYT5qygaSc0
-5  https://youtu.be/2HVi7NPBo8Q
-6  https://youtu.be/ot7tsCojO8s
-7  https://youtu.be/4zcX0-Xk67I
-8  https://youtu.be/vhYjECFrWIY
-9  https://youtu.be/guxugleqAls
-10 https://youtu.be/a_HEqgMyoU8
+1  https://youtu.be/1raj1CJ9COg
+2  https://youtu.be/U4V8Kh6JgHQ
+3  https://youtu.be/4AtxKqEiHEU
+4  https://youtu.be/KpJIM5Yfi3s
+5  https://youtu.be/fkNanFIWBd8
+6  https://youtu.be/0hkNYvKW51w
+7  https://youtu.be/wq5dZFgevr8
+8  https://youtu.be/Px3sfQcTb8Q
+9  https://youtu.be/TX3C-Pa9MmY
+10 https://youtu.be/uy33rFZMclg
 
 FP
-1  https://youtu.be/pQjioQ38vec
-2  https://youtu.be/LXO2BGXBAwA
-3  https://youtu.be/wsveXlF-FsI
-4  https://youtu.be/ej3_DiWHnB8
-5  https://youtu.be/mphu4uYtonc
-6  https://youtu.be/ev1GJ_67X9c
-7  https://youtu.be/82YoHDm5pCE
-8  https://youtu.be/Ix0tlGKvsfU
-9  https://youtu.be/T83EFdNFXAw
-10 https://youtu.be/Vy5Rn_PxAo8
+1  https://youtu.be/GDWqRadrfqE
+2  https://youtu.be/vdqTWwzpwbE
+3  https://youtu.be/T2BemdQL0Bg
+4  https://youtu.be/r2N6QWJJSLM
+5  https://youtu.be/LvdRxxKsKzM
+6  https://youtu.be/UARzguMZQcQ
+7  https://youtu.be/yuAO0Q0dC5Y
+8  https://youtu.be/Z6Dq6UKO6Tw
+9  https://youtu.be/lDXttbzk83o
+10 https://youtu.be/i_-LxSp0mHo
 
 
 UO
-1  https://youtu.be/KrIvgU4lS8c
-2  https://youtu.be/p2_oHYPZ0FI
-3  https://youtu.be/0heBHmDmqbk
-4  https://youtu.be/yRSTicnGubc
-5  https://youtu.be/QWWcUAXap08
-6  https://youtu.be/Z0iso1wEXPA
-7  https://youtu.be/i1MweLwrEgA
-8  https://youtu.be/ziMcs9gFohs
-9  https://youtu.be/6-hpgtrT4uE
-10 https://youtu.be/P17IW9iiTr0
-
+1  https://youtu.be/AHErBontGmc
+2  https://youtu.be/urfCCocgbqU
+3  https://youtu.be/2ZH6BLTPRtw
+4  https://youtu.be/jgOP-nyRX4w
+5  https://youtu.be/Lg2aa-QxbNw
+6  https://youtu.be/JE9WhLupITg
+7  https://youtu.be/Mb04VWk_NcY
+8  https://youtu.be/hoUseDjD-rE
+9  https://youtu.be/UsZvPaW6-D0
+10 https://youtu.be/8Y-YZ5u6_Q0
 
