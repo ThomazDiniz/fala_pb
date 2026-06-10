@@ -17,31 +17,31 @@ $sentencesB = @(
 )
 
 $sentencesC = @(
-  "Com o crescimento acelerado das cidades, tem-se observado um aumento significativo no congestionamento do trânsito urbano e na emissão de poluentes associados aos veículos. Para enfrentar esses desafios, diversas metrópoles estão investindo em sistemas de transporte público eficientes e sustentáveis, incluindo ônibus elétricos, trens metropolitanos e ciclovias integradas. Além disso, tecnologias de gestão do tráfego, como semáforos inteligentes e aplicativos de carona compartilhada, auxiliam na otimização das rotas e na redução do tempo de deslocamento. Pesquisas recentes indicam que a adoção de políticas de restrição de veículos em áreas centrais, combinada com incentivos ao uso de bicicletas e ao transporte coletivo, pode diminuir em até 30 % as emissões de carbono. A integração de dados em tempo real e a participação ativa da comunidade são fundamentais para o sucesso dessas iniciativas, promovendo mobilidade mais ágil e qualidade de vida.",
+  "Com o crescimento acelerado das cidades, tem-se observado um aumento significativo no congestionamento do trânsito urbano e na emissão de poluentes associados aos veículos. Para enfrentar esses desafios, diversas metrópoles estão investindo em sistemas de transporte público eficientes e sustentáveis, incluindo ônibus elétricos, trens metropolitanos e ciclovias integradas. Além disso, tecnologias de gestão do tráfego, como semáforos inteligentes e aplicativos de carona compartilhada, auxiliam na otimização das rotas e na redução do tempo de deslocamento. Pesquisas recentes indicam que a adoção de políticas de restrição de veículos em áreas centrais, combinada com incentivos ao uso de bicicletas e ao transporte coletivo, pode diminuir em até 30 % as emissões de carbono. A integração de dados em tempo real e a participação ativa da comunidade são fundamentais para o sucesso dessas iniciativas, promovendo mobilidade mais ágil e qualidade de vida.",
   "Nos últimos anos, a inteligência artificial (IA) tem ganhado espaço em diversas áreas do conhecimento, desde a medicina e transporte até a educação e entretenimento. Algoritmos de aprendizado profundo permitem o reconhecimento de padrões em grandes volumes de dados, auxiliando no diagnóstico precoce de doenças e na previsão de falhas em sistemas industriais. Em paralelo, modelos generativos, como redes adversárias (GANs) e transformadores, são capazes de criar imagens, textos e músicas com qualidade impressionante. Apesar dos avanços, ainda existem desafios relacionados à interpretabilidade, segurança e viés algorítmico, que podem comprometer a ética e a transparência das aplicações. Pesquisadores buscam desenvolver frameworks regulatórios e metodologias de auditoria para garantir o uso responsável da IA, equilibrando inovação e proteção dos direitos humanos.",
-  "A economia circular propõe um modelo de produção e consumo baseado na redução, reutilização e reciclagem de recursos, visando minimizar o desperdício e prolongar o ciclo de vida dos produtos. Iniciativas de upcycling transformam resíduos industriais e materiais descartados em novos itens de alto valor, enquanto programas de logística reversa incentivam consumidores a devolver embalagens e equipamentos usados. Empresas de diversos setores implementam plataformas digitais para rastrear componentes ao longo da cadeia de suprimentos, garantindo transparência e otimizando a recuperação de materiais. Estudos de caso demonstram que práticas circulares podem gerar economia de custo de até 20 % e reduzir drasticamente as emissões de carbono. Políticas públicas e incentivos fiscais desempenham papel crucial para estimular a adoção em larga escala, promovendo inovação e sustentabilidade.",
-  "A promoção da saúde mental tem se tornado uma prioridade em políticas de saúde pública, especialmente em virtude dos impactos psicológicos resultantes de crises econômicas, pandemias e mudanças climáticas. Centros de acolhimento e linhas de apoio oferecem suporte remoto e presencial, combinando terapia cognitivo‑comportamental e grupos de apoio peer‑to‑peer. Tecnologias digitais, como aplicativos de meditação guiada e chatbots terapêuticos, auxiliam no monitoramento de humor e na identificação precoce de transtornos. Programas de prevenção em escolas e ambientes de trabalho visam reduzir o estigma e ensinar estratégias de enfrentamento. Pesquisas indicam que abordagens integradas, que combinam exercícios físicos, terapia e suporte social, resultam em melhora significativa no bem‑estar e na redução de sintomas de ansiedade e depressão.",
+  "A economia circular propõe um modelo de produção e consumo baseado na redução, reutilização e reciclagem de recursos, visando minimizar o desperdício e prolongar o ciclo de vida dos produtos. Iniciativas de upcycling transformam resíduos industriais e materiais descartados em novos itens de alto valor, enquanto programas de logística reversa incentivam consumidores a devolver embalagens e equipamentos usados. Empresas de diversos setores implementam plataformas digitais para rastrear componentes ao longo da cadeia de suprimentos, garantindo transparência e otimizando a recuperação de materiais. Estudos de caso demonstram que práticas circulares podem gerar economia de custo de até 20 % e reduzir drasticamente as emissões de carbono. Políticas públicas e incentivos fiscais desempenham papel crucial para estimular a adoção em larga escala, promovendo inovação e sustentabilidade.",
+  "A promoção da saúde mental tem se tornado uma prioridade em políticas de saúde pública, especialmente em virtude dos impactos psicológicos resultantes de crises econômicas, pandemias e mudanças climáticas. Centros de acolhimento e linhas de apoio oferecem suporte remoto e presencial, combinando terapia cognitivo-comportamental e grupos de apoio peer-to-peer. Tecnologias digitais, como aplicativos de meditação guiada e chatbots terapêuticos, auxiliam no monitoramento de humor e na identificação precoce de transtornos. Programas de prevenção em escolas e ambientes de trabalho visam reduzir o estigma e ensinar estratégias de enfrentamento. Pesquisas indicam que abordagens integradas, que combinam exercícios físicos, terapia e suporte social, resultam em melhora significativa no bem-estar e na redução de sintomas de ansiedade e depressão.",
   "Nos ambientes de educação a distância, a interação entre estudantes e professores depende de plataformas virtuais que oferecem aulas gravadas, fóruns de discussão e ferramentas de avaliação online. A eficácia desse formato é influenciada pela usabilidade da interface, qualidade dos materiais didáticos e engajamento dos alunos. Estudos mostram que a inclusão de recursos multimídia, como vídeos interativos, quizzes e simulações, aumenta a retenção de conteúdo e a motivação. Além disso, sistemas de aprendizagem adaptativa utilizam algoritmos para personalizar o ritmo de estudo, identificando áreas de dificuldade e sugerindo atividades complementares. Desafios comuns incluem a necessidade de conectividade estável, autonomia do estudante e capacitação docente em metodologias virtuais. Políticas educacionais e investimentos em infraestrutura digital são essenciais para democratizar o acesso e garantir a continuidade da aprendizagem."
 )
 
 # 2) Defina os 3 grupos de referências com seus paths dentro do container
 $groups = @(
   @{ Key = 'A'; Sentences = $sentencesA; Files = @(
-        "/refs/thomaz_a1.wav","/refs/thomaz_a2.wav",
-        "/refs/thomaz_a3.wav","/refs/thomaz_a4.wav",
-        "/refs/thomaz_a5.wav"
+        "/refs/ref_a1.wav","/refs/ref_a2.wav",
+        "/refs/ref_a3.wav","/refs/ref_a4.wav",
+        "/refs/ref_a5.wav"
     )
   },
   @{ Key = 'B'; Sentences = $sentencesB; Files = @(
-        "/refs/thomaz_b1.wav","/refs/thomaz_b2.wav",
-        "/refs/thomaz_b3.wav","/refs/thomaz_b4.wav",
-        "/refs/thomaz_b5.wav"
+        "/refs/ref_b1.wav","/refs/ref_b2.wav",
+        "/refs/ref_b3.wav","/refs/ref_b4.wav",
+        "/refs/ref_b5.wav"
     )
   },
   @{ Key = 'C'; Sentences = $sentencesC; Files = @(
-        "/refs/thomaz_c1.wav","/refs/thomaz_c2.wav",
-        "/refs/thomaz_c3.wav","/refs/thomaz_c4.wav",
-        "/refs/thomaz_c5.wav"
+        "/refs/ref_c1.wav","/refs/ref_c2.wav",
+        "/refs/ref_c3.wav","/refs/ref_c4.wav",
+        "/refs/ref_c5.wav"
     )
   }
 )

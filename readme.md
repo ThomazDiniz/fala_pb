@@ -2,8 +2,7 @@
 
 Este repositório acompanha o progresso do meu projeto de mestrado em Ciência da Computação, cujo objetivo é realizar **fine-tuning** de modelos de Text-to-Speech (TTS) para síntese de fala em Português. Aqui você encontrará instruções de uso, scripts auxiliares e exemplos de áudios gerados com **Coqui TTS** e **F5-TTS**.
 
-https://thomazdiniz.github.io/fala_pb/
-https://thomazdiniz.github.io/fala_pb/2
+Site de documentação: publicado via **GitHub Pages** a partir da pasta `docs/` (ver **Settings → Pages** no repositório).
 
 ---
 
@@ -100,13 +99,13 @@ docker run --rm -it `
 ```
 docker run --rm -it `
   --gpus all `
-  --mount "type=bind,source=C:/Users/Tumais/Documents/GitHub/F5-TTS-pt-br/pt-br,target=/root/.cache/huggingface/hub/models--firstpixel--F5-TTS-pt-br,readonly" `
+  --mount "type=bind,source=C:/path/to/F5-TTS-pt-br/pt-br,target=/root/.cache/huggingface/hub/models--firstpixel--F5-TTS-pt-br,readonly" `
   -p 7860:7860 `
   ghcr.io/swivid/f5-tts:main `
   f5-tts_infer-gradio --host 0.0.0.0
 
 docker run --rm -it --gpus all `
-  --mount "type=bind,source=C:/Users/Tumais/Documents/GitHub/F5-TTS-pt-br,target=/root/.cache/huggingface/hub/models--firstpixel--F5-TTS-pt-br,readonly" `
+  --mount "type=bind,source=C:/path/to/F5-TTS-pt-br,target=/root/.cache/huggingface/hub/models--firstpixel--F5-TTS-pt-br,readonly" `
   -p 7860:7860 `
   ghcr.io/swivid/f5-tts:main `
   f5-tts_infer-gradio --host 0.0.0.0
@@ -116,7 +115,7 @@ docker run --rm -it --gpus all `
 
 
 ```
-C:\Users\Tumais\Documents\GitHub\F5-TTS-pt-br\pt-br\model_last.safetensors
-C:\Users\Tumais\Documents\GitHub\F5-TTS-pt-br\pt-br\model_last.pt
-C:\Users\Tumais\Documents\GitHub\F5-TTS-pt-br\pt-br\model_200000.pt
+C:/path/to/F5-TTS-pt-br/pt-br/model_last.safetensors
+C:/path/to/F5-TTS-pt-br/pt-br/model_last.pt
+C:/path/to/F5-TTS-pt-br/pt-br/model_200000.pt
 ```

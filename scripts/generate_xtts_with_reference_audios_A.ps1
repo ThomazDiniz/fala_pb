@@ -15,21 +15,21 @@ $sentences = @(
 # 2) Defina os 3 grupos de referências com seus paths dentro do container
 $groups = @(
   @{ Key = 'A'; Files = @(
-        "/refs/thomaz_a1.wav", "/refs/thomaz_a2.wav",
-        "/refs/thomaz_a3.wav", "/refs/thomaz_a4.wav",
-        "/refs/thomaz_a5.wav"
+        "/refs/ref_a1.wav", "/refs/ref_a2.wav",
+        "/refs/ref_a3.wav", "/refs/ref_a4.wav",
+        "/refs/ref_a5.wav"
     )
   },
   @{ Key = 'B'; Files = @(
-        "/refs/thomaz_b1.wav", "/refs/thomaz_b2.wav",
-        "/refs/thomaz_b3.wav", "/refs/thomaz_b4.wav",
-        "/refs/thomaz_b5.wav"
+        "/refs/ref_b1.wav", "/refs/ref_b2.wav",
+        "/refs/ref_b3.wav", "/refs/ref_b4.wav",
+        "/refs/ref_b5.wav"
     )
   },
   @{ Key = 'C'; Files = @(
-        "/refs/thomaz_c1.wav", "/refs/thomaz_c2.wav",
-        "/refs/thomaz_c3.wav", "/refs/thomaz_c4.wav",
-        "/refs/thomaz_c5.wav"
+        "/refs/ref_c1.wav", "/refs/ref_c2.wav",
+        "/refs/ref_c3.wav", "/refs/ref_c4.wav",
+        "/refs/ref_c5.wav"
     )
   }
 )

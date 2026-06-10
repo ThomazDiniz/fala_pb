@@ -1,7 +1,7 @@
 import os
 import wave
 
-path = r"C:\\Users\\Tumais\\Desktop\\dataset\\sotaque-brasileiro-data\\Paraiba"
+path = r"path/to/dataset/sotaque-brasileiro-data/Paraiba"
 total_seconds = 0
 
 for root, _, files in os.walk(path):
