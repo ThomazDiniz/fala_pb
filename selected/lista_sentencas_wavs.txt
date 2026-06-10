@@ -1,0 +1,128 @@
+Lista de sentencas — WAVs (por pasta e ordem do arquivo)
+========================================================
+
+--- UO / original ---
+UO01    003.wav   sent_003  Depois de muito procurar, finalmente encontrei as chaves que havia perdido durante a mudança.
+
+UO02    012.wav   sent_012  Quando chegamos ao local do evento, a apresentação já havia começado e quase não encontramos lugares disponíveis.
+
+UO03    016.wav   sent_016  Meu avô sempre contava histórias interessantes sobre a época em que morava no sertão.
+
+UO04    028.wav   sent_028  Durante a madrugada, o vento ficou mais forte e algumas árvores balançavam constantemente.
+
+UO05    056.wav   sent_056  Na semana passada houve uma queda de energia que afetou vários bairros da cidade.
+
+UO06    065.wav   sent_065  Apesar das dificuldades iniciais, conseguimos concluir todas as etapas previstas para esta fase.
+
+UO07    066.wav   sent_066  O atendimento foi rápido.
+
+UO08    079.wav   sent_079  A fila estava enorme.
+
+UO09    088.wav   sent_088  O funcionário organizou os documentos para facilitar futuras consultas.
+
+UO10    092.wav   sent_092  Depois de comparar diferentes alternativas, escolhemos a solução que parecia mais adequada para o problema.
+
+--- UO / adaptado ---
+UO01    003.wav   sent_003  Depois de muito procurar, finalmente encontrei as chaves que havia perdido durante a mudança.
+
+UO02    012.wav   sent_012  Quando chegamos ao local do evento, a apresentação já havia começado e quase não encontramos lugares disponíveis.
+
+UO03    016.wav   sent_016  Meu avô sempre contava histórias interessantes sobre a época em que morava no sertão.
+
+UO04    028.wav   sent_028  Durante a madrugada, o vento ficou mais forte e algumas árvores balançavam constantemente.
+
+UO05    056.wav   sent_056  Na semana passada houve uma queda de energia que afetou vários bairros da cidade.
+
+UO06    065.wav   sent_065  Apesar das dificuldades iniciais, conseguimos concluir todas as etapas previstas para esta fase.
+
+UO07    066.wav   sent_066  O atendimento foi rápido.
+
+UO08    079.wav   sent_079  A fila estava enorme.
+
+UO09    088.wav   sent_088  O funcionário organizou os documentos para facilitar futuras consultas.
+
+UO10    092.wav   sent_092  Depois de comparar diferentes alternativas, escolhemos a solução que parecia mais adequada para o problema.
+
+--- X / original ---
+X01     003.wav   sent_003  Depois de muito procurar, finalmente encontrei as chaves que havia perdido durante a mudança.
+
+X02     012.wav   sent_012  Quando chegamos ao local do evento, a apresentação já havia começado e quase não encontramos lugares disponíveis.
+
+X03     023.wav   sent_023  Qual foi a primeira cidade que você visitou durante as férias?
+
+X04     038.wav   sent_038  Eu precisava apenas de alguns minutos para terminar aquela tarefa.
+
+X05     048.wav   sent_048  O pesquisador apresentou resultados preliminares bastante promissores durante o seminário.
+
+X06     056.wav   sent_056  Na semana passada houve uma queda de energia que afetou vários bairros da cidade.
+
+X07     080.wav   sent_080  O visitante demonstrou bastante interesse pelas atividades desenvolvidas no laboratório.
+
+X08     082.wav   sent_082  O casal passou vários meses organizando cuidadosamente cada detalhe da cerimônia.
+
+X09     092.wav   sent_092  Depois de comparar diferentes alternativas, escolhemos a solução que parecia mais adequada para o problema.
+
+X10     100.wav   sent_100  Após uma longa jornada de trabalho, todos comemoraram o encerramento bem-sucedido do projeto.
+
+--- X / adaptado ---
+X01     003.wav   sent_003  Depois de muito procurar, finalmente encontrei as chaves que havia perdido durante a mudança.
+
+X02     012.wav   sent_012  Quando chegamos ao local do evento, a apresentação já havia começado e quase não encontramos lugares disponíveis.
+
+X03     023.wav   sent_023  Qual foi a primeira cidade que você visitou durante as férias?
+
+X04     038.wav   sent_038  Eu precisava apenas de alguns minutos para terminar aquela tarefa.
+
+X05     048.wav   sent_048  O pesquisador apresentou resultados preliminares bastante promissores durante o seminário.
+
+X06     056.wav   sent_056  Na semana passada houve uma queda de energia que afetou vários bairros da cidade.
+
+X07     080.wav   sent_080  O visitante demonstrou bastante interesse pelas atividades desenvolvidas no laboratório.
+
+X08     082.wav   sent_082  O casal passou vários meses organizando cuidadosamente cada detalhe da cerimônia.
+
+X09     092.wav   sent_092  Depois de comparar diferentes alternativas, escolhemos a solução que parecia mais adequada para o problema.
+
+X10     100.wav   sent_100  Após uma longa jornada de trabalho, todos comemoraram o encerramento bem-sucedido do projeto.
+
+--- FP / original ---
+FP01    003.wav   sent_003  Depois de muito procurar, finalmente encontrei as chaves que havia perdido durante a mudança.
+
+FP02    017.wav   sent_017  Você pode repetir a última informação?
+
+FP03    019.wav   sent_019  No próximo sábado haverá uma caminhada organizada pelos moradores do bairro.
+
+FP04    023.wav   sent_023  Qual foi a primeira cidade que você visitou durante as férias?
+
+FP05    034.wav   sent_034  Você já assistiu ao filme que foi lançado na semana passada?
+
+FP06    052.wav   sent_052  Depois de meses de planejamento e preparação, a equipe finalmente iniciou a execução do projeto.
+
+FP07    059.wav   sent_059  O evento foi um sucesso.
+
+FP08    064.wav   sent_064  O avião pousou sem atrasos.
+
+FP09    082.wav   sent_082  O casal passou vários meses organizando cuidadosamente cada detalhe da cerimônia.
+
+FP10    097.wav   sent_097  A pesquisadora revisou os dados diversas vezes antes de publicar os resultados finais.
+
+--- FP / adaptado ---
+FP01    003.wav   sent_003  Depois de muito procurar, finalmente encontrei as chaves que havia perdido durante a mudança.
+
+FP02    017.wav   sent_017  Você pode repetir a última informação?
+
+FP03    019.wav   sent_019  No próximo sábado haverá uma caminhada organizada pelos moradores do bairro.
+
+FP04    023.wav   sent_023  Qual foi a primeira cidade que você visitou durante as férias?
+
+FP05    034.wav   sent_034  Você já assistiu ao filme que foi lançado na semana passada?
+
+FP06    052.wav   sent_052  Depois de meses de planejamento e preparação, a equipe finalmente iniciou a execução do projeto.
+
+FP07    059.wav   sent_059  O evento foi um sucesso.
+
+FP08    064.wav   sent_064  O avião pousou sem atrasos.
+
+FP09    082.wav   sent_082  O casal passou vários meses organizando cuidadosamente cada detalhe da cerimônia.
+
+FP10    097.wav   sent_097  A pesquisadora revisou os dados diversas vezes antes de publicar os resultados finais.

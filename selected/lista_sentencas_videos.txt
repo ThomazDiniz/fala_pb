@@ -1,0 +1,67 @@
+Lista de sentencas — Videos (UO / X / FP por slot 01-10)
+====================================================
+
+Cada video N usa a mesma sentenca do N-esimo WAV (original) do modelo.
+
+--- UO ---
+UO01    UO01.mp4    ref 003.wav   sent_003  Depois de muito procurar, finalmente encontrei as chaves que havia perdido durante a mudança.
+
+UO02    UO02.mp4    ref 012.wav   sent_012  Quando chegamos ao local do evento, a apresentação já havia começado e quase não encontramos lugares disponíveis.
+
+UO03    UO03.mp4    ref 016.wav   sent_016  Meu avô sempre contava histórias interessantes sobre a época em que morava no sertão.
+
+UO04    UO04.mp4    ref 028.wav   sent_028  Durante a madrugada, o vento ficou mais forte e algumas árvores balançavam constantemente.
+
+UO05    UO05.mp4    ref 056.wav   sent_056  Na semana passada houve uma queda de energia que afetou vários bairros da cidade.
+
+UO06    UO06.mp4    ref 065.wav   sent_065  Apesar das dificuldades iniciais, conseguimos concluir todas as etapas previstas para esta fase.
+
+UO07    UO07.mp4    ref 066.wav   sent_066  O atendimento foi rápido.
+
+UO08    UO08.mp4    ref 079.wav   sent_079  A fila estava enorme.
+
+UO09    UO09.mp4    ref 088.wav   sent_088  O funcionário organizou os documentos para facilitar futuras consultas.
+
+UO10    UO10.mp4    ref 092.wav   sent_092  Depois de comparar diferentes alternativas, escolhemos a solução que parecia mais adequada para o problema.
+
+--- X ---
+X01     X01.mp4     ref 003.wav   sent_003  Depois de muito procurar, finalmente encontrei as chaves que havia perdido durante a mudança.
+
+X02     X02.mp4     ref 012.wav   sent_012  Quando chegamos ao local do evento, a apresentação já havia começado e quase não encontramos lugares disponíveis.
+
+X03     X03.mp4     ref 023.wav   sent_023  Qual foi a primeira cidade que você visitou durante as férias?
+
+X04     X04.mp4     ref 038.wav   sent_038  Eu precisava apenas de alguns minutos para terminar aquela tarefa.
+
+X05     X05.mp4     ref 048.wav   sent_048  O pesquisador apresentou resultados preliminares bastante promissores durante o seminário.
+
+X06     X06.mp4     ref 056.wav   sent_056  Na semana passada houve uma queda de energia que afetou vários bairros da cidade.
+
+X07     X07.mp4     ref 080.wav   sent_080  O visitante demonstrou bastante interesse pelas atividades desenvolvidas no laboratório.
+
+X08     X08.mp4     ref 082.wav   sent_082  O casal passou vários meses organizando cuidadosamente cada detalhe da cerimônia.
+
+X09     X09.mp4     ref 092.wav   sent_092  Depois de comparar diferentes alternativas, escolhemos a solução que parecia mais adequada para o problema.
+
+X10     X10.mp4     ref 100.wav   sent_100  Após uma longa jornada de trabalho, todos comemoraram o encerramento bem-sucedido do projeto.
+
+--- FP ---
+FP01    FP01.mp4    ref 003.wav   sent_003  Depois de muito procurar, finalmente encontrei as chaves que havia perdido durante a mudança.
+
+FP02    FP02.mp4    ref 017.wav   sent_017  Você pode repetir a última informação?
+
+FP03    FP03.mp4    ref 019.wav   sent_019  No próximo sábado haverá uma caminhada organizada pelos moradores do bairro.
+
+FP04    FP04.mp4    ref 023.wav   sent_023  Qual foi a primeira cidade que você visitou durante as férias?
+
+FP05    FP05.mp4    ref 034.wav   sent_034  Você já assistiu ao filme que foi lançado na semana passada?
+
+FP06    FP06.mp4    ref 052.wav   sent_052  Depois de meses de planejamento e preparação, a equipe finalmente iniciou a execução do projeto.
+
+FP07    FP07.mp4    ref 059.wav   sent_059  O evento foi um sucesso.
+
+FP08    FP08.mp4    ref 064.wav   sent_064  O avião pousou sem atrasos.
+
+FP09    FP09.mp4    ref 082.wav   sent_082  O casal passou vários meses organizando cuidadosamente cada detalhe da cerimônia.
+
+FP10    FP10.mp4    ref 097.wav   sent_097  A pesquisadora revisou os dados diversas vezes antes de publicar os resultados finais.
