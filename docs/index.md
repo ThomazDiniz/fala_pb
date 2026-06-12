@@ -52,5 +52,5 @@ Nesta página, você encontra a lista de todos os experimentos realizados, com l
 | [19° F5-TTS do zero — Parler-TTS cancelado              ](/fala_pb/19/)  |
 | [**Inferencias finais** — 100 sentencas, 3 modelos, 1800 audios](/fala_pb/100/)  |
 | [20° Teoria da amostragem + validacao automatica + finalizacao dos forms](/fala_pb/20/)  |
-| [21° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/21/)  |
+| [21° Formulario final — validacao perceptual de sotaque   ](/fala_pb/21/)  |
 | [22° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/22/)  |
