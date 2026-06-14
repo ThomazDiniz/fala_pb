@@ -1,0 +1,22 @@
+# Dependências do Experimento Final (experimento_final.py)
+# Recomendado rodar em máquina com GPU.
+
+pandas
+numpy
+matplotlib
+scipy
+tqdm
+
+# STT
+openai-whisper
+torch
+torchaudio
+
+# Preditores de MOS (torchmetrics: NISQA + DNSMOS)
+torchmetrics
+librosa
+onnxruntime
+requests
+
+# MOSA-Net (opcional): descomente se for ativar (USAR_MOSANET=True)
+# tensorflow>=2.10
