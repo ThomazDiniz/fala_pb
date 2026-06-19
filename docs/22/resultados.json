@@ -1,0 +1,1095 @@
+{
+  "TODOS": {
+    "bloco1": {
+      "XTTS": {
+        "n_respostas": 168,
+        "n_respondentes": 56,
+        "n_amostras": 3,
+        "sotaque": {
+          "adaptado": 142,
+          "naodist": 8,
+          "ambos": 9,
+          "original": 9
+        },
+        "intelig": {
+          "original": 60,
+          "ambos": 47,
+          "adaptado": 59,
+          "naodist": 2
+        },
+        "pct_sotaque_adicionado": 89.9,
+        "pct_sot_adaptado": 84.5,
+        "pct_sot_ambos": 5.4,
+        "pct_sot_original": 5.4,
+        "pct_sot_naodist": 4.8,
+        "binom_p_sotaque": 3.295839080858622e-32,
+        "pct_intelig_naopior": 63.1,
+        "pct_int_adaptado": 35.1,
+        "pct_int_ambos": 28.0,
+        "pct_int_original": 35.7,
+        "pct_int_naodist": 1.2,
+        "binom_p_intelig": 0.5726849789101165,
+        "por_amostra": [
+          {
+            "cols": [
+              3,
+              4
+            ],
+            "adaptado": "B",
+            "sotaque": {
+              "adaptado": 51,
+              "naodist": 2,
+              "ambos": 1,
+              "original": 2
+            },
+            "intelig": {
+              "original": 25,
+              "ambos": 15,
+              "adaptado": 16
+            }
+          },
+          {
+            "cols": [
+              5,
+              6
+            ],
+            "adaptado": "A",
+            "sotaque": {
+              "ambos": 7,
+              "adaptado": 44,
+              "naodist": 2,
+              "original": 3
+            },
+            "intelig": {
+              "original": 18,
+              "naodist": 1,
+              "adaptado": 22,
+              "ambos": 15
+            }
+          },
+          {
+            "cols": [
+              7,
+              8
+            ],
+            "adaptado": "B",
+            "sotaque": {
+              "adaptado": 47,
+              "original": 4,
+              "naodist": 4,
+              "ambos": 1
+            },
+            "intelig": {
+              "ambos": 17,
+              "original": 17,
+              "adaptado": 21,
+              "naodist": 1
+            }
+          }
+        ]
+      },
+      "FishSpeech": {
+        "n_respostas": 168,
+        "n_respondentes": 56,
+        "n_amostras": 3,
+        "sotaque": {
+          "adaptado": 135,
+          "ambos": 12,
+          "original": 9,
+          "naodist": 12
+        },
+        "intelig": {
+          "ambos": 54,
+          "adaptado": 94,
+          "original": 13,
+          "naodist": 7
+        },
+        "pct_sotaque_adicionado": 87.5,
+        "pct_sot_adaptado": 80.4,
+        "pct_sot_ambos": 7.1,
+        "pct_sot_original": 5.4,
+        "pct_sot_naodist": 7.1,
+        "binom_p_sotaque": 2.7282767259467126e-30,
+        "pct_intelig_naopior": 88.1,
+        "pct_int_adaptado": 56.0,
+        "pct_int_ambos": 32.1,
+        "pct_int_original": 7.7,
+        "pct_int_naodist": 4.2,
+        "binom_p_intelig": 1.2906431396160918e-16,
+        "por_amostra": [
+          {
+            "cols": [
+              9,
+              10
+            ],
+            "adaptado": "A",
+            "sotaque": {
+              "adaptado": 48,
+              "ambos": 5,
+              "original": 2,
+              "naodist": 1
+            },
+            "intelig": {
+              "ambos": 22,
+              "adaptado": 26,
+              "original": 8
+            }
+          },
+          {
+            "cols": [
+              11,
+              12
+            ],
+            "adaptado": "B",
+            "sotaque": {
+              "adaptado": 37,
+              "naodist": 9,
+              "original": 5,
+              "ambos": 5
+            },
+            "intelig": {
+              "adaptado": 42,
+              "naodist": 7,
+              "ambos": 7
+            }
+          },
+          {
+            "cols": [
+              13,
+              14
+            ],
+            "adaptado": "B",
+            "sotaque": {
+              "adaptado": 50,
+              "original": 2,
+              "naodist": 2,
+              "ambos": 2
+            },
+            "intelig": {
+              "ambos": 25,
+              "adaptado": 26,
+              "original": 5
+            }
+          }
+        ]
+      },
+      "Unsloth/Orpheus": {
+        "n_respostas": 168,
+        "n_respondentes": 56,
+        "n_amostras": 3,
+        "sotaque": {
+          "adaptado": 144,
+          "original": 8,
+          "ambos": 6,
+          "naodist": 10
+        },
+        "intelig": {
+          "ambos": 35,
+          "adaptado": 76,
+          "original": 42,
+          "naodist": 15
+        },
+        "pct_sotaque_adicionado": 89.3,
+        "pct_sot_adaptado": 85.7,
+        "pct_sot_ambos": 3.6,
+        "pct_sot_original": 4.8,
+        "pct_sot_naodist": 6.0,
+        "binom_p_sotaque": 1.0858623775248149e-33,
+        "pct_intelig_naopior": 66.1,
+        "pct_int_adaptado": 45.2,
+        "pct_int_ambos": 20.8,
+        "pct_int_original": 25.0,
+        "pct_int_naodist": 8.9,
+        "binom_p_intelig": 0.0011213325258679426,
+        "por_amostra": [
+          {
+            "cols": [
+              15,
+              16
+            ],
+            "adaptado": "B",
+            "sotaque": {
+              "adaptado": 52,
+              "original": 1,
+              "ambos": 2,
+              "naodist": 1
+            },
+            "intelig": {
+              "ambos": 19,
+              "adaptado": 20,
+              "original": 14,
+              "naodist": 3
+            }
+          },
+          {
+            "cols": [
+              17,
+              18
+            ],
+            "adaptado": "A",
+            "sotaque": {
+              "naodist": 6,
+              "adaptado": 45,
+              "original": 4,
+              "ambos": 1
+            },
+            "intelig": {
+              "naodist": 9,
+              "adaptado": 26,
+              "original": 17,
+              "ambos": 4
+            }
+          },
+          {
+            "cols": [
+              19,
+              20
+            ],
+            "adaptado": "B",
+            "sotaque": {
+              "adaptado": 47,
+              "original": 3,
+              "naodist": 3,
+              "ambos": 3
+            },
+            "intelig": {
+              "adaptado": 30,
+              "original": 11,
+              "ambos": 12,
+              "naodist": 3
+            }
+          }
+        ]
+      }
+    },
+    "bloco2_confrontos": {
+      "XTTS_vs_FishSpeech": {
+        "modeloA": "XTTS",
+        "modeloB": "FishSpeech",
+        "n": 168,
+        "sotaque": {
+          "ambos": 65,
+          "A": 64,
+          "B": 35,
+          "naodist": 4
+        },
+        "intelig": {
+          "A": 68,
+          "ambos": 59,
+          "naodist": 5,
+          "B": 36
+        },
+        "sot_pct_A": 38.1,
+        "sot_pct_B": 20.8,
+        "sot_pct_ambos": 38.7,
+        "int_pct_A": 40.5,
+        "int_pct_B": 21.4,
+        "int_pct_ambos": 35.1,
+        "binom_p_sot_A_maior": 0.002320327044217154,
+        "binom_p_int_A_maior": 0.0011047164459938807
+      },
+      "FishSpeech_vs_Unsloth": {
+        "modeloA": "FishSpeech",
+        "modeloB": "Unsloth/Orpheus",
+        "n": 168,
+        "sotaque": {
+          "A": 102,
+          "ambos": 43,
+          "naodist": 9,
+          "B": 14
+        },
+        "intelig": {
+          "A": 97,
+          "ambos": 41,
+          "B": 28,
+          "naodist": 2
+        },
+        "sot_pct_A": 60.7,
+        "sot_pct_B": 8.3,
+        "sot_pct_ambos": 25.6,
+        "int_pct_A": 57.7,
+        "int_pct_B": 16.7,
+        "int_pct_ambos": 24.4,
+        "binom_p_sot_A_maior": 5.628535767511063e-18,
+        "binom_p_int_A_maior": 2.0984101271169582e-10
+      },
+      "XTTS_vs_Unsloth": {
+        "modeloA": "XTTS",
+        "modeloB": "Unsloth/Orpheus",
+        "n": 168,
+        "sotaque": {
+          "A": 84,
+          "ambos": 52,
+          "B": 23,
+          "naodist": 9
+        },
+        "intelig": {
+          "A": 110,
+          "B": 21,
+          "ambos": 33,
+          "naodist": 4
+        },
+        "sot_pct_A": 50.0,
+        "sot_pct_B": 13.7,
+        "sot_pct_ambos": 31.0,
+        "int_pct_A": 65.5,
+        "int_pct_B": 12.5,
+        "int_pct_ambos": 19.6,
+        "binom_p_sot_A_maior": 1.2010141336716403e-09,
+        "binom_p_int_A_maior": 4.716002277811764e-16
+      }
+    },
+    "bloco2_ranking": {
+      "XTTS": {
+        "sot_win": 148,
+        "sot_loss": 58,
+        "sot_tie": 117,
+        "int_win": 178,
+        "int_loss": 57,
+        "int_tie": 92,
+        "sot_winrate": 71.8,
+        "int_winrate": 75.7
+      },
+      "FishSpeech": {
+        "sot_win": 137,
+        "sot_loss": 78,
+        "sot_tie": 108,
+        "int_win": 133,
+        "int_loss": 96,
+        "int_tie": 100,
+        "sot_winrate": 63.7,
+        "int_winrate": 58.1
+      },
+      "Unsloth/Orpheus": {
+        "sot_win": 37,
+        "sot_loss": 186,
+        "sot_tie": 95,
+        "int_win": 49,
+        "int_loss": 207,
+        "int_tie": 74,
+        "sot_winrate": 16.6,
+        "int_winrate": 19.1
+      }
+    },
+    "n_respondentes": 56
+  },
+  "PARAIBANOS": {
+    "bloco1": {
+      "XTTS": {
+        "n_respostas": 42,
+        "n_respondentes": 14,
+        "n_amostras": 3,
+        "sotaque": {
+          "adaptado": 35,
+          "original": 3,
+          "ambos": 2,
+          "naodist": 2
+        },
+        "intelig": {
+          "original": 16,
+          "adaptado": 21,
+          "ambos": 5
+        },
+        "pct_sotaque_adicionado": 88.1,
+        "pct_sot_adaptado": 83.3,
+        "pct_sot_ambos": 4.8,
+        "pct_sot_original": 7.1,
+        "pct_sot_naodist": 4.8,
+        "binom_p_sotaque": 3.338936949148774e-08,
+        "pct_intelig_naopior": 61.9,
+        "pct_int_adaptado": 50.0,
+        "pct_int_ambos": 11.9,
+        "pct_int_original": 38.1,
+        "pct_int_naodist": 0.0,
+        "binom_p_intelig": 0.2556878907926148,
+        "por_amostra": [
+          {
+            "cols": [
+              3,
+              4
+            ],
+            "adaptado": "B",
+            "sotaque": {
+              "adaptado": 13,
+              "original": 1
+            },
+            "intelig": {
+              "original": 5,
+              "adaptado": 7,
+              "ambos": 2
+            }
+          },
+          {
+            "cols": [
+              5,
+              6
+            ],
+            "adaptado": "A",
+            "sotaque": {
+              "adaptado": 11,
+              "original": 2,
+              "ambos": 1
+            },
+            "intelig": {
+              "original": 5,
+              "adaptado": 7,
+              "ambos": 2
+            }
+          },
+          {
+            "cols": [
+              7,
+              8
+            ],
+            "adaptado": "B",
+            "sotaque": {
+              "adaptado": 11,
+              "naodist": 2,
+              "ambos": 1
+            },
+            "intelig": {
+              "original": 6,
+              "adaptado": 7,
+              "ambos": 1
+            }
+          }
+        ]
+      },
+      "FishSpeech": {
+        "n_respostas": 42,
+        "n_respondentes": 14,
+        "n_amostras": 3,
+        "sotaque": {
+          "adaptado": 40,
+          "naodist": 2
+        },
+        "intelig": {
+          "original": 3,
+          "adaptado": 30,
+          "ambos": 8,
+          "naodist": 1
+        },
+        "pct_sotaque_adicionado": 95.2,
+        "pct_sot_adaptado": 95.2,
+        "pct_sot_ambos": 0.0,
+        "pct_sot_original": 0.0,
+        "pct_sot_naodist": 4.8,
+        "binom_p_sotaque": 9.094947017729282e-13,
+        "pct_intelig_naopior": 90.5,
+        "pct_int_adaptado": 71.4,
+        "pct_int_ambos": 19.0,
+        "pct_int_original": 7.1,
+        "pct_int_naodist": 2.4,
+        "binom_p_intelig": 7.005874067544937e-07,
+        "por_amostra": [
+          {
+            "cols": [
+              9,
+              10
+            ],
+            "adaptado": "A",
+            "sotaque": {
+              "adaptado": 14
+            },
+            "intelig": {
+              "original": 2,
+              "adaptado": 8,
+              "ambos": 4
+            }
+          },
+          {
+            "cols": [
+              11,
+              12
+            ],
+            "adaptado": "B",
+            "sotaque": {
+              "adaptado": 13,
+              "naodist": 1
+            },
+            "intelig": {
+              "adaptado": 13,
+              "naodist": 1
+            }
+          },
+          {
+            "cols": [
+              13,
+              14
+            ],
+            "adaptado": "B",
+            "sotaque": {
+              "adaptado": 13,
+              "naodist": 1
+            },
+            "intelig": {
+              "adaptado": 9,
+              "ambos": 4,
+              "original": 1
+            }
+          }
+        ]
+      },
+      "Unsloth/Orpheus": {
+        "n_respostas": 42,
+        "n_respondentes": 14,
+        "n_amostras": 3,
+        "sotaque": {
+          "adaptado": 36,
+          "ambos": 2,
+          "original": 2,
+          "naodist": 2
+        },
+        "intelig": {
+          "original": 12,
+          "adaptado": 22,
+          "ambos": 7,
+          "naodist": 1
+        },
+        "pct_sotaque_adicionado": 90.5,
+        "pct_sot_adaptado": 85.7,
+        "pct_sot_ambos": 4.8,
+        "pct_sot_original": 4.8,
+        "pct_sot_naodist": 4.8,
+        "binom_p_sotaque": 2.699380274862051e-09,
+        "pct_intelig_naopior": 69.0,
+        "pct_int_adaptado": 52.4,
+        "pct_int_ambos": 16.7,
+        "pct_int_original": 28.6,
+        "pct_int_naodist": 2.4,
+        "binom_p_intelig": 0.06072474247775972,
+        "por_amostra": [
+          {
+            "cols": [
+              15,
+              16
+            ],
+            "adaptado": "B",
+            "sotaque": {
+              "adaptado": 13,
+              "ambos": 1
+            },
+            "intelig": {
+              "original": 3,
+              "adaptado": 6,
+              "ambos": 5
+            }
+          },
+          {
+            "cols": [
+              17,
+              18
+            ],
+            "adaptado": "A",
+            "sotaque": {
+              "adaptado": 11,
+              "original": 1,
+              "naodist": 2
+            },
+            "intelig": {
+              "original": 6,
+              "adaptado": 7,
+              "naodist": 1
+            }
+          },
+          {
+            "cols": [
+              19,
+              20
+            ],
+            "adaptado": "B",
+            "sotaque": {
+              "original": 1,
+              "adaptado": 12,
+              "ambos": 1
+            },
+            "intelig": {
+              "original": 3,
+              "adaptado": 9,
+              "ambos": 2
+            }
+          }
+        ]
+      }
+    },
+    "bloco2_confrontos": {
+      "XTTS_vs_FishSpeech": {
+        "modeloA": "XTTS",
+        "modeloB": "FishSpeech",
+        "n": 42,
+        "sotaque": {
+          "ambos": 14,
+          "A": 20,
+          "B": 7,
+          "naodist": 1
+        },
+        "intelig": {
+          "B": 10,
+          "A": 21,
+          "ambos": 10,
+          "naodist": 1
+        },
+        "sot_pct_A": 47.6,
+        "sot_pct_B": 16.7,
+        "sot_pct_ambos": 33.3,
+        "int_pct_A": 50.0,
+        "int_pct_B": 23.8,
+        "int_pct_ambos": 23.8,
+        "binom_p_sot_A_maior": 0.0095786452293396,
+        "binom_p_int_A_maior": 0.035377772990614176
+      },
+      "FishSpeech_vs_Unsloth": {
+        "modeloA": "FishSpeech",
+        "modeloB": "Unsloth/Orpheus",
+        "n": 42,
+        "sotaque": {
+          "ambos": 9,
+          "A": 32,
+          "naodist": 1
+        },
+        "intelig": {
+          "A": 28,
+          "ambos": 8,
+          "B": 6
+        },
+        "sot_pct_A": 76.2,
+        "sot_pct_B": 0.0,
+        "sot_pct_ambos": 21.4,
+        "int_pct_A": 66.7,
+        "int_pct_B": 14.3,
+        "int_pct_ambos": 19.0,
+        "binom_p_sot_A_maior": 2.3283064365386963e-10,
+        "binom_p_int_A_maior": 9.756279177963734e-05
+      },
+      "XTTS_vs_Unsloth": {
+        "modeloA": "XTTS",
+        "modeloB": "Unsloth/Orpheus",
+        "n": 42,
+        "sotaque": {
+          "ambos": 7,
+          "A": 31,
+          "B": 3,
+          "naodist": 1
+        },
+        "intelig": {
+          "A": 32,
+          "ambos": 6,
+          "B": 3,
+          "naodist": 1
+        },
+        "sot_pct_A": 73.8,
+        "sot_pct_B": 7.1,
+        "sot_pct_ambos": 16.7,
+        "int_pct_A": 76.2,
+        "int_pct_B": 7.1,
+        "int_pct_ambos": 14.3,
+        "binom_p_sot_A_maior": 3.8300640881061554e-07,
+        "binom_p_int_A_maior": 2.0884908735752106e-07
+      }
+    },
+    "bloco2_ranking": {
+      "XTTS": {
+        "sot_win": 51,
+        "sot_loss": 10,
+        "sot_tie": 21,
+        "int_win": 53,
+        "int_loss": 13,
+        "int_tie": 16,
+        "sot_winrate": 83.6,
+        "int_winrate": 80.3
+      },
+      "FishSpeech": {
+        "sot_win": 39,
+        "sot_loss": 20,
+        "sot_tie": 23,
+        "int_win": 38,
+        "int_loss": 27,
+        "int_tie": 18,
+        "sot_winrate": 66.1,
+        "int_winrate": 58.5
+      },
+      "Unsloth/Orpheus": {
+        "sot_win": 3,
+        "sot_loss": 63,
+        "sot_tie": 16,
+        "int_win": 9,
+        "int_loss": 60,
+        "int_tie": 14,
+        "sot_winrate": 4.5,
+        "int_winrate": 13.0
+      }
+    },
+    "n_respondentes": 14
+  },
+  "FAMILIARIZADOS": {
+    "bloco1": {
+      "XTTS": {
+        "n_respostas": 141,
+        "n_respondentes": 47,
+        "n_amostras": 3,
+        "sotaque": {
+          "adaptado": 120,
+          "naodist": 4,
+          "original": 9,
+          "ambos": 8
+        },
+        "intelig": {
+          "original": 56,
+          "ambos": 36,
+          "adaptado": 48,
+          "naodist": 1
+        },
+        "pct_sotaque_adicionado": 90.8,
+        "pct_sot_adaptado": 85.1,
+        "pct_sot_ambos": 5.7,
+        "pct_sot_original": 6.4,
+        "pct_sot_naodist": 2.8,
+        "binom_p_sotaque": 3.2506176440823307e-26,
+        "pct_intelig_naopior": 59.6,
+        "pct_int_adaptado": 34.0,
+        "pct_int_ambos": 25.5,
+        "pct_int_original": 39.7,
+        "pct_int_naodist": 0.7,
+        "binom_p_intelig": 0.8112080383509507,
+        "por_amostra": [
+          {
+            "cols": [
+              3,
+              4
+            ],
+            "adaptado": "B",
+            "sotaque": {
+              "adaptado": 44,
+              "naodist": 1,
+              "original": 2
+            },
+            "intelig": {
+              "original": 23,
+              "ambos": 12,
+              "adaptado": 12
+            }
+          },
+          {
+            "cols": [
+              5,
+              6
+            ],
+            "adaptado": "A",
+            "sotaque": {
+              "ambos": 7,
+              "adaptado": 37,
+              "original": 3
+            },
+            "intelig": {
+              "original": 17,
+              "adaptado": 19,
+              "ambos": 11
+            }
+          },
+          {
+            "cols": [
+              7,
+              8
+            ],
+            "adaptado": "B",
+            "sotaque": {
+              "adaptado": 39,
+              "original": 4,
+              "naodist": 3,
+              "ambos": 1
+            },
+            "intelig": {
+              "ambos": 13,
+              "original": 16,
+              "adaptado": 17,
+              "naodist": 1
+            }
+          }
+        ]
+      },
+      "FishSpeech": {
+        "n_respostas": 141,
+        "n_respondentes": 47,
+        "n_amostras": 3,
+        "sotaque": {
+          "adaptado": 116,
+          "ambos": 10,
+          "original": 6,
+          "naodist": 9
+        },
+        "intelig": {
+          "ambos": 44,
+          "adaptado": 81,
+          "original": 11,
+          "naodist": 5
+        },
+        "pct_sotaque_adicionado": 89.4,
+        "pct_sot_adaptado": 82.3,
+        "pct_sot_ambos": 7.1,
+        "pct_sot_original": 4.3,
+        "pct_sot_naodist": 6.4,
+        "binom_p_sotaque": 8.009329907103973e-28,
+        "pct_intelig_naopior": 88.7,
+        "pct_int_adaptado": 57.4,
+        "pct_int_ambos": 31.2,
+        "pct_int_original": 7.8,
+        "pct_int_naodist": 3.5,
+        "binom_p_intelig": 1.250752531610043e-14,
+        "por_amostra": [
+          {
+            "cols": [
+              9,
+              10
+            ],
+            "adaptado": "A",
+            "sotaque": {
+              "adaptado": 39,
+              "ambos": 5,
+              "original": 2,
+              "naodist": 1
+            },
+            "intelig": {
+              "ambos": 18,
+              "adaptado": 22,
+              "original": 7
+            }
+          },
+          {
+            "cols": [
+              11,
+              12
+            ],
+            "adaptado": "B",
+            "sotaque": {
+              "adaptado": 34,
+              "naodist": 7,
+              "ambos": 3,
+              "original": 3
+            },
+            "intelig": {
+              "adaptado": 37,
+              "naodist": 5,
+              "ambos": 5
+            }
+          },
+          {
+            "cols": [
+              13,
+              14
+            ],
+            "adaptado": "B",
+            "sotaque": {
+              "adaptado": 43,
+              "original": 1,
+              "ambos": 2,
+              "naodist": 1
+            },
+            "intelig": {
+              "ambos": 21,
+              "adaptado": 22,
+              "original": 4
+            }
+          }
+        ]
+      },
+      "Unsloth/Orpheus": {
+        "n_respostas": 141,
+        "n_respondentes": 47,
+        "n_amostras": 3,
+        "sotaque": {
+          "adaptado": 120,
+          "original": 7,
+          "ambos": 6,
+          "naodist": 8
+        },
+        "intelig": {
+          "ambos": 29,
+          "adaptado": 62,
+          "naodist": 13,
+          "original": 37
+        },
+        "pct_sotaque_adicionado": 89.4,
+        "pct_sot_adaptado": 85.1,
+        "pct_sot_ambos": 4.3,
+        "pct_sot_original": 5.0,
+        "pct_sot_naodist": 5.7,
+        "binom_p_sotaque": 5.571296800461234e-28,
+        "pct_intelig_naopior": 64.5,
+        "pct_int_adaptado": 44.0,
+        "pct_int_ambos": 20.6,
+        "pct_int_original": 26.2,
+        "pct_int_naodist": 9.2,
+        "binom_p_intelig": 0.007716182253654504,
+        "por_amostra": [
+          {
+            "cols": [
+              15,
+              16
+            ],
+            "adaptado": "B",
+            "sotaque": {
+              "adaptado": 43,
+              "original": 1,
+              "ambos": 2,
+              "naodist": 1
+            },
+            "intelig": {
+              "ambos": 16,
+              "adaptado": 16,
+              "naodist": 3,
+              "original": 12
+            }
+          },
+          {
+            "cols": [
+              17,
+              18
+            ],
+            "adaptado": "A",
+            "sotaque": {
+              "naodist": 5,
+              "adaptado": 37,
+              "original": 4,
+              "ambos": 1
+            },
+            "intelig": {
+              "naodist": 7,
+              "adaptado": 21,
+              "original": 16,
+              "ambos": 3
+            }
+          },
+          {
+            "cols": [
+              19,
+              20
+            ],
+            "adaptado": "B",
+            "sotaque": {
+              "adaptado": 40,
+              "original": 2,
+              "naodist": 2,
+              "ambos": 3
+            },
+            "intelig": {
+              "adaptado": 25,
+              "original": 9,
+              "ambos": 10,
+              "naodist": 3
+            }
+          }
+        ]
+      }
+    },
+    "bloco2_confrontos": {
+      "XTTS_vs_FishSpeech": {
+        "modeloA": "XTTS",
+        "modeloB": "FishSpeech",
+        "n": 141,
+        "sotaque": {
+          "ambos": 56,
+          "A": 54,
+          "B": 29,
+          "naodist": 2
+        },
+        "intelig": {
+          "A": 61,
+          "naodist": 4,
+          "B": 33,
+          "ambos": 43
+        },
+        "sot_pct_A": 38.3,
+        "sot_pct_B": 20.6,
+        "sot_pct_ambos": 39.7,
+        "int_pct_A": 43.3,
+        "int_pct_B": 23.4,
+        "int_pct_ambos": 30.5,
+        "binom_p_sot_A_maior": 0.004018353188928501,
+        "binom_p_int_A_maior": 0.002539217906414905
+      },
+      "FishSpeech_vs_Unsloth": {
+        "modeloA": "FishSpeech",
+        "modeloB": "Unsloth/Orpheus",
+        "n": 141,
+        "sotaque": {
+          "A": 86,
+          "ambos": 38,
+          "B": 10,
+          "naodist": 7
+        },
+        "intelig": {
+          "A": 83,
+          "ambos": 31,
+          "naodist": 2,
+          "B": 25
+        },
+        "sot_pct_A": 61.0,
+        "sot_pct_B": 7.1,
+        "sot_pct_ambos": 27.0,
+        "int_pct_A": 58.9,
+        "int_pct_B": 17.7,
+        "int_pct_ambos": 22.0,
+        "binom_p_sot_A_maior": 1.6057398246400727e-16,
+        "binom_p_int_A_maior": 9.414669009536399e-09
+      },
+      "XTTS_vs_Unsloth": {
+        "modeloA": "XTTS",
+        "modeloB": "Unsloth/Orpheus",
+        "n": 141,
+        "sotaque": {
+          "A": 74,
+          "ambos": 41,
+          "B": 20,
+          "naodist": 6
+        },
+        "intelig": {
+          "A": 96,
+          "B": 18,
+          "ambos": 23,
+          "naodist": 4
+        },
+        "sot_pct_A": 52.5,
+        "sot_pct_B": 14.2,
+        "sot_pct_ambos": 29.1,
+        "int_pct_A": 68.1,
+        "int_pct_B": 12.8,
+        "int_pct_ambos": 16.3,
+        "binom_p_sot_A_maior": 9.230591803381639e-09,
+        "binom_p_int_A_maior": 2.360716563669634e-14
+      }
+    },
+    "bloco2_ranking": {
+      "XTTS": {
+        "sot_win": 128,
+        "sot_loss": 49,
+        "sot_tie": 97,
+        "int_win": 157,
+        "int_loss": 51,
+        "int_tie": 66,
+        "sot_winrate": 72.3,
+        "int_winrate": 75.5
+      },
+      "FishSpeech": {
+        "sot_win": 115,
+        "sot_loss": 64,
+        "sot_tie": 94,
+        "int_win": 116,
+        "int_loss": 86,
+        "int_tie": 74,
+        "sot_winrate": 64.2,
+        "int_winrate": 57.4
+      },
+      "Unsloth/Orpheus": {
+        "sot_win": 30,
+        "sot_loss": 160,
+        "sot_tie": 79,
+        "int_win": 43,
+        "int_loss": 179,
+        "int_tie": 54,
+        "sot_winrate": 15.8,
+        "int_winrate": 19.4
+      }
+    },
+    "n_respondentes": 47
+  }
+}
