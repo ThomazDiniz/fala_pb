@@ -53,4 +53,5 @@ Nesta página, você encontra a lista de todos os experimentos realizados, com l
 | [**Inferencias finais** — 100 sentencas, 3 modelos, 1800 audios](/fala_pb/100/)  |
 | [20° Teoria da amostragem + validacao automatica + finalizacao dos forms](/fala_pb/20/)  |
 | [21° Formulario final — validacao perceptual (reuniao 21)](/fala_pb/21/)  |
-| [22° Lorem ipsum dolor sit amet, consectetur.            ](/fala_pb/22/)  |
+| [22° Reuniao 22 — Proximos passos e publicacao           ](/fala_pb/22/)  |
+| [23° Reuniao 23 — Publicacao de bases/checkpoints e correcoes da dissertacao](/fala_pb/23/)  |
