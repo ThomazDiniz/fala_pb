@@ -4,4 +4,4 @@ markdown: kramdown
 baseurl: "/fala_pb"
 exp_nav:
   first: 1
-  last: 22
+  last: 25

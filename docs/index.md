@@ -55,3 +55,5 @@ Nesta página, você encontra a lista de todos os experimentos realizados, com l
 | [21° Formulario final — validacao perceptual (reuniao 21)](/fala_pb/21/)  |
 | [22° Reuniao 22 — Proximos passos e publicacao           ](/fala_pb/22/)  |
 | [23° Reuniao 23 — Publicacao de bases/checkpoints e correcoes da dissertacao](/fala_pb/23/)  |
+| [24° Reuniao 24](/fala_pb/24/)  |
+| [25° Reuniao 25](/fala_pb/25/)  |
