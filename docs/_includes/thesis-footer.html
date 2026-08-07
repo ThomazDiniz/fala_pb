@@ -99,42 +99,26 @@
     </li>
     <li>
       <div class="persist-task-row">
-        <span>Versao completa para a banca: 20/07</span>
-        <select class="js-persist-select" data-key="cron:banca-2007" aria-label="Status: Versao banca 20/07">
-          <option value="pending">Pendente</option>
-          <option value="progress">Em andamento</option>
-          <option value="done">Concluido</option>
-        </select>
+        <span>Versao completa para a banca — Previsto: 20/07 | Finalizado: 07/08</span>
+        <span class="persist-status-done">Concluido</span>
       </div>
     </li>
     <li>
       <div class="persist-task-row">
-        <span>Buffer de tolerancia de atraso para versao da banca: 30/07</span>
-        <select class="js-persist-select" data-key="cron:buffer-3007" aria-label="Status: Buffer banca 30/07">
-          <option value="pending">Pendente</option>
-          <option value="progress">Em andamento</option>
-          <option value="done">Concluido</option>
-        </select>
+        <span>Buffer de tolerancia de atraso para versao da banca — Previsto: 30/07 | Finalizado: 07/08</span>
+        <span class="persist-status-done">Concluido</span>
       </div>
     </li>
     <li>
       <div class="persist-task-row">
         <span>Defesa marcada: 24/08</span>
-        <select class="js-persist-select" data-key="cron:defesa-2408" aria-label="Status: Defesa">
-          <option value="pending">Pendente</option>
-          <option value="progress">Em andamento</option>
-          <option value="done">Concluido</option>
-        </select>
+        <span class="persist-status-done">Concluido</span>
       </div>
     </li>
     <li>
       <div class="persist-task-row">
         <span>Aprovacao na Plataforma Brasil</span>
-        <select class="js-persist-select" data-key="cron:aprovacao-plataforma-brasil" aria-label="Status: Aprovacao Plataforma Brasil">
-          <option value="pending">Pendente</option>
-          <option value="progress">Em andamento</option>
-          <option value="done">Concluido</option>
-        </select>
+        <span class="persist-status-done">Concluido</span>
       </div>
     </li>
     <li>
@@ -145,25 +129,18 @@
     </li>
     <li>
       <div class="persist-task-row">
-        <span>Publicacao</span>
-        <select class="js-persist-select" data-key="cron:publicacao" aria-label="Status: Publicacao">
-          <option value="pending">Pendente</option>
-          <option value="progress">Em andamento</option>
-          <option value="done">Concluido</option>
-        </select>
-      </div>
-    </li>
-    <li>
-      <div class="persist-task-row">
         <span><strong>Agents for Good</strong>: levantar problemas e o que o paciente reclama; avaliar robustez dos reconhecedores de audio (ou fala); sintetizar audios de pacientes tipicos e avaliar ferramentas comerciais</span>
         <span class="persist-status-done">Concluido</span>
       </div>
     </li>
   </ul>
-  <p style="margin: 0.75rem 0 0; font-weight: 400; font-size: 0.9rem; opacity: 0.85;">Itens marcados como concluidos sao fixos no site. Demais prazos usam select (localStorage neste navegador).</p>
+  <p style="margin: 0.75rem 0 0; font-weight: 400; font-size: 0.9rem; opacity: 0.85;">Todos os itens do cronograma estao concluidos e fixos no site.</p>
 </div>
 
-{% include site-model-checklist.html %}
+<!-- Checklist "Modelos com checkpoints treinados por nos": ocultado do rodape.
+     O arquivo _includes/site-model-checklist.html continua no repositorio.
+     Para reexibir, descomente a linha abaixo (tirar o comment/endcomment). -->
+{% comment %} {% include site-model-checklist.html %} {% endcomment %}
 
 {% include notes-input.html %}
 
