@@ -57,3 +57,4 @@ Nesta página, você encontra a lista de todos os experimentos realizados, com l
 | [23° Reuniao 23 — Publicacao de bases/checkpoints e correcoes da dissertacao](/fala_pb/23/)  |
 | [24° Reuniao 24](/fala_pb/24/)  |
 | [25° Reuniao 25](/fala_pb/25/)  |
+| [**Artefatos de audio** — pagina de escuta para a banca (8 blocos, 175 audios)](/fala_pb/artefatos/)  |

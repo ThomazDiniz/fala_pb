@@ -5,3 +5,7 @@ baseurl: "/fala_pb"
 exp_nav:
   first: 1
   last: 25
+exclude:
+  - artefatos/montar_manifesto.py
+  - artefatos/gerar_pagina.py
+  - artefatos/README.md

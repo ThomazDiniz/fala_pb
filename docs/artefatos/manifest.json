@@ -1,0 +1,890 @@
+{
+  "titulo": "Artefatos de audio da dissertacao",
+  "subtitulo": "Material de escuta para verificacao das afirmacoes feitas nos capitulos de resultados",
+  "corpus": "FALA_PB -- aproximadamente 111 h de fala com sotaque paraibano",
+  "modelos": [
+    "XTTS",
+    "F5-TTS",
+    "Orpheus TTS",
+    "Fish Speech",
+    "Qwen3-TTS"
+  ],
+  "estrategias": [
+    "Clonagem de fala",
+    "Ajuste fino",
+    "Treinamento a partir de pesos aleatorios"
+  ],
+  "blocos": [
+    {
+      "id": "clonagem",
+      "numero": 1,
+      "titulo": "Clonagem de fala (XTTS)",
+      "estrategia": "Clonagem de fala",
+      "resultado": "negativo",
+      "afirmacao": "O timbre do locutor e reproduzido de forma reconhecivel, mas o sotaque paraibano nao e capturado em nenhuma das tres condicoes de referencia (10 s, 30 s e 60 s).",
+      "descricao": "O que se espera ouvir: uma voz que soa como a do locutor de referencia, porem com prosodia e realizacao fonetica de padrao sudeste/neutro. Alongar a referencia de 10 s para 60 s melhora pouco ou nada a transferencia de sotaque -- e este e o ponto do bloco. Pagina completa do experimento: [reuniao 2](/fala_pb/2/).",
+      "tabelas": [
+        {
+          "titulo": "Referencia de 10 s",
+          "nota": "Cinco gravacoes de referencia de aproximadamente 10 s cada, ao lado da sintese produzida com o mesmo texto da referencia. Compare timbre (proximo) e sotaque (distante).",
+          "colunas": [
+            "Referencia (locutor real)",
+            "Sintese clonada (mesmo texto)"
+          ],
+          "linhas": [
+            {
+              "rotulo": "Amostra 1",
+              "texto": null,
+              "arquivos": [
+                "audios/experimento_timbre/refs/thomaz_a1.wav",
+                "audios/experimento_timbre/output texto original/xtts_A1.wav"
+              ]
+            },
+            {
+              "rotulo": "Amostra 2",
+              "texto": null,
+              "arquivos": [
+                "audios/experimento_timbre/refs/thomaz_a2.wav",
+                "audios/experimento_timbre/output texto original/xtts_A2.wav"
+              ]
+            },
+            {
+              "rotulo": "Amostra 3",
+              "texto": null,
+              "arquivos": [
+                "audios/experimento_timbre/refs/thomaz_a3.wav",
+                "audios/experimento_timbre/output texto original/xtts_A3.wav"
+              ]
+            },
+            {
+              "rotulo": "Amostra 4",
+              "texto": null,
+              "arquivos": [
+                "audios/experimento_timbre/refs/thomaz_a4.wav",
+                "audios/experimento_timbre/output texto original/xtts_A4.wav"
+              ]
+            },
+            {
+              "rotulo": "Amostra 5",
+              "texto": null,
+              "arquivos": [
+                "audios/experimento_timbre/refs/thomaz_a5.wav",
+                "audios/experimento_timbre/output texto original/xtts_A5.wav"
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "Referencia de 30 s",
+          "nota": "Cinco gravacoes de referencia de aproximadamente 30 s cada, ao lado da sintese produzida com o mesmo texto da referencia. Compare timbre (proximo) e sotaque (distante).",
+          "colunas": [
+            "Referencia (locutor real)",
+            "Sintese clonada (mesmo texto)"
+          ],
+          "linhas": [
+            {
+              "rotulo": "Amostra 1",
+              "texto": null,
+              "arquivos": [
+                "audios/experimento_timbre/refs/thomaz_b1.wav",
+                "audios/experimento_timbre/output texto original/xtts_B1.wav"
+              ]
+            },
+            {
+              "rotulo": "Amostra 2",
+              "texto": null,
+              "arquivos": [
+                "audios/experimento_timbre/refs/thomaz_b2.wav",
+                "audios/experimento_timbre/output texto original/xtts_B2.wav"
+              ]
+            },
+            {
+              "rotulo": "Amostra 3",
+              "texto": null,
+              "arquivos": [
+                "audios/experimento_timbre/refs/thomaz_b3.wav",
+                "audios/experimento_timbre/output texto original/xtts_B3.wav"
+              ]
+            },
+            {
+              "rotulo": "Amostra 4",
+              "texto": null,
+              "arquivos": [
+                "audios/experimento_timbre/refs/thomaz_b4.wav",
+                "audios/experimento_timbre/output texto original/xtts_B4.wav"
+              ]
+            },
+            {
+              "rotulo": "Amostra 5",
+              "texto": null,
+              "arquivos": [
+                "audios/experimento_timbre/refs/thomaz_b5.wav",
+                "audios/experimento_timbre/output texto original/xtts_B5.wav"
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "Referencia de 60 s",
+          "nota": "Cinco gravacoes de referencia de aproximadamente 60 s cada, ao lado da sintese produzida com o mesmo texto da referencia. Compare timbre (proximo) e sotaque (distante).",
+          "colunas": [
+            "Referencia (locutor real)",
+            "Sintese clonada (mesmo texto)"
+          ],
+          "linhas": [
+            {
+              "rotulo": "Amostra 1",
+              "texto": null,
+              "arquivos": [
+                "audios/experimento_timbre/refs/thomaz_c1.wav",
+                "audios/experimento_timbre/output texto original/xtts_C1.wav"
+              ]
+            },
+            {
+              "rotulo": "Amostra 2",
+              "texto": null,
+              "arquivos": [
+                "audios/experimento_timbre/refs/thomaz_c2.wav",
+                "audios/experimento_timbre/output texto original/xtts_C2.wav"
+              ]
+            },
+            {
+              "rotulo": "Amostra 3",
+              "texto": null,
+              "arquivos": [
+                "audios/experimento_timbre/refs/thomaz_c3.wav",
+                "audios/experimento_timbre/output texto original/xtts_C3.wav"
+              ]
+            },
+            {
+              "rotulo": "Amostra 4",
+              "texto": null,
+              "arquivos": [
+                "audios/experimento_timbre/refs/thomaz_c4.wav",
+                "audios/experimento_timbre/output texto original/xtts_C4.wav"
+              ]
+            },
+            {
+              "rotulo": "Amostra 5",
+              "texto": null,
+              "arquivos": [
+                "audios/experimento_timbre/refs/thomaz_c5.wav",
+                "audios/experimento_timbre/output texto original/xtts_C5.wav"
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "Dez frases-chave, nas tres duracoes de referencia",
+          "nota": "As mesmas dez frases sintetizadas a partir das referencias de 10 s, 30 s e 60 s. Aumentar a duracao da referencia nao aproxima a saida do sotaque paraibano.",
+          "colunas": [
+            "Referencia de 10 s",
+            "Referencia de 30 s",
+            "Referencia de 60 s"
+          ],
+          "linhas": [
+            {
+              "rotulo": null,
+              "texto": "A tecnologia mudou a forma como nos comunicamos e aprendemos.",
+              "arquivos": [
+                "audios/experimento_timbre/output/xtts_A1.wav",
+                "audios/experimento_timbre/output/xtts_B1.wav",
+                "audios/experimento_timbre/output/xtts_C1.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "A vida e feita de escolhas.",
+              "arquivos": [
+                "audios/experimento_timbre/output/xtts_A2.wav",
+                "audios/experimento_timbre/output/xtts_B2.wav",
+                "audios/experimento_timbre/output/xtts_C2.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "Aprender nunca e demais.",
+              "arquivos": [
+                "audios/experimento_timbre/output/xtts_A3.wav",
+                "audios/experimento_timbre/output/xtts_B3.wav",
+                "audios/experimento_timbre/output/xtts_C3.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "As bibliotecas publicas tem papel essencial na democratizacao do conhecimento, oferecendo nao so livros, mas tambem acesso a internet, cursos e espacos de convivencia para a comunidade local.",
+              "arquivos": [
+                "audios/experimento_timbre/output/xtts_A4.wav",
+                "audios/experimento_timbre/output/xtts_B4.wav",
+                "audios/experimento_timbre/output/xtts_C4.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "Em um mundo cada vez mais conectado, e fundamental equilibrar o uso de dispositivos moveis com momentos de descanso e socializacao presencial, preservando nossa saude mental e bem-estar.",
+              "arquivos": [
+                "audios/experimento_timbre/output/xtts_A5.wav",
+                "audios/experimento_timbre/output/xtts_B5.wav",
+                "audios/experimento_timbre/output/xtts_C5.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "Hoje o ceu amanheceu com nuvens carregadas e uma leve brisa.",
+              "arquivos": [
+                "audios/experimento_timbre/output/xtts_A6.wav",
+                "audios/experimento_timbre/output/xtts_B6.wav",
+                "audios/experimento_timbre/output/xtts_C6.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "No interior da cidade, pracas antigas guardam historias de geracoes.",
+              "arquivos": [
+                "audios/experimento_timbre/output/xtts_A7.wav",
+                "audios/experimento_timbre/output/xtts_B7.wav",
+                "audios/experimento_timbre/output/xtts_C7.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "O cafe fresco pela manha anima qualquer rotina.",
+              "arquivos": [
+                "audios/experimento_timbre/output/xtts_A8.wav",
+                "audios/experimento_timbre/output/xtts_B8.wav",
+                "audios/experimento_timbre/output/xtts_C8.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "Ola, tudo bem?",
+              "arquivos": [
+                "audios/experimento_timbre/output/xtts_A9.wav",
+                "audios/experimento_timbre/output/xtts_B9.wav",
+                "audios/experimento_timbre/output/xtts_C9.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "Projetos de ciencia cidada estimulam a participacao de voluntarios em coletas de dados ambientais e podem contribuir para pesquisas sobre mudancas climaticas, flora, fauna e qualidade da agua em diversas regioes.",
+              "arquivos": [
+                "audios/experimento_timbre/output/xtts_A10.wav",
+                "audios/experimento_timbre/output/xtts_B10.wav",
+                "audios/experimento_timbre/output/xtts_C10.wav"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "xtts-ajuste-fino",
+      "numero": 2,
+      "titulo": "XTTS -- ajuste fino",
+      "estrategia": "Ajuste fino",
+      "resultado": "parcial",
+      "afirmacao": "O ajuste fino produz um sotaque misto: tracos paraibanos passam a aparecer, mas convivem com o padrao do checkpoint base.",
+      "descricao": "Mesma frase nas duas colunas, mesmo prompt de voz. A coluna *original* e o checkpoint publico do XTTS; a coluna *ajustado* e o melhor checkpoint do ajuste fino sobre o FALA_PB. Ouca sobretudo a realizacao das vogais atonas finais e o ritmo. Pagina completa: [reuniao 15](/fala_pb/15/).",
+      "tabelas": [
+        {
+          "titulo": null,
+          "nota": null,
+          "colunas": [
+            "Referencia de voz",
+            "Original (checkpoint base)",
+            "Ajustado (FALA_PB)"
+          ],
+          "linhas": [
+            {
+              "rotulo": null,
+              "texto": "Hoje acordei cedo, preparei um café forte e organizei a mesa para estudar com calma.",
+              "arquivos": [
+                "15/xtts/xtts_ref_frase01.wav",
+                "15/xtts/xtts_model_original_frase01.wav",
+                "15/xtts/xtts_model_best_frase01.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "Enquanto o trem passava devagar, uma criança sorria e apontava para as nuvens alaranjadas.",
+              "arquivos": [
+                "15/xtts/xtts_ref_frase02.wav",
+                "15/xtts/xtts_model_original_frase02.wav",
+                "15/xtts/xtts_model_best_frase02.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "O pesquisador analisou os dados, escreveu um relatório objetivo e compartilhou as conclusões com a equipe.",
+              "arquivos": [
+                "15/xtts/xtts_ref_frase03.wav",
+                "15/xtts/xtts_model_original_frase03.wav",
+                "15/xtts/xtts_model_best_frase03.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "Estamos construindo uma rotina mais saudável, caminhando no bairro e cozinhando alimentos frescos todos os dias.",
+              "arquivos": [
+                "15/xtts/xtts_ref_frase04.wav",
+                "15/xtts/xtts_model_original_frase04.wav",
+                "15/xtts/xtts_model_best_frase04.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "A bibliotecária catalogou romances, dicionários e biografias, mantendo cada prateleira limpa e bem sinalizada.",
+              "arquivos": [
+                "15/xtts/xtts_ref_frase05.wav",
+                "15/xtts/xtts_model_original_frase05.wav",
+                "15/xtts/xtts_model_best_frase05.wav"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f5tts-ajuste-fino",
+      "numero": 3,
+      "titulo": "F5-TTS -- ajuste fino",
+      "estrategia": "Ajuste fino",
+      "resultado": "negativo",
+      "afirmacao": "As saidas do modelo ajustado ficaram praticamente identicas as do checkpoint original, apesar de os pesos terem mudado ao longo do treino.",
+      "descricao": "As duas colunas foram sintetizadas com a mesma semente e o mesmo prompt, variando apenas o checkpoint. A quase indistinguibilidade entre elas e o resultado -- e uma evidencia negativa, nao um erro de montagem da pagina. Pagina completa: [reuniao 16](/fala_pb/16/).",
+      "tabelas": [
+        {
+          "titulo": null,
+          "nota": null,
+          "colunas": [
+            "Original (checkpoint base)",
+            "Ajustado (FALA_PB, ultimo checkpoint)"
+          ],
+          "linhas": [
+            {
+              "rotulo": null,
+              "texto": "Hoje acordei cedo, preparei um café forte e organizei a mesa para estudar com calma.",
+              "arquivos": [
+                "16/f5tts novo treino/filtered_checkpoint_original_line01.wav",
+                "16/f5tts novo treino/filtered_model_last_line01.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "Enquanto o trem passava devagar, uma criança sorria e apontava para as nuvens alaranjadas.",
+              "arquivos": [
+                "16/f5tts novo treino/filtered_checkpoint_original_line02.wav",
+                "16/f5tts novo treino/filtered_model_last_line02.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "O pesquisador analisou os dados, escreveu um relatório objetivo e compartilhou as conclusões com a equipe.",
+              "arquivos": [
+                "16/f5tts novo treino/filtered_checkpoint_original_line03.wav",
+                "16/f5tts novo treino/filtered_model_last_line03.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "Estamos construindo uma rotina mais saudável, caminhando no bairro e cozinhando alimentos frescos todos os dias.",
+              "arquivos": [
+                "16/f5tts novo treino/filtered_checkpoint_original_line04.wav",
+                "16/f5tts novo treino/filtered_model_last_line04.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "A bibliotecária catalogou romances, dicionários e biografias, mantendo cada prateleira limpa e bem sinalizada.",
+              "arquivos": [
+                "16/f5tts novo treino/filtered_checkpoint_original_line05.wav",
+                "16/f5tts novo treino/filtered_model_last_line05.wav"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "orpheus-ajuste-fino",
+      "numero": 4,
+      "titulo": "Orpheus TTS -- ajuste fino",
+      "estrategia": "Ajuste fino",
+      "resultado": "positivo",
+      "afirmacao": "A incorporacao do sotaque paraibano foi satisfatoria.",
+      "descricao": "Este e o bloco em que a adaptacao mais se ouve. Compare a coluna *ajustado* com a *original*: a diferenca esperada esta na abertura das vogais pretonicas e no contorno entoacional. Paginas completas: [reuniao 15](/fala_pb/15/) e [reuniao 16](/fala_pb/16/).",
+      "tabelas": [
+        {
+          "titulo": "Cinco frases fixas de acompanhamento",
+          "nota": "Para o Orpheus nao foi preservada a sintese do checkpoint base sobre estas cinco frases; a comparacao original x ajustado aparece na tabela seguinte, sobre as sentencas da avaliacao final.",
+          "colunas": [
+            "Ajustado (FALA_PB, 1 epoca)"
+          ],
+          "linhas": [
+            {
+              "rotulo": null,
+              "texto": "Hoje acordei cedo, preparei um café forte e organizei a mesa para estudar com calma.",
+              "arquivos": [
+                "15/artoodtoo_ft_e3/audios experimento/unsloth_artoodtoo_model_1_frase01.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "Enquanto o trem passava devagar, uma criança sorria e apontava para as nuvens alaranjadas.",
+              "arquivos": [
+                "15/artoodtoo_ft_e3/audios experimento/unsloth_artoodtoo_model_1_frase02.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "O pesquisador analisou os dados, escreveu um relatório objetivo e compartilhou as conclusões com a equipe.",
+              "arquivos": [
+                "15/artoodtoo_ft_e3/audios experimento/unsloth_artoodtoo_model_1_frase03.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "Estamos construindo uma rotina mais saudável, caminhando no bairro e cozinhando alimentos frescos todos os dias.",
+              "arquivos": [
+                "15/artoodtoo_ft_e3/audios experimento/unsloth_artoodtoo_model_1_frase04.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "A bibliotecária catalogou romances, dicionários e biografias, mantendo cada prateleira limpa e bem sinalizada.",
+              "arquivos": [
+                "15/artoodtoo_ft_e3/audios experimento/unsloth_artoodtoo_model_1_frase05.wav"
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "Original x ajustado (sentencas da avaliacao final)",
+          "nota": "Cinco sentencas do conjunto de 100, na versao eleita pelo criterio melhor-de-3. Mesma sentenca nas duas colunas.",
+          "colunas": [
+            "Original (checkpoint base)",
+            "Ajustado (FALA_PB)"
+          ],
+          "linhas": [
+            {
+              "rotulo": "Sentenca 001",
+              "texto": "Hoje o trânsito estava tranquilo.",
+              "arquivos": [
+                "Inferencias finais/Audios/unsloth/outputs_final_experiment/original/v3/001.wav",
+                "Inferencias finais/Audios/unsloth/outputs_final_experiment/ajustado/v2/001.wav"
+              ]
+            },
+            {
+              "rotulo": "Sentenca 003",
+              "texto": "Depois de muito procurar, finalmente encontrei as chaves que havia perdido durante a mudança.",
+              "arquivos": [
+                "Inferencias finais/Audios/unsloth/outputs_final_experiment/original/v2/003.wav",
+                "Inferencias finais/Audios/unsloth/outputs_final_experiment/ajustado/v2/003.wav"
+              ]
+            },
+            {
+              "rotulo": "Sentenca 012",
+              "texto": "Quando chegamos ao local do evento, a apresentação já havia começado e quase não encontramos lugares disponíveis.",
+              "arquivos": [
+                "Inferencias finais/Audios/unsloth/outputs_final_experiment/original/v2/012.wav",
+                "Inferencias finais/Audios/unsloth/outputs_final_experiment/ajustado/v1/012.wav"
+              ]
+            },
+            {
+              "rotulo": "Sentenca 036",
+              "texto": "A praia estava praticamente vazia naquela manhã de terça-feira.",
+              "arquivos": [
+                "Inferencias finais/Audios/unsloth/outputs_final_experiment/original/v2/036.wav",
+                "Inferencias finais/Audios/unsloth/outputs_final_experiment/ajustado/v1/036.wav"
+              ]
+            },
+            {
+              "rotulo": "Sentenca 071",
+              "texto": "O médico chegou pontualmente.",
+              "arquivos": [
+                "Inferencias finais/Audios/unsloth/outputs_final_experiment/original/v1/071.wav",
+                "Inferencias finais/Audios/unsloth/outputs_final_experiment/ajustado/v2/071.wav"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fishspeech-ajuste-fino",
+      "numero": 5,
+      "titulo": "Fish Speech -- ajuste fino",
+      "estrategia": "Ajuste fino",
+      "resultado": "parcial",
+      "afirmacao": "Apos uma epoca de ajuste fino (LoRA), o sotaque paraibano e percebido em parte das amostras, nao em todas.",
+      "descricao": "Mesmo prompt de voz de referencia nas duas colunas. O resultado e irregular por construcao: em algumas frases a adaptacao e audivel, em outras nao. Ouca as cinco antes de concluir. Pagina completa: [reuniao 17](/fala_pb/17/).",
+      "tabelas": [
+        {
+          "titulo": null,
+          "nota": null,
+          "colunas": [
+            "Prompt de referencia",
+            "Original (Fish Speech 1.5)",
+            "Ajustado (LoRA, 1 epoca)"
+          ],
+          "linhas": [
+            {
+              "rotulo": null,
+              "texto": "Hoje acordei cedo, preparei um café forte e organizei a mesa para estudar com calma.",
+              "arquivos": [
+                "17/fishspeech/reference_prompt.wav",
+                "17/fishspeech/baseline_phrase_01.wav",
+                "17/fishspeech/step_000010488_phrase_01.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "Enquanto o trem passava devagar, uma criança sorria e apontava para as nuvens alaranjadas.",
+              "arquivos": [
+                "17/fishspeech/reference_prompt.wav",
+                "17/fishspeech/baseline_phrase_02.wav",
+                "17/fishspeech/step_000010488_phrase_02.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "O pesquisador analisou os dados, escreveu um relatório objetivo e compartilhou as conclusões com a equipe.",
+              "arquivos": [
+                "17/fishspeech/reference_prompt.wav",
+                "17/fishspeech/baseline_phrase_03.wav",
+                "17/fishspeech/step_000010488_phrase_03.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "Estamos construindo uma rotina mais saudável, caminhando no bairro e cozinhando alimentos frescos todos os dias.",
+              "arquivos": [
+                "17/fishspeech/reference_prompt.wav",
+                "17/fishspeech/baseline_phrase_04.wav",
+                "17/fishspeech/step_000010488_phrase_04.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "A bibliotecária catalogou romances, dicionários e biografias, mantendo cada prateleira limpa e bem sinalizada.",
+              "arquivos": [
+                "17/fishspeech/reference_prompt.wav",
+                "17/fishspeech/baseline_phrase_05.wav",
+                "17/fishspeech/step_000010488_phrase_05.wav"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qwen3-ajuste-fino",
+      "numero": 6,
+      "titulo": "Qwen3-TTS -- ajuste fino",
+      "estrategia": "Ajuste fino",
+      "resultado": "negativo",
+      "afirmacao": "A perda de treino caiu ao longo dos checkpoints, mas nao houve aproximacao audivel ao sotaque paraibano.",
+      "descricao": "Tres checkpoints intermediarios (5 mil, 10 mil e 15 mil passos) comparados ao baseline anterior ao ajuste. O que se espera ouvir e ausencia de progressao: as quatro colunas soam equivalentes quanto ao sotaque. Pagina completa: [reuniao 18](/fala_pb/18/).",
+      "tabelas": [
+        {
+          "titulo": null,
+          "nota": null,
+          "colunas": [
+            "Original (baseline)",
+            "Ajustado - 5.000 passos",
+            "Ajustado - 10.000 passos",
+            "Ajustado - 15.000 passos"
+          ],
+          "linhas": [
+            {
+              "rotulo": null,
+              "texto": "Hoje acordei cedo, preparei um café forte e organizei a mesa para estudar com calma.",
+              "arquivos": [
+                "18/QWEEN - TTS/outputs/pre_finetune_baseline_case_01.wav",
+                "18/QWEEN - TTS/outputs/step_5000_frase1.wav",
+                "18/QWEEN - TTS/outputs/step_10000_frase1.wav",
+                "18/QWEEN - TTS/outputs/step_15000_frase1.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "Enquanto o trem passava devagar, uma criança sorria e apontava para as nuvens alaranjadas.",
+              "arquivos": [
+                "18/QWEEN - TTS/outputs/pre_finetune_baseline_case_02.wav",
+                "18/QWEEN - TTS/outputs/step_5000_frase2.wav",
+                "18/QWEEN - TTS/outputs/step_10000_frase2.wav",
+                "18/QWEEN - TTS/outputs/step_15000_frase2.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "O pesquisador analisou os dados, escreveu um relatório objetivo e compartilhou as conclusões com a equipe.",
+              "arquivos": [
+                "18/QWEEN - TTS/outputs/pre_finetune_baseline_case_03.wav",
+                "18/QWEEN - TTS/outputs/step_5000_frase3.wav",
+                "18/QWEEN - TTS/outputs/step_10000_frase3.wav",
+                "18/QWEEN - TTS/outputs/step_15000_frase3.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "Estamos construindo uma rotina mais saudável, caminhando no bairro e cozinhando alimentos frescos todos os dias.",
+              "arquivos": [
+                "18/QWEEN - TTS/outputs/pre_finetune_baseline_case_04.wav",
+                "18/QWEEN - TTS/outputs/step_5000_frase4.wav",
+                "18/QWEEN - TTS/outputs/step_10000_frase4.wav",
+                "18/QWEEN - TTS/outputs/step_15000_frase4.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "A bibliotecária catalogou romances, dicionários e biografias, mantendo cada prateleira limpa e bem sinalizada.",
+              "arquivos": [
+                "18/QWEEN - TTS/outputs/pre_finetune_baseline_case_05.wav",
+                "18/QWEEN - TTS/outputs/step_5000_frase5.wav",
+                "18/QWEEN - TTS/outputs/step_10000_frase5.wav",
+                "18/QWEEN - TTS/outputs/step_15000_frase5.wav"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f5tts-do-zero",
+      "numero": 7,
+      "titulo": "F5-TTS treinado a partir de pesos aleatorios",
+      "estrategia": "Treinamento a partir de pesos aleatorios",
+      "resultado": "negativo",
+      "afirmacao": "O checkpoint final (epoca 150) produz saidas ininteligiveis: as 111 h do FALA_PB nao bastam para treinar o modelo do zero.",
+      "descricao": "Evidencia negativa. Nao ha coluna *original* aqui porque nao existe checkpoint base -- o treino partiu de pesos aleatorios. A referencia de voz esta na primeira coluna para dar a medida do que se esperava obter. Pagina completa: [reuniao 19](/fala_pb/19/).",
+      "tabelas": [
+        {
+          "titulo": null,
+          "nota": null,
+          "colunas": [
+            "Referencia de voz",
+            "Do zero (epoca 150, checkpoint final)"
+          ],
+          "linhas": [
+            {
+              "rotulo": null,
+              "texto": "Hoje acordei cedo, preparei um café forte e organizei a mesa para estudar com calma.",
+              "arquivos": [
+                "19/f5tts_do_zero/PB_0991_ref.wav",
+                "19/f5tts_do_zero/zero_model_last_line01.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "Enquanto o trem passava devagar, uma criança sorria e apontava para as nuvens alaranjadas.",
+              "arquivos": [
+                "19/f5tts_do_zero/PB_0991_ref.wav",
+                "19/f5tts_do_zero/zero_model_last_line02.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "O pesquisador analisou os dados, escreveu um relatório objetivo e compartilhou as conclusões com a equipe.",
+              "arquivos": [
+                "19/f5tts_do_zero/PB_0991_ref.wav",
+                "19/f5tts_do_zero/zero_model_last_line03.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "Estamos construindo uma rotina mais saudável, caminhando no bairro e cozinhando alimentos frescos todos os dias.",
+              "arquivos": [
+                "19/f5tts_do_zero/PB_0991_ref.wav",
+                "19/f5tts_do_zero/zero_model_last_line04.wav"
+              ]
+            },
+            {
+              "rotulo": null,
+              "texto": "A bibliotecária catalogou romances, dicionários e biografias, mantendo cada prateleira limpa e bem sinalizada.",
+              "arquivos": [
+                "19/f5tts_do_zero/PB_0991_ref.wav",
+                "19/f5tts_do_zero/zero_model_last_line05.wav"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "avaliacao-automatica",
+      "numero": 8,
+      "titulo": "Avaliacao automatica -- conjunto completo",
+      "estrategia": "Ajuste fino (tres modelos)",
+      "resultado": "referencia",
+      "afirmacao": "As metricas objetivas reportadas na dissertacao foram calculadas sobre 600 audios: 3 modelos x 2 condicoes x 100 sentencas, cada um eleito por melhor-de-3 entre tres sinteses independentes (1.800 sinteses no total).",
+      "descricao": "Este conjunto nao e listado item a item aqui. Abaixo estao cinco sentencas por modelo, na versao efetivamente usada nas metricas, como amostra. O catalogo completo dos 1.800 audios, com filtros por modelo e condicao, esta na **[pagina de inferencias finais](/fala_pb/100/)**.",
+      "tabelas": [
+        {
+          "titulo": "XTTS",
+          "nota": null,
+          "colunas": [
+            "Original (checkpoint base)",
+            "Ajustado (FALA_PB)"
+          ],
+          "linhas": [
+            {
+              "rotulo": "Sentenca 001",
+              "texto": "Hoje o trânsito estava tranquilo.",
+              "arquivos": [
+                "Inferencias finais/Audios/xtts/outputs_final_experiment/original/v3/001.wav",
+                "Inferencias finais/Audios/xtts/outputs_final_experiment/ajustado/v2/001.wav"
+              ]
+            },
+            {
+              "rotulo": "Sentenca 003",
+              "texto": "Depois de muito procurar, finalmente encontrei as chaves que havia perdido durante a mudança.",
+              "arquivos": [
+                "Inferencias finais/Audios/xtts/outputs_final_experiment/original/v1/003.wav",
+                "Inferencias finais/Audios/xtts/outputs_final_experiment/ajustado/v3/003.wav"
+              ]
+            },
+            {
+              "rotulo": "Sentenca 012",
+              "texto": "Quando chegamos ao local do evento, a apresentação já havia começado e quase não encontramos lugares disponíveis.",
+              "arquivos": [
+                "Inferencias finais/Audios/xtts/outputs_final_experiment/original/v3/012.wav",
+                "Inferencias finais/Audios/xtts/outputs_final_experiment/ajustado/v1/012.wav"
+              ]
+            },
+            {
+              "rotulo": "Sentenca 036",
+              "texto": "A praia estava praticamente vazia naquela manhã de terça-feira.",
+              "arquivos": [
+                "Inferencias finais/Audios/xtts/outputs_final_experiment/original/v3/036.wav",
+                "Inferencias finais/Audios/xtts/outputs_final_experiment/ajustado/v2/036.wav"
+              ]
+            },
+            {
+              "rotulo": "Sentenca 071",
+              "texto": "O médico chegou pontualmente.",
+              "arquivos": [
+                "Inferencias finais/Audios/xtts/outputs_final_experiment/original/v2/071.wav",
+                "Inferencias finais/Audios/xtts/outputs_final_experiment/ajustado/v3/071.wav"
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "Orpheus TTS",
+          "nota": null,
+          "colunas": [
+            "Original (checkpoint base)",
+            "Ajustado (FALA_PB)"
+          ],
+          "linhas": [
+            {
+              "rotulo": "Sentenca 001",
+              "texto": "Hoje o trânsito estava tranquilo.",
+              "arquivos": [
+                "Inferencias finais/Audios/unsloth/outputs_final_experiment/original/v3/001.wav",
+                "Inferencias finais/Audios/unsloth/outputs_final_experiment/ajustado/v2/001.wav"
+              ]
+            },
+            {
+              "rotulo": "Sentenca 003",
+              "texto": "Depois de muito procurar, finalmente encontrei as chaves que havia perdido durante a mudança.",
+              "arquivos": [
+                "Inferencias finais/Audios/unsloth/outputs_final_experiment/original/v2/003.wav",
+                "Inferencias finais/Audios/unsloth/outputs_final_experiment/ajustado/v2/003.wav"
+              ]
+            },
+            {
+              "rotulo": "Sentenca 012",
+              "texto": "Quando chegamos ao local do evento, a apresentação já havia começado e quase não encontramos lugares disponíveis.",
+              "arquivos": [
+                "Inferencias finais/Audios/unsloth/outputs_final_experiment/original/v2/012.wav",
+                "Inferencias finais/Audios/unsloth/outputs_final_experiment/ajustado/v1/012.wav"
+              ]
+            },
+            {
+              "rotulo": "Sentenca 036",
+              "texto": "A praia estava praticamente vazia naquela manhã de terça-feira.",
+              "arquivos": [
+                "Inferencias finais/Audios/unsloth/outputs_final_experiment/original/v2/036.wav",
+                "Inferencias finais/Audios/unsloth/outputs_final_experiment/ajustado/v1/036.wav"
+              ]
+            },
+            {
+              "rotulo": "Sentenca 071",
+              "texto": "O médico chegou pontualmente.",
+              "arquivos": [
+                "Inferencias finais/Audios/unsloth/outputs_final_experiment/original/v1/071.wav",
+                "Inferencias finais/Audios/unsloth/outputs_final_experiment/ajustado/v2/071.wav"
+              ]
+            }
+          ]
+        },
+        {
+          "titulo": "Fish Speech",
+          "nota": null,
+          "colunas": [
+            "Original (checkpoint base)",
+            "Ajustado (FALA_PB)"
+          ],
+          "linhas": [
+            {
+              "rotulo": "Sentenca 001",
+              "texto": "Hoje o trânsito estava tranquilo.",
+              "arquivos": [
+                "Inferencias finais/Audios/fishspeech/outputs_final_experiment/original/v2/001.wav",
+                "Inferencias finais/Audios/fishspeech/outputs_final_experiment/ajustado/v3/001.wav"
+              ]
+            },
+            {
+              "rotulo": "Sentenca 003",
+              "texto": "Depois de muito procurar, finalmente encontrei as chaves que havia perdido durante a mudança.",
+              "arquivos": [
+                "Inferencias finais/Audios/fishspeech/outputs_final_experiment/original/v3/003.wav",
+                "Inferencias finais/Audios/fishspeech/outputs_final_experiment/ajustado/v2/003.wav"
+              ]
+            },
+            {
+              "rotulo": "Sentenca 012",
+              "texto": "Quando chegamos ao local do evento, a apresentação já havia começado e quase não encontramos lugares disponíveis.",
+              "arquivos": [
+                "Inferencias finais/Audios/fishspeech/outputs_final_experiment/original/v3/012.wav",
+                "Inferencias finais/Audios/fishspeech/outputs_final_experiment/ajustado/v1/012.wav"
+              ]
+            },
+            {
+              "rotulo": "Sentenca 036",
+              "texto": "A praia estava praticamente vazia naquela manhã de terça-feira.",
+              "arquivos": [
+                "Inferencias finais/Audios/fishspeech/outputs_final_experiment/original/v1/036.wav",
+                "Inferencias finais/Audios/fishspeech/outputs_final_experiment/ajustado/v1/036.wav"
+              ]
+            },
+            {
+              "rotulo": "Sentenca 071",
+              "texto": "O médico chegou pontualmente.",
+              "arquivos": [
+                "Inferencias finais/Audios/fishspeech/outputs_final_experiment/original/v2/071.wav",
+                "Inferencias finais/Audios/fishspeech/outputs_final_experiment/ajustado/v2/071.wav"
+              ]
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "rotulo": "Catalogo completo dos 1.800 audios",
+          "url": "/fala_pb/100/"
+        },
+        {
+          "rotulo": "Metodologia e resultados da avaliacao automatica",
+          "url": "/fala_pb/20/"
+        },
+        {
+          "rotulo": "Validacao perceptual com ouvintes",
+          "url": "/fala_pb/21/"
+        }
+      ]
+    }
+  ]
+}
