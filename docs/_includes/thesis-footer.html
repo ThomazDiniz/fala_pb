@@ -52,6 +52,10 @@
   }
 </style>
 
+<!-- Bloco "Cronograma de entrega (atualizacao semanal)": ocultado do rodape.
+     O conteudo continua aqui no arquivo, dentro do {% raw %}{% comment %}{% endraw %} abaixo.
+     Para reexibir, remova o {% raw %}{% comment %}{% endraw %} e o {% raw %}{% endcomment %}{% endraw %} que o envolvem. -->
+{% comment %}
 <div style="margin-top: 1.25rem; padding: 1rem 1.25rem; background: #111; color: #fff; font-weight: 700; border-radius: 8px; border: 1px solid #333;">
   <p style="margin-top: 0;"><strong>Cronograma de entrega (atualizacao semanal)</strong></p>
   <ul class="persist-task-list">
@@ -136,6 +140,7 @@
   </ul>
   <p style="margin: 0.75rem 0 0; font-weight: 400; font-size: 0.9rem; opacity: 0.85;">Todos os itens do cronograma estao concluidos e fixos no site.</p>
 </div>
+{% endcomment %}
 
 <!-- Checklist "Modelos com checkpoints treinados por nos": ocultado do rodape.
      O arquivo _includes/site-model-checklist.html continua no repositorio.
