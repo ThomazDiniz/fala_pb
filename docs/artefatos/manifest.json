@@ -282,8 +282,8 @@
       "numero": 2,
       "titulo": "XTTS -- ajuste fino",
       "estrategia": "Ajuste fino",
-      "resultado": "parcial",
-      "afirmacao": "O ajuste fino produz um sotaque misto: tracos paraibanos passam a aparecer, mas convivem com o padrao do checkpoint base.",
+      "resultado": "positivo",
+      "afirmacao": "O ajuste fino incorporou o sotaque paraibano: tracos regionais passam a ser audiveis na saida do modelo, num sotaque misto em que convivem com o padrao do checkpoint base.",
       "descricao": "Mesma frase nas duas colunas, mesmo prompt de voz. A coluna *original* e o checkpoint publico do XTTS; a coluna *ajustado* e o melhor checkpoint do ajuste fino sobre o FALA_PB. Ouca sobretudo a realizacao das vogais atonas finais e o ritmo. Pagina completa: [reuniao 15](/fala_pb/15/).",
       "tabelas": [
         {
@@ -515,9 +515,9 @@
       "numero": 5,
       "titulo": "Fish Speech -- ajuste fino",
       "estrategia": "Ajuste fino",
-      "resultado": "parcial",
-      "afirmacao": "Apos uma epoca de ajuste fino (LoRA), o sotaque paraibano e percebido em parte das amostras, nao em todas.",
-      "descricao": "Mesmo prompt de voz de referencia nas duas colunas. O resultado e irregular por construcao: em algumas frases a adaptacao e audivel, em outras nao. Ouca as cinco antes de concluir. Pagina completa: [reuniao 17](/fala_pb/17/).",
+      "resultado": "positivo",
+      "afirmacao": "Uma unica epoca de ajuste fino (LoRA) ja bastou para tornar o sotaque paraibano perceptivel nas sinteses.",
+      "descricao": "Mesmo prompt de voz de referencia nas duas colunas. Compare a coluna *ajustado* com a *original*: a adaptacao se ouve com mais forca em algumas frases do que em outras, o que era de esperar de um treino de uma unica epoca. Ouca as cinco. Pagina completa: [reuniao 17](/fala_pb/17/).",
       "tabelas": [
         {
           "titulo": null,

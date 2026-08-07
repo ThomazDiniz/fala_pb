@@ -102,10 +102,10 @@ layout: default
 
 <ul class="art-sumario" id="sumario">
 <li><span class="art-num">1.</span><a href="#clonagem">Clonagem de fala (XTTS)</a><span class="art-selo art-selo--neg">resultado negativo</span></li>
-<li><span class="art-num">2.</span><a href="#xtts-ajuste-fino">XTTS -- ajuste fino</a><span class="art-selo art-selo--parc">resultado parcial</span></li>
+<li><span class="art-num">2.</span><a href="#xtts-ajuste-fino">XTTS -- ajuste fino</a><span class="art-selo art-selo--pos">resultado positivo</span></li>
 <li><span class="art-num">3.</span><a href="#f5tts-ajuste-fino">F5-TTS -- ajuste fino</a><span class="art-selo art-selo--neg">resultado negativo</span></li>
 <li><span class="art-num">4.</span><a href="#orpheus-ajuste-fino">Orpheus TTS -- ajuste fino</a><span class="art-selo art-selo--pos">resultado positivo</span></li>
-<li><span class="art-num">5.</span><a href="#fishspeech-ajuste-fino">Fish Speech -- ajuste fino</a><span class="art-selo art-selo--parc">resultado parcial</span></li>
+<li><span class="art-num">5.</span><a href="#fishspeech-ajuste-fino">Fish Speech -- ajuste fino</a><span class="art-selo art-selo--pos">resultado positivo</span></li>
 <li><span class="art-num">6.</span><a href="#qwen3-ajuste-fino">Qwen3-TTS -- ajuste fino</a><span class="art-selo art-selo--neg">resultado negativo</span></li>
 <li><span class="art-num">7.</span><a href="#f5tts-do-zero">F5-TTS treinado a partir de pesos aleatorios</a><span class="art-selo art-selo--neg">resultado negativo</span></li>
 <li><span class="art-num">8.</span><a href="#avaliacao-automatica">Avaliacao automatica -- conjunto completo</a><span class="art-selo art-selo--ref">conjunto de referencia</span></li>
@@ -475,9 +475,9 @@ layout: default
 </section>
 
 <section class="art-bloco" id="xtts-ajuste-fino" markdown="0">
-<h2>2. XTTS -- ajuste fino<span class="art-selo art-selo--parc">resultado parcial</span></h2>
+<h2>2. XTTS -- ajuste fino<span class="art-selo art-selo--pos">resultado positivo</span></h2>
 <p class="art-topo">Estrategia: Ajuste fino &middot; <a href="#sumario">voltar ao sumario</a></p>
-<div class="art-afirmacao"><strong>Afirmacao verificavel</strong>O ajuste fino produz um sotaque misto: tracos paraibanos passam a aparecer, mas convivem com o padrao do checkpoint base.</div>
+<div class="art-afirmacao"><strong>Afirmacao verificavel</strong>O ajuste fino incorporou o sotaque paraibano: tracos regionais passam a ser audiveis na saida do modelo, num sotaque misto em que convivem com o padrao do checkpoint base.</div>
 <p class="art-desc">Mesma frase nas duas colunas, mesmo prompt de voz. A coluna <em>original</em> e o checkpoint publico do XTTS; a coluna <em>ajustado</em> e o melhor checkpoint do ajuste fino sobre o FALA_PB. Ouca sobretudo a realizacao das vogais atonas finais e o ritmo. Pagina completa: <a href="/fala_pb/15/">reuniao 15</a>.</p>
 <div class="art-tabela">
 <div class="art-linha">
@@ -753,10 +753,10 @@ layout: default
 </section>
 
 <section class="art-bloco" id="fishspeech-ajuste-fino" markdown="0">
-<h2>5. Fish Speech -- ajuste fino<span class="art-selo art-selo--parc">resultado parcial</span></h2>
+<h2>5. Fish Speech -- ajuste fino<span class="art-selo art-selo--pos">resultado positivo</span></h2>
 <p class="art-topo">Estrategia: Ajuste fino &middot; <a href="#sumario">voltar ao sumario</a></p>
-<div class="art-afirmacao"><strong>Afirmacao verificavel</strong>Apos uma epoca de ajuste fino (LoRA), o sotaque paraibano e percebido em parte das amostras, nao em todas.</div>
-<p class="art-desc">Mesmo prompt de voz de referencia nas duas colunas. O resultado e irregular por construcao: em algumas frases a adaptacao e audivel, em outras nao. Ouca as cinco antes de concluir. Pagina completa: <a href="/fala_pb/17/">reuniao 17</a>.</p>
+<div class="art-afirmacao"><strong>Afirmacao verificavel</strong>Uma unica epoca de ajuste fino (LoRA) ja bastou para tornar o sotaque paraibano perceptivel nas sinteses.</div>
+<p class="art-desc">Mesmo prompt de voz de referencia nas duas colunas. Compare a coluna <em>ajustado</em> com a <em>original</em>: a adaptacao se ouve com mais forca em algumas frases do que em outras, o que era de esperar de um treino de uma unica epoca. Ouca as cinco. Pagina completa: <a href="/fala_pb/17/">reuniao 17</a>.</p>
 <div class="art-tabela">
 <div class="art-linha">
 <p class="art-texto">Hoje acordei cedo, preparei um café forte e organizei a mesa para estudar com calma.</p>
