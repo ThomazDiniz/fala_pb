@@ -5,10 +5,10 @@ Monta o manifesto (manifest.json) da pagina de escuta a partir da arvore de
 arquivos de audio ja existente em docs/ e dos CSVs/TXTs de acompanhamento.
 
 Uso:
-    python docs/artefatos/montar_manifesto.py
+    python docs/amostras/montar_manifesto.py
 
 Saida:
-    docs/artefatos/manifest.json
+    docs/amostras/manifest.json
 
 O manifesto e' o unico lugar onde se declara o que a pagina mostra. Para
 acrescentar audios novos, edite este script (ou o proprio manifest.json) e
@@ -24,7 +24,7 @@ import json
 from pathlib import Path
 
 DOCS = Path(__file__).resolve().parent.parent
-SAIDA = DOCS / "artefatos" / "manifest.json"
+SAIDA = DOCS / "amostras" / "manifest.json"
 
 # --------------------------------------------------------------------------
 # Fontes de texto
@@ -462,7 +462,7 @@ def bloco_8_avaliacao():
 
 def montar():
     return {
-        "titulo": "Artefatos de audio da dissertacao",
+        "titulo": "Amostras de audio da dissertacao",
         "subtitulo": ("Material de escuta para verificacao das afirmacoes feitas nos "
                       "capitulos de resultados"),
         "corpus": "FALA_PB -- aproximadamente 111 h de fala com sotaque paraibano",

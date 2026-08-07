@@ -1,7 +1,7 @@
-# Artefatos de audio — pagina de escuta
+# Amostras de audio — pagina de escuta
 
 Esta pasta contem a **maquinaria** que gera a pagina publica de escuta
-(`/fala_pb/artefatos/`), citada por nota de rodape na dissertacao. Ela **nao**
+(`/fala_pb/amostras/`), citada por nota de rodape na dissertacao. Ela **nao**
 guarda os arquivos de audio: os audios permanecem nas pastas de reuniao onde
 foram produzidos, e o manifesto aponta para eles.
 
@@ -11,16 +11,16 @@ foram produzidos, e o manifesto aponta para eles.
 |---|---|
 | `montar_manifesto.py` | Percorre a arvore de `docs/`, le os CSVs/TXTs de acompanhamento e escreve o `manifest.json`. Valida que todo audio declarado existe. |
 | `manifest.json` | Descricao declarativa da pagina: 8 blocos, suas afirmacoes, colunas, textos das frases e caminhos dos audios. Unica fonte de verdade. |
-| `gerar_pagina.py` | Le o `manifest.json` e escreve `docs/artefatos.md`. |
+| `gerar_pagina.py` | Le o `manifest.json` e escreve `docs/amostras.md`. |
 
 ## Como regerar a pagina
 
 ```bash
-python docs/artefatos/montar_manifesto.py   # reconstroi o manifesto e valida caminhos
-python docs/artefatos/gerar_pagina.py       # renderiza docs/artefatos.md
+python docs/amostras/montar_manifesto.py   # reconstroi o manifesto e valida caminhos
+python docs/amostras/gerar_pagina.py       # renderiza docs/amostras.md
 ```
 
-`docs/artefatos.md` e **gerado** — nao edite a mao; edite `montar_manifesto.py`
+`docs/amostras.md` e **gerado** — nao edite a mao; edite `montar_manifesto.py`
 e regere.
 
 ## Onde estao os audios
@@ -98,7 +98,7 @@ esconder a comparacao).
   nas duas colunas e rotulos explicitos (a verificacao nao e cega).
 - Layout em flexbox: as colunas empilham automaticamente em telas estreitas.
 - Cada bloco tem uma ancora estavel, para citar um bloco especifico em nota de
-  rodape (ex.: `.../artefatos/#f5tts-do-zero`).
+  rodape (ex.: `.../amostras/#f5tts-do-zero`).
 
 ## Licenca e uso
 

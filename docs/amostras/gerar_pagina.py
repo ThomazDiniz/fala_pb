@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Gera docs/artefatos.md a partir de docs/artefatos/manifest.json.
+Gera docs/amostras.md a partir de docs/amostras/manifest.json.
 
 Uso:
-    python docs/artefatos/montar_manifesto.py   # (re)constroi o manifesto
-    python docs/artefatos/gerar_pagina.py       # renderiza a pagina
+    python docs/amostras/montar_manifesto.py   # (re)constroi o manifesto
+    python docs/amostras/gerar_pagina.py       # renderiza a pagina
 
 A pagina resultante e' HTML estatico dentro de um arquivo Markdown com front
 matter do Jekyll. A reproducao dos audios usa apenas <audio controls>, sem
@@ -20,7 +20,7 @@ from urllib.parse import quote
 AQUI = Path(__file__).resolve().parent
 DOCS = AQUI.parent
 MANIFESTO = AQUI / "manifest.json"
-SAIDA = DOCS / "artefatos.md"
+SAIDA = DOCS / "amostras.md"
 
 SELO = {
     "positivo": ("resultado positivo", "art-selo--pos"),
@@ -214,14 +214,14 @@ def main():
     partes = [
         "---",
         f'title: "{manifesto["titulo"]}"',
-        "permalink: /artefatos/",
+        "permalink: /amostras/",
         "layout: default",
         "---",
         "",
         "<!-- ARQUIVO GERADO AUTOMATICAMENTE -- nao edite a mao.",
-        "     Fonte: docs/artefatos/manifest.json",
-        "     Regerar: python docs/artefatos/montar_manifesto.py",
-        "              python docs/artefatos/gerar_pagina.py -->",
+        "     Fonte: docs/amostras/manifest.json",
+        "     Regerar: python docs/amostras/montar_manifesto.py",
+        "              python docs/amostras/gerar_pagina.py -->",
         "",
         CSS,
         "",

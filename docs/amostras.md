@@ -1,13 +1,13 @@
 ---
-title: "Artefatos de audio da dissertacao"
-permalink: /artefatos/
+title: "Amostras de audio da dissertacao"
+permalink: /amostras/
 layout: default
 ---
 
 <!-- ARQUIVO GERADO AUTOMATICAMENTE -- nao edite a mao.
-     Fonte: docs/artefatos/manifest.json
-     Regerar: python docs/artefatos/montar_manifesto.py
-              python docs/artefatos/gerar_pagina.py -->
+     Fonte: docs/amostras/manifest.json
+     Regerar: python docs/amostras/montar_manifesto.py
+              python docs/amostras/gerar_pagina.py -->
 
 <style>
   .wrapper, .markdown-body, .inner, #main_content {
@@ -87,7 +87,7 @@ layout: default
   }
 </style>
 
-# Artefatos de audio da dissertacao
+# Amostras de audio da dissertacao
 
 <p class="art-intro">Material de escuta para verificacao das afirmacoes feitas nos capitulos de resultados. Todos os audios tocam diretamente no navegador, sem instalacao e sem login. Cada bloco abaixo corresponde a uma afirmacao feita na dissertacao e reune o material necessario para confirma-la -- inclusive quando o resultado e negativo.</p>
 
