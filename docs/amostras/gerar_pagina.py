@@ -7,8 +7,8 @@ Uso:
     python docs/amostras/montar_manifesto.py   # (re)constroi o manifesto
     python docs/amostras/gerar_pagina.py       # renderiza a pagina
 
-A pagina resultante e' HTML estatico dentro de um arquivo Markdown com front
-matter do Jekyll. A reproducao dos audios usa apenas <audio controls>, sem
+A página resultante é HTML estático dentro de um arquivo Markdown com front
+matter do Jekyll. A reprodução dos áudios usa apenas <audio controls>, sem
 JavaScript, e o layout se adapta a telas estreitas por CSS.
 """
 
@@ -26,7 +26,7 @@ SELO = {
     "positivo": ("resultado positivo", "art-selo--pos"),
     "parcial": ("resultado parcial", "art-selo--parc"),
     "negativo": ("resultado negativo", "art-selo--neg"),
-    "referencia": ("conjunto de referencia", "art-selo--ref"),
+    "referencia": ("conjunto de referência", "art-selo--ref"),
 }
 
 CSS = """<style>
@@ -130,10 +130,10 @@ def render_linha(linha, colunas):
         if arq:
             partes.append(
                 f'<audio controls preload="none" src="{url(arq)}">'
-                f'<a href="{url(arq)}">baixar audio</a></audio>'
+                f'<a href="{url(arq)}">baixar áudio</a></audio>'
             )
         else:
-            partes.append('<span class="art-vazio">nao disponivel</span>')
+            partes.append('<span class="art-vazio">não disponível</span>')
         partes.append("</div>")
     partes.append("</div></div>")
     return "\n".join(partes)
@@ -158,9 +158,9 @@ def render_bloco(bloco):
         f'<h2>{bloco["numero"]}. {e(bloco["titulo"])}'
         f'<span class="art-selo {classe_selo}">{rotulo_selo}</span></h2>'
     )
-    partes.append(f'<p class="art-topo">Estrategia: {e(bloco["estrategia"])} &middot; '
-                  f'<a href="#sumario">voltar ao sumario</a></p>')
-    partes.append('<div class="art-afirmacao"><strong>Afirmacao verificavel</strong>'
+    partes.append(f'<p class="art-topo">Estratégia: {e(bloco["estrategia"])} &middot; '
+                  f'<a href="#sumario">voltar ao sumário</a></p>')
+    partes.append('<div class="art-afirmacao"><strong>Afirmação verificável</strong>'
                   f'{e(bloco["afirmacao"])}</div>')
     partes.append(f'<p class="art-desc">{link_md(e(bloco["descricao"]))}</p>')
     for tabela in bloco["tabelas"]:
@@ -218,7 +218,7 @@ def main():
         "layout: default",
         "---",
         "",
-        "<!-- ARQUIVO GERADO AUTOMATICAMENTE -- nao edite a mao.",
+        "<!-- ARQUIVO GERADO AUTOMATICAMENTE - nao edite a mao.",
         "     Fonte: docs/amostras/manifest.json",
         "     Regerar: python docs/amostras/montar_manifesto.py",
         "              python docs/amostras/gerar_pagina.py -->",
@@ -227,19 +227,19 @@ def main():
         "",
         f'# {e(manifesto["titulo"])}',
         "",
-        f'<p class="art-intro">{e(manifesto["subtitulo"])}. Todos os audios tocam '
-        "diretamente no navegador, sem instalacao e sem login. Cada bloco abaixo "
-        "corresponde a uma afirmacao feita na dissertacao e reune o material "
-        "necessario para confirma-la -- inclusive quando o resultado e negativo.</p>",
+        f'<p class="art-intro">{e(manifesto["subtitulo"])}. Todos os áudios tocam '
+        "diretamente no navegador, sem instalação e sem login. Cada bloco abaixo "
+        "corresponde a uma afirmação feita na dissertação e reúne o material "
+        "necessário para confirmá-la — inclusive quando o resultado é negativo.</p>",
         "",
         '<dl class="art-meta">',
-        f'<dt>Corpus de adaptacao</dt><dd>{e(manifesto["corpus"])}</dd>',
+        f'<dt>Corpus de adaptação</dt><dd>{e(manifesto["corpus"])}</dd>',
         f'<dt>Modelos investigados</dt><dd>{e(", ".join(manifesto["modelos"]))}</dd>',
-        f'<dt>Estrategias de adaptacao</dt><dd>{e(", ".join(manifesto["estrategias"]))}</dd>',
-        f'<dt>Audios nesta pagina</dt><dd>{n}</dd>',
+        f'<dt>Estratégias de adaptação</dt><dd>{e(", ".join(manifesto["estrategias"]))}</dd>',
+        f'<dt>Áudios nesta página</dt><dd>{n}</dd>',
         "</dl>",
         "",
-        "## Sumario",
+        "## Sumário",
         "",
         render_sumario(manifesto["blocos"]),
         "",
@@ -253,13 +253,13 @@ def main():
         '<div class="art-rodape">'
         "<p>Os blocos 2 a 7 usam, em boa parte, o mesmo conjunto de cinco frases "
         "fixas de acompanhamento, o que permite comparar modelos diretamente entre "
-        "secoes.</p>"
-        "<p>Os audios sao material de pesquisa academica, gerados no ambito de uma "
-        "dissertacao de mestrado, e estao disponiveis para fins de verificacao "
-        "cientifica, ensino e pesquisa. As gravacoes de referencia foram cedidas "
-        "pelo proprio autor. Ao reutilizar, cite a dissertacao.</p>"
-        '<p><a href="/fala_pb/">Indice de experimentos</a> &middot; '
-        '<a href="/fala_pb/100/">Catalogo completo das inferencias finais</a></p>'
+        "seções.</p>"
+        "<p>Os áudios são material de pesquisa acadêmica, gerados no âmbito de uma "
+        "dissertação de mestrado, e estão disponíveis para fins de verificação "
+        "científica, ensino e pesquisa. As gravações de referência foram cedidas "
+        "pelo próprio autor. Ao reutilizar, cite a dissertação.</p>"
+        '<p><a href="/fala_pb/">Índice de experimentos</a> &middot; '
+        '<a href="/fala_pb/100/">Catálogo completo das inferências finais</a></p>'
         "</div>"
     )
 
